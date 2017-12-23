@@ -1,11 +1,38 @@
-year,category,nominee,secondarynominee,winner,gender,order
+year,category,nominee,secondary-nominee,winner,gender,order
+2018,Best Screenplay - Motion Picture,Greta Gerwig,Lady Bird,FALSE,F,1
+2018,Best Screenplay - Motion Picture,Aaron Sorkin,Molly's Game,FALSE,M,2
+2018,Best Screenplay - Motion Picture,Liz Hannah,The Post,FALSE,F,3
+2018,Best Screenplay - Motion Picture,Josh Singer,The Post,FALSE,M,4
+2018,Best Screenplay - Motion Picture,Guillermo del Toro,The Shape of Water,FALSE,M,5
+2018,Best Screenplay - Motion Picture,Martin McDonagh,"Three Billboards Outside Ebbing, Missouri",FALSE,M,6
+2018,Best Original Song - Motion Picture,Kristen Anderson-Lopez,Coco,FALSE,F,7
+2018,Best Original Song - Motion Picture,Robert Lopez,Coco,FALSE,M,8
+2018,Best Original Song - Motion Picture,Nick Jonas,Ferdinand,FALSE,M,9
+2018,Best Original Song - Motion Picture,Justin Tranter,Ferdinand,FALSE,M,10
+2018,Best Original Song - Motion Picture,Nick Monson,Ferdinand,FALSE,M,11
+2018,Best Original Song - Motion Picture,Raphael Saadiq,Mudbound,FALSE,M,12
+2018,Best Original Song - Motion Picture,Mary J. Blige,Mudbound,FALSE,F,13
+2018,Best Original Song - Motion Picture,Benj Pasek,The Greatest Showman,FALSE,M,14
+2018,Best Original Song - Motion Picture,Justin Paul,The Greatest Showman,FALSE,M,15
+2018,Best Original Song - Motion Picture,Mariah Carey,The Star,FALSE,F,16
+2018,Best Original Song - Motion Picture,Marc Shaiman,The Star,FALSE,M,17
+2018,Best Original Score - Motion Picture,Hans Zimmer,Dunkirk,FALSE,M,18
+2018,Best Original Score - Motion Picture,Jonny Greenwood,Phantom Thread,FALSE,M,19
+2018,Best Original Score - Motion Picture,John Williams,The Post,FALSE,M,20
+2018,Best Original Score - Motion Picture,Alexandre Desplat,The Shape of Water,FALSE,M,21
+2018,Best Original Score - Motion Picture,Carter Burwell,"Three Billboards Outside Ebbing, Missouri",FALSE,M,22
+2018,Best Director - Motion Picture,Christopher Nolan,Dunkirk,TRUE,M,23
+2018,Best Director - Motion Picture,Guillermo del Toro,The Shape of Water,FALSE,M,24
+2018,Best Director - Motion Picture,Martin McDonagh,"Three Billboards Outside Ebbing, Missouri",FALSE,M,25
+2018,Best Director - Motion Picture,Ridley Scott,All the Money in the World,FALSE,M,26
+2018,Best Director - Motion Picture,Steven Spielberg,The Post,FALSE,M,27
 2017,Best Director - Motion Picture,Damien Chazelle,La La Land,TRUE,M,1
 2017,Best Director - Motion Picture,Barry Jenkins,Moonlight,FALSE,M,2
 2017,Best Director - Motion Picture,Kenneth Lonergan,Manchester by the Sea,FALSE,M,3
 2017,Best Director - Motion Picture,Mel Gibson,Hacksaw Ridge,FALSE,M,4
 2017,Best Director - Motion Picture,Tom Ford,Nocturnal Animals,FALSE,M,5
 2017,Best Original Score - Motion Picture,La La Land,Justin Hurwitz,TRUE,M,6
-2017,Best Original Score - Motion Picture,Arrival,JÌÄå_hann JÌÄå_hannsson,FALSE,M,7
+2017,Best Original Score - Motion Picture,Arrival,JÃƒÂ³hann JÃƒÂ³hannsson,FALSE,M,7
 2017,Best Original Score - Motion Picture,Hidden Figures,Hans Zimmer,FALSE,M,8
 2017,Best Original Score - Motion Picture,Lion,Dustin O'Halloran,FALSE,M,9
 2017,Best Original Score - Motion Picture,Moonlight,Nicholas Britell,FALSE,M,10
@@ -19,7 +46,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2017,Best Screenplay - Motion Picture,Manchester by the Sea,Kenneth Lonergan,FALSE,M,18
 2017,Best Screenplay - Motion Picture,Moonlight,Barry Jenkins,FALSE,M,19
 2017,Best Screenplay - Motion Picture,Nocturnal Animals,Tom Ford,FALSE,M,20
-2016,Best Director - Motion Picture,Alejandro G. IÌÄå±ÌÄåÁrritu,The Revenant,TRUE,M,1
+2016,Best Director - Motion Picture,Alejandro G. IÃƒÂ±ÃƒÂ¡rritu,The Revenant,TRUE,M,1
 2016,Best Director - Motion Picture,George Miller,Mad Max: Fury Road,FALSE,M,2
 2016,Best Director - Motion Picture,Ridley Scott,The Martian,FALSE,M,3
 2016,Best Director - Motion Picture,Todd Haynes,Carol,FALSE,M,4
@@ -40,11 +67,11 @@ year,category,nominee,secondarynominee,winner,gender,order
 2016,Best Screenplay - Motion Picture,The Big Short,Charles Randolph,FALSE,M,19
 2016,Best Screenplay - Motion Picture,The Hateful Eight,Quentin Tarantino,FALSE,M,20
 2015,Best Director - Motion Picture,Richard Linklater,Boyhood,TRUE,M,1
-2015,Best Director - Motion Picture,Alejandro G. IÌÄå±ÌÄåÁrritu,Birdman or (The Unexpected Virtue of Ignorance),FALSE,M,2
+2015,Best Director - Motion Picture,Alejandro G. IÃƒÂ±ÃƒÂ¡rritu,Birdman or (The Unexpected Virtue of Ignorance),FALSE,M,2
 2015,Best Director - Motion Picture,Ava DuVernay,Selma,FALSE,F,3
 2015,Best Director - Motion Picture,David Fincher,Gone Girl,FALSE,M,4
 2015,Best Director - Motion Picture,Wes Anderson,The Grand Budapest Hotel,FALSE,M,5
-2015,Best Original Score - Motion Picture,JÌÄå_hann JÌÄå_hannsson,The Theory of Everything,TRUE,M,6
+2015,Best Original Score - Motion Picture,JÃƒÂ³hann JÃƒÂ³hannsson,The Theory of Everything,TRUE,M,6
 2015,Best Original Score - Motion Picture,Alexandre Desplat,The Imitation Game,FALSE,M,7
 2015,Best Original Score - Motion Picture,Antonio Sanchez,Birdman or (The Unexpected Virtue of Ignorance),FALSE,M,8
 2015,Best Original Score - Motion Picture,Hans Zimmer,Interstellar,FALSE,M,9
@@ -54,12 +81,12 @@ year,category,nominee,secondarynominee,winner,gender,order
 2015,Best Original Song - Motion Picture,Big Eyes,Lana Del Rey,FALSE,F,13
 2015,Best Original Song - Motion Picture,Noah,Lenny Kaye,FALSE,M,14
 2015,Best Original Song - Motion Picture,The Hunger Games: Mockingjay - Part 1,Joel Little,FALSE,M,15
-2015,Best Screenplay - Motion Picture,Birdman or (The Unexpected Virtue of Ignorance),Alejandro G. IÌÄå±ÌÄåÁrritu,TRUE,M,16
+2015,Best Screenplay - Motion Picture,Birdman or (The Unexpected Virtue of Ignorance),Alejandro G. IÃƒÂ±ÃƒÂ¡rritu,TRUE,M,16
 2015,Best Screenplay - Motion Picture,Boyhood,Richard Linklater,FALSE,M,17
 2015,Best Screenplay - Motion Picture,Gone Girl,Gillian Flynn,FALSE,F,18
 2015,Best Screenplay - Motion Picture,The Grand Budapest Hotel,Wes Anderson,FALSE,M,19
 2015,Best Screenplay - Motion Picture,The Imitation Game,Graham Moore,FALSE,M,20
-2014,Best Director - Motion Picture,Alfonso CuarÌÄå_n,Gravity,TRUE,M,1
+2014,Best Director - Motion Picture,Alfonso CuarÃƒÂ³n,Gravity,TRUE,M,1
 2014,Best Director - Motion Picture,Alexander Payne,Nebraska,FALSE,M,2
 2014,Best Director - Motion Picture,David O. Russell,American Hustle,FALSE,M,3
 2014,Best Director - Motion Picture,Paul Greengrass,Captain Phillips,FALSE,M,4
@@ -91,7 +118,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2013,Best Original Score - Motion Picture,Lincoln,John Williams,FALSE,M,10
 2013,Best Original Song - Motion Picture,Skyfall,Adele,TRUE,F,11
 2013,Best Original Song - Motion Picture,Act of Valor,Monty Powell,FALSE,M,12
-2013,Best Original Song - Motion Picture,Les MisÌÄå©rables,Claude-Michel SchÌÄå¦nberg,FALSE,M,13
+2013,Best Original Song - Motion Picture,Les MisÃƒÂ©rables,Claude-Michel SchÃƒÂ¶nberg,FALSE,M,13
 2013,Best Original Song - Motion Picture,Stand Up Guys,Jon Bon Jovi,FALSE,M,14
 2013,Best Original Song - Motion Picture,The Hunger Games,Taylor Swift,FALSE,F,15
 2013,Best Screenplay - Motion Picture,Django Unchained,Quentin Tarantino,TRUE,M,16
@@ -173,7 +200,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2009,Best Original Song - Motion Picture,Bolt,Miley Cyrus,FALSE,F,12
 2009,Best Original Song - Motion Picture,Cadillac Records,Beyonce,FALSE,M,13
 2009,Best Original Song - Motion Picture,Gran Torino,Clint Eastwood,FALSE,M,14
-2009,Best Original Song - Motion Picture,WALLÌâåáE,Peter Gabriel,FALSE,M,15
+2009,Best Original Song - Motion Picture,WALLÃ‚Â·E,Peter Gabriel,FALSE,M,15
 2009,Best Screenplay - Motion Picture,Slumdog Millionaire,Simon Beaufoy,TRUE,M,16
 2009,Best Screenplay - Motion Picture,Doubt,John Patrick Shanley,FALSE,M,17
 2009,Best Screenplay - Motion Picture,Frost/Nixon,Peter Morgan,FALSE,M,18
@@ -200,7 +227,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2008,Best Screenplay - Motion Picture,Juno,Diablo Cody,FALSE,M,19
 2008,Best Screenplay - Motion Picture,The Diving Bell and the Butterfly,Ronald Harwood,FALSE,M,20
 2007,Best Director - Motion Picture,Martin Scorsese,The Departed,TRUE,M,1
-2007,Best Director - Motion Picture,Alejandro G. IÌÄå±ÌÄåÁrritu,Babel,FALSE,M,2
+2007,Best Director - Motion Picture,Alejandro G. IÃƒÂ±ÃƒÂ¡rritu,Babel,FALSE,M,2
 2007,Best Director - Motion Picture,Clint Eastwood,Letters from Iwo Jima,FALSE,M,3
 2007,Best Director - Motion Picture,Clint Eastwood,Flags of Our Fathers,FALSE,M,4
 2007,Best Director - Motion Picture,Stephen Frears,The Queen,FALSE,M,5
@@ -211,7 +238,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2007,Best Original Score - Motion Picture,The Fountain,Clint Mansell,FALSE,M,10
 2007,Best Original Song - Motion Picture,Happy Feet,Prince,TRUE,M,11
 2007,Best Original Song - Motion Picture,Bobby,Bryan Adams,FALSE,M,12
-2007,Best Original Song - Motion Picture,Dreamgirls,BeyoncÌÄå©,FALSE,F,13
+2007,Best Original Song - Motion Picture,Dreamgirls,BeyoncÃƒÂ©,FALSE,F,13
 2007,Best Original Song - Motion Picture,Home of the Brave,Sheryl Crow,FALSE,M,14
 2007,Best Original Song - Motion Picture,The Pursuit of Happyness,Seal,FALSE,M,15
 2007,Best Screenplay - Motion Picture,The Queen,Peter Morgan,TRUE,M,16
@@ -320,7 +347,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2002,Best Screenplay - Motion Picture,Mulholland Drive,David Lynch,FALSE,M,19
 2002,Best Screenplay - Motion Picture,The Man Who Wasn't There,Joel Coen,FALSE,M,20
 2001,Best Director - Motion Picture,Ang Lee,"Crouching Tiger, Hidden Dragon",TRUE,M,1
-2001,Best Director - Motion Picture,IstvÌÄåÁn SzabÌÄå_,Sunshine,FALSE,M,2
+2001,Best Director - Motion Picture,IstvÃƒÂ¡n SzabÃƒÂ³,Sunshine,FALSE,M,2
 2001,Best Director - Motion Picture,Ridley Scott,Gladiator,FALSE,M,3
 2001,Best Director - Motion Picture,Steven Soderbergh,Traffic,FALSE,M,4
 2001,Best Director - Motion Picture,Steven Soderbergh,Erin Brockovich,FALSE,M,5
@@ -328,7 +355,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2001,Best Original Score - Motion Picture,All the Pretty Horses,Marty Stuart,FALSE,M,7
 2001,Best Original Score - Motion Picture,Chocolat,Rachel Portman,FALSE,F,8
 2001,Best Original Score - Motion Picture,"Crouching Tiger, Hidden Dragon",Dun Tan,FALSE,M,9
-2001,Best Original Score - Motion Picture,MalÌÄå¬na,Ennio Morricone,FALSE,M,10
+2001,Best Original Score - Motion Picture,MalÃƒÂ¨na,Ennio Morricone,FALSE,M,10
 2001,Best Original Song - Motion Picture,Wonder Boys,Bob Dylan,TRUE,M,11
 2001,Best Original Song - Motion Picture,Dancer in the Dark,Bjork,FALSE,M,12
 2001,Best Original Song - Motion Picture,Frequency,Garth Brooks,FALSE,M,13
@@ -459,23 +486,3 @@ year,category,nominee,secondarynominee,winner,gender,order
 1995,Best Screenplay - Motion Picture,Four Weddings and a Funeral,Richard Curtis,FALSE,M,18
 1995,Best Screenplay - Motion Picture,Quiz Show,Paul Attanasio,FALSE,M,19
 1995,Best Screenplay - Motion Picture,The Shawshank Redemption,Frank Darabont,FALSE,M,20
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,
-,,,,,,

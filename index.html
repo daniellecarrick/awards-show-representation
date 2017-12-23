@@ -22,11 +22,17 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var color = d3.scale.category10();
+// grey, yellow
+var colors = ['#ececec', '#ffcc00', 'white'];
+
+// Do not include a domain
+var color = d3.scale.ordinal()
+  .range(colors);
 
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
+    .tickSize(-height)
     .tickFormat(d3.format("d"));
 
 var yAxis = d3.svg.axis()
@@ -39,11 +45,13 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// TOOLTIP
+
 var tip = d3.tip()
   .attr('class', 'd3-tip')
   .offset([-10, 0])
   .html(function(d) {
-    return "<strong>Category</strong> <span style='color:red'>" + d.category + "</span><br/><strong>Nominees</strong> <span style='color:red'>" + d.nominee + "," + d.secondarynominee+ "</span>";
+    return "<span><strong>" + d.nominee + "</strong></span><br /> <span>" + d.secondarynominee+ "</span><br /><span>" + d.category + "</span>";
   });
 
 svg.call(tip);
