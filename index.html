@@ -32,12 +32,12 @@ var color = d3.scale.ordinal()
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
-    .tickSize(-height)
+   // .tickSize(-height)
     .tickFormat(d3.format("d"));
 
 var dotRadius = function(height, maxDots) {
   // calculate dot radius so they don't overlap
-  return (height/maxDots/2) - 1;
+  return (height/maxDots/2);
 }
 
 var yAxis = d3.svg.axis()
@@ -97,6 +97,20 @@ d3.csv("data/data.csv", function(error, data) {
 
   svg.selectAll(".dot")
       .data(data)
+    .enter().append("rect")
+      .attr("class", "dot")
+      //.attr("r", 10)
+      .attr("height", dotRadius(height, 35))
+      .attr("width", dotRadius(width, 2018-1995))
+      .attr("x", function(d) { return x(d.year); })
+      .attr("y", function(d) { return y(d.order); })
+      .style("fill", function(d) { return color(d.gender); })
+      .style("stroke", function(d) { return d.winner === "TRUE" ? "black" : "none" })
+      .on('mouseover', tip.show)
+      .on('mouseout', tip.hide);
+/*
+  svg.selectAll(".dot")
+      .data(data)
     .enter().append("circle")
       .attr("class", "dot")
       //.attr("r", 10)
@@ -105,7 +119,7 @@ d3.csv("data/data.csv", function(error, data) {
       .attr("cy", function(d) { return y(d.order); })
       .style("fill", function(d) { return color(d.gender); })
       .on('mouseover', tip.show)
-      .on('mouseout', tip.hide);
+      .on('mouseout', tip.hide);*/
 
   var legend = svg.selectAll(".legend")
       .data(color.domain())
