@@ -1,3 +1,7 @@
+p {
+  font-size: 14px;
+}
+
 .d3-tip {
   line-height: 1.5;
   padding: 12px;
@@ -43,6 +47,6 @@ body {
   stroke-dasharray: 2, 2;
 }
 
-.dot {
+.marker {
   /*stroke: #000;*/
 }
