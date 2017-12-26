@@ -33,6 +33,7 @@ var markerRadius = function(height, maxmarkers) {
 
 var yAxis = d3.svg.axis()
     .scale(y)
+    .ticks(5)
     .orient('left');
 
 var svg = d3.select('#chart-container').append('svg')
@@ -56,8 +57,6 @@ svg.call(tip);
 
 d3.csv('data/data.csv', function(error, data) {
     if (error) throw error;
-    console.log(data);
-
     /*  data.sort(function(x, y){
        return d3.ascending(x.gender, y.gender);
       })*/
@@ -108,15 +107,16 @@ d3.csv('data/data.csv', function(error, data) {
         .enter().append('rect')
         .attr('class', 'marker')
         .attr('class', function(d) {
-          var winner = d.winner === 'TRUE' ? 'winner' : '';
-            return  d.className + ' marker ' + winner; })
+            var winner = d.winner === 'TRUE' ? 'winner' : '';
+            return d.className + ' marker ' + winner;
+        })
         .attr('height', markerRadius(height, 35))
         .attr('width', markerRadius(width, 2018 - 1995))
         .attr('x', function(d) { return x(d.year); })
         .attr('y', function(d) { return y(d.order); })
         .style('fill', function(d) { return color(d.gender); })
         //.style('fill', function(d) { return color(d.category); })
-       // .style('stroke', function(d) { return d.winner === 'TRUE' ? '#333333' : 'none' })
+        // .style('stroke', function(d) { return d.winner === 'TRUE' ? '#333333' : 'none' })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
@@ -135,13 +135,17 @@ d3.csv('data/data.csv', function(error, data) {
         } else {
             d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
             d3.selectAll('.' + selectedCategory).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
-            console.log(selectedCategory);
+            //console.log(selectedCategory);
         }
 
     })
 
+    // Highlight winners
     d3.select('button.winner').on('click', function() {
-        d3.selectAll('rect.winner').style('stroke', '#333333');
+        var toggleWinner = d3.select(this);
+        toggleWinner.classed('selected', !toggleWinner.classed('selected'));
+        var strokeVal = toggleWinner.classed('selected') ? '#333333' : 'none';
+        d3.selectAll('rect.winner').style('stroke', strokeVal);
     })
 
     /*
