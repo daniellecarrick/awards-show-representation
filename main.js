@@ -8,8 +8,8 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-// grey for males, yellow for females
-var colors = ['#ffcc00', '#ddd', 'white'];
+// grey for males, yellow #ffcc00 for females
+var colors = ['#FF0064', '#ddd', 'white'];
 
 // color by category
 //var colors = ['#1b9e77','#d95f02','#7570b3','#e7298a'];
@@ -21,9 +21,10 @@ var color = d3.scale.ordinal()
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .orient("bottom")
-    // .tickSize(-height)
-    .tickFormat(d3.format("d"));
+    .orient('bottom')
+    .ticks(22)
+    //.ticks(d3.time.year, 1)
+    .tickFormat(d3.format('d'));
 
 var markerRadius = function(height, maxmarkers) {
     // calculate marker radius so they don't overlap
@@ -32,13 +33,13 @@ var markerRadius = function(height, maxmarkers) {
 
 var yAxis = d3.svg.axis()
     .scale(y)
-    .orient("left");
+    .orient('left');
 
-var svg = d3.select("#chart-container").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var svg = d3.select('#chart-container').append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom)
+    .append('g')
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
 // TOOLTIP
 
@@ -46,14 +47,14 @@ var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-10, 0])
     .html(function(d) {
-        return "<span><strong>" + d.nominee + "</strong></span><br /> <span>" + d.secondarynominee + "</span><br /><span>" + d.category + "</span>";
+        return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
     });
 
 svg.call(tip);
 
 // PULL IN THE DATA
 
-d3.csv("data/data.csv", function(error, data) {
+d3.csv('data/data.csv', function(error, data) {
     if (error) throw error;
     console.log(data);
 
@@ -85,81 +86,94 @@ d3.csv("data/data.csv", function(error, data) {
     x.domain([1995, 2018]);
     y.domain(d3.extent(data, function(d) { return d.order; })).nice();
 
-    svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
+    svg.append('g')
+        .attr('class', 'x axis')
+        .attr('transform', 'translate(10,' + height + ')')
         .call(xAxis);
 
-    svg.append("g")
-        .attr("class", "y axis")
+    svg.append('g')
+        .attr('class', 'y axis')
         .call(yAxis)
-        .append("text")
-        .attr("class", "label")
-        .attr("transform", "rotate(-90)")
-        .attr("x", -height / 2)
-        .attr("y", -40)
-        .attr("dy", ".71em")
-        .style("text-anchor", "end")
-        .text("Number of nominees")
+        .append('text')
+        .attr('class', 'label')
+        .attr('transform', 'rotate(-90)')
+        .attr('x', -height / 2)
+        .attr('y', -40)
+        .attr('dy', '.71em')
+        .style('text-anchor', 'middle')
+        .text('Number of nominees')
 
-    svg.selectAll(".marker")
+    svg.selectAll('.marker')
         .data(data)
-        .enter().append("rect")
-        .attr("class", "marker")
-        .attr("class", function(d) { return d.className; })
-        .attr("height", markerRadius(height, 35))
-        .attr("width", markerRadius(width, 2018 - 1995))
-        .attr("x", function(d) { return x(d.year); })
-        .attr("y", function(d) { return y(d.order); })
-        .style("fill", function(d) { return color(d.gender); })
-        //.style("fill", function(d) { return color(d.category); })
-        .style("stroke", function(d) { return d.winner === "TRUE" ? "#333333" : "none" })
+        .enter().append('rect')
+        .attr('class', 'marker')
+        .attr('class', function(d) {
+          var winner = d.winner === 'TRUE' ? 'winner' : '';
+            return  d.className + ' marker ' + winner; })
+        .attr('height', markerRadius(height, 35))
+        .attr('width', markerRadius(width, 2018 - 1995))
+        .attr('x', function(d) { return x(d.year); })
+        .attr('y', function(d) { return y(d.order); })
+        .style('fill', function(d) { return color(d.gender); })
+        //.style('fill', function(d) { return color(d.category); })
+       // .style('stroke', function(d) { return d.winner === 'TRUE' ? '#333333' : 'none' })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
-        // logic for buttons
-/*    d3.select('button.best-director').on('click', function() {
-        d3.selectAll('rect.best-director').attr('fill-opacity', 0.5);
-        console.log('button clicked');
-    })*/
+    // logic for buttons
+    /*    d3.select('button.best-director').on('click', function() {
+            d3.selectAll('rect.best-director').attr('fill-opacity', 0.5);
+            console.log('button clicked');
+        })*/
 
-  // Highlight selected category
+    // Highlight selected category
     d3.select('select').on('change', function() {
-      var selectedCategory = this.value;
-        d3.selectAll('.' + selectedCategory).attr('fill-opacity', 0.5);
-        console.log(selectedCategory);
+        var selectedCategory = this.value;
+        if (selectedCategory === 'all') {
+            d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
+
+        } else {
+            d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
+            d3.selectAll('.' + selectedCategory).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
+            console.log(selectedCategory);
+        }
+
+    })
+
+    d3.select('button.winner').on('click', function() {
+        d3.selectAll('rect.winner').style('stroke', '#333333');
     })
 
     /*
-      svg.selectAll(".marker")
+      svg.selectAll('.marker')
           .data(data)
-        .enter().append("circle")
-          .attr("class", "marker")
-          //.attr("r", 10)
-          .attr("r", markerRadius(height, 35))
-          .attr("cx", function(d) { return x(d.year); })
-          .attr("cy", function(d) { return y(d.order); })
-          .style("fill", function(d) { return color(d.gender); })
+        .enter().append('circle')
+          .attr('class', 'marker')
+          //.attr('r', 10)
+          .attr('r', markerRadius(height, 35))
+          .attr('cx', function(d) { return x(d.year); })
+          .attr('cy', function(d) { return y(d.order); })
+          .style('fill', function(d) { return color(d.gender); })
           .on('mouseover', tip.show)
           .on('mouseout', tip.hide);*/
     /*
-      var legend = svg.selectAll(".legend")
+      var legend = svg.selectAll('.legend')
           .data(color.domain())
-        .enter().append("g")
-          .attr("class", "legend")
-          .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+        .enter().append('g')
+          .attr('class', 'legend')
+          .attr('transform', function(d, i) { return 'translate(0,' + i * 20 + ')'; });
 
-      legend.append("rect")
-          .attr("x", width - 18)
-          .attr("width", 18)
-          .attr("height", 18)
-          .style("fill", color);
+      legend.append('rect')
+          .attr('x', width - 18)
+          .attr('width', 18)
+          .attr('height', 18)
+          .style('fill', color);
 
-      legend.append("text")
-          .attr("x", width - 24)
-          .attr("y", 9)
-          .attr("dy", ".35em")
-          .style("text-anchor", "end")
+      legend.append('text')
+          .attr('x', width - 24)
+          .attr('y', 9)
+          .attr('dy', '.35em')
+          .style('text-anchor', 'end')
           .text(function(d) { return d; });
           */
 

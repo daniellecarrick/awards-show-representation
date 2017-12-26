@@ -41,10 +41,14 @@ body {
   shape-rendering: crispEdges;
 }
 
-.axis line {
+/*.axis line {
   fill: none;
   stroke: black;
   stroke-dasharray: 2, 2;
+}
+*/
+.y.axis {
+  stroke: none;
 }
 
 .marker {

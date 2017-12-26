@@ -412,7 +412,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 2002,Best Original Song - Motion Picture,Pearl Harbor,Diane Warren,FALSE,M,13
 2002,Best Original Song - Motion Picture,The Lord of the Rings: The Fellowship of the Ring,Enya,FALSE,F,14
 2002,Best Original Song - Motion Picture,Vanilla Sky,Paul McCartney,FALSE,M,15
-2002,Best Screenplay - Motion Picture,A Beautiful Mind,Akiva Goldsman,TRUE,F,16
+2002,Best Screenplay - Motion Picture,A Beautiful Mind,Akiva Goldsman,TRUE,M,16
 2002,Best Screenplay - Motion Picture,Gosford Park,Julian Fellowes,FALSE,M,17
 2002,Best Screenplay - Motion Picture,Memento,Christopher Nolan,FALSE,M,18
 2002,Best Screenplay - Motion Picture,Mulholland Drive,David Lynch,FALSE,M,19
@@ -515,7 +515,7 @@ year,category,nominee,secondarynominee,winner,gender,order
 1997,Best Screenplay - Motion Picture,The People vs. Larry Flynt,Scott Alexander,TRUE,M,16
 1997,Best Screenplay - Motion Picture,Fargo,Ethan Coen,FALSE,M,17
 1997,Best Screenplay - Motion Picture,Lone Star,John Sayles,FALSE,M,18
-1997,Best Screenplay - Motion Picture,Shine,Jan Sardi,FALSE,F,19
+1997,Best Screenplay - Motion Picture,Shine,Jan Sardi,FALSE,M,19
 1997,Best Screenplay - Motion Picture,The English Patient,Anthony Minghella,FALSE,M,20
 1996,Best Director - Motion Picture,Mel Gibson,Braveheart,TRUE,M,1
 1996,Best Director - Motion Picture,Ang Lee,Sense and Sensibility,FALSE,M,2
