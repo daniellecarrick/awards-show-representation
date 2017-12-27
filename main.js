@@ -26,9 +26,9 @@ var xAxis = d3.svg.axis()
     //.ticks(d3.time.year, 1)
     .tickFormat(d3.format('d'));
 
-var markerRadius = function(height, maxmarkers) {
-    // calculate marker radius so they don't overlap
-    return height / maxmarkers / 2;
+var markerDimensions = function(widthOrHeight, maxmarkers) {
+    // calculate marker height and width so they don't overlap
+    return widthOrHeight / maxmarkers / 2;
 }
 
 var yAxis = d3.svg.axis()
@@ -57,9 +57,8 @@ svg.call(tip);
 
 d3.csv('data/data.csv', function(error, data) {
     if (error) throw error;
-    /*  data.sort(function(x, y){
-       return d3.ascending(x.gender, y.gender);
-      })*/
+
+// for sorting in the future --> seperate into array, sort, and merge. Or append M and prepend females by year.
 
     data.forEach(function(d) {
         d.order = +d.order;
@@ -81,7 +80,6 @@ d3.csv('data/data.csv', function(error, data) {
         d.year = +d.year;
     });
 
-
     x.domain([1995, 2018]);
     y.domain(d3.extent(data, function(d) { return d.order; })).nice();
 
@@ -102,29 +100,21 @@ d3.csv('data/data.csv', function(error, data) {
         .style('text-anchor', 'middle')
         .text('Number of nominees')
 
-    svg.selectAll('.marker')
+    // Add the rectangles
+    svg.selectAll('rect')
         .data(data)
         .enter().append('rect')
-        .attr('class', 'marker')
-        .attr('class', function(d) {
-            var winner = d.winner === 'TRUE' ? 'winner' : '';
-            return d.className + ' marker ' + winner;
-        })
-        .attr('height', markerRadius(height, 35))
-        .attr('width', markerRadius(width, 2018 - 1995))
+        .attr('class', function(d) {return d.className;})
+        .classed('winner', function(d) { return d.winner === 'TRUE'})
+        .classed('marker', true)
+        .attr('height', markerDimensions(height, 35))
+        .attr('width', markerDimensions(width, 2018 - 1995))
         .attr('x', function(d) { return x(d.year); })
         .attr('y', function(d) { return y(d.order); })
         .style('fill', function(d) { return color(d.gender); })
-        //.style('fill', function(d) { return color(d.category); })
-        // .style('stroke', function(d) { return d.winner === 'TRUE' ? '#333333' : 'none' })
         .on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
-    // logic for buttons
-    /*    d3.select('button.best-director').on('click', function() {
-            d3.selectAll('rect.best-director').attr('fill-opacity', 0.5);
-            console.log('button clicked');
-        })*/
 
     // Highlight selected category
     d3.select('select').on('change', function() {
@@ -144,41 +134,11 @@ d3.csv('data/data.csv', function(error, data) {
     d3.select('button.winner').on('click', function() {
         var toggleWinner = d3.select(this);
         toggleWinner.classed('selected', !toggleWinner.classed('selected'));
+        var buttonText = toggleWinner.classed('selected') ? 'Hide winners' : 'Show winners';
         var strokeVal = toggleWinner.classed('selected') ? '#333333' : 'none';
         d3.selectAll('rect.winner').style('stroke', strokeVal);
+        toggleWinner.html(buttonText);
     })
 
-    /*
-      svg.selectAll('.marker')
-          .data(data)
-        .enter().append('circle')
-          .attr('class', 'marker')
-          //.attr('r', 10)
-          .attr('r', markerRadius(height, 35))
-          .attr('cx', function(d) { return x(d.year); })
-          .attr('cy', function(d) { return y(d.order); })
-          .style('fill', function(d) { return color(d.gender); })
-          .on('mouseover', tip.show)
-          .on('mouseout', tip.hide);*/
-    /*
-      var legend = svg.selectAll('.legend')
-          .data(color.domain())
-        .enter().append('g')
-          .attr('class', 'legend')
-          .attr('transform', function(d, i) { return 'translate(0,' + i * 20 + ')'; });
-
-      legend.append('rect')
-          .attr('x', width - 18)
-          .attr('width', 18)
-          .attr('height', 18)
-          .style('fill', color);
-
-      legend.append('text')
-          .attr('x', width - 24)
-          .attr('y', 9)
-          .attr('dy', '.35em')
-          .style('text-anchor', 'end')
-          .text(function(d) { return d; });
-          */
 
 });
