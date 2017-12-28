@@ -6,7 +6,7 @@ function draw() {
     var windowWidth = document.getElementById('chart-container').clientWidth;
     var windowHeight = 500;
 
-    var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+    var margin = { top: 20, right: 50, bottom: 30, left: 50 },
         width = windowWidth - margin.left - margin.right,
         height = windowHeight - margin.top - margin.bottom;
 
@@ -148,14 +148,14 @@ function draw() {
 
 // BUTTONS
 d3.selectAll('.category-selection button').on('click', function() {
-    var selectedCategory = this.value;
-    // console.log(selectedCategory.classed('all'), this.classList.remove('btn'))
-    if (selectedCategory === 'all') {
+    var selectedCategory = this;
+    d3.selectAll('.category-selection button').classed('selected', false);
+    d3.select(this).classed('selected', !d3.select(this).classed('selected'));
+    if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
-
     } else {
         d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
-        d3.selectAll('.' + selectedCategory).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
+        d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
     }
 })
 
