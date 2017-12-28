@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>The Golden Globes</title>
+    <title>The Golden Globes</title>
 </head>
+
 <body>
-<!DOCTYPE html>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-<body>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-<h1>How often are <span style="color: #FF0064">women</span> nominated at The Golden Globes?</h1>
-<p>Of the 25 award categories at The Golden Globes, four of them are gender-neutral, including Best Director, Best Screenplay, Best Song and Best Score. Since 1995, less than 10 percent of nominees in those categories have been women. Only 13 percent of nominated women end up taking home the award. </p>
-<span>Highlight Category</span><!-- The second value will be selected initially -->
-<select name="category-selection"> <!--Supplement an id here instead of using 'text'-->
-  <option value="all" selected>All Gender-Neutral Categories</option>
-  <option value="best-director">Best Director</option>
-  <option value="best-screenplay">Best Screenplay</option>
-  <option value="best-original-song">Best Original Song</option>
-  <option value="best-original-score">Best Original Score</option>
-</select>
-<button class="btn-default winner">Show winners</button>
-<div id="chart-container"></div>
-<script src="main-2.js"></script>
-<!-- <script src="main-2.js"></script>
+    <!DOCTYPE html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <body>
+        <script src="//d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <div class="container-fluid">
+          <div class="row">
+        <h1>How often are <span style="color: #FF0064">women</span> nominated at The Golden Globes?</h1>
+        <p>Of the 25 award categories at The Golden Globes, four of them are gender-neutral, including Best Director, Best Screenplay, Best Song and Best Score. Since 1995, less than 10 percent of nominees in those categories have been women. Only 11 percent of nominated women end up taking home the award. </p>
+        <p>Highlight Category</p>
+        <!--DROPDOWN FOR MOBILE-->
+       <!--  <select name="category-selection">
+            <option value="all" selected>All Gender-Neutral Categories</option>
+            <option value="best-director">Best Director</option>
+            <option value="best-screenplay">Best Screenplay</option>
+            <option value="best-original-song">Best Original Song</option>
+            <option value="best-original-score">Best Original Score</option>
+        </select> -->
+
+        <!--BUTTONS FOR DESKTOP-->
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group btn-group-sm category-selection" role="group" aria-label="Category options">
+                <button type="button" class="btn btn-default" value="all">All</button>
+                <button type="button" class="btn btn-default" value="best-director">Best Director</button>
+                <button type="button" class="btn btn-default" value="best-screenplay">Best Screenplay</button>
+                <button type="button" class="btn btn-default" value="best-original-song">Best Original Song</button>
+                <button type="button" class="btn btn-default" value="best-original-score">Best Original Score</button>
+            </div>
+            <div class="btn-group btn-group-sm" role="group" aria-label="Show or hide winners">
+                <button type="button" class="btn btn-default winner">Show winners</button>
+            </div>
+        </div>
+</div>
+        <!-- CHART GOES HERE -->
+        <div class="row">
+          <div id="chart-container">
+            <div id="chart"></div>
+        </div>
+        </div>
+
+        </div>
+        <script src="main.js"></script>
+        <!-- <script src="main-2.js"></script>
  -->
-</body>
+    </body>
+
 </html>

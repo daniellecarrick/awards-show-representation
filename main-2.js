@@ -26,6 +26,7 @@ var Chart = (function(window, d3) {
             }
             classLabel(d);
             d.year = +d.year;
+
         });
 
         tip = d3.tip()
@@ -39,6 +40,7 @@ var Chart = (function(window, d3) {
 
         color = d3.scale.ordinal()
             .range(colors);
+
 
         //initialize scales
         xExtent = d3.extent(data, function(d, i) { return d.year });
@@ -77,7 +79,7 @@ var Chart = (function(window, d3) {
             .attr('height', height + margin.top + margin.bottom);
         chartWrapper.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-        //update the axis and line
+        //update the axis
         xAxis.scale(x);
         yAxis.scale(y);
 
@@ -88,11 +90,13 @@ var Chart = (function(window, d3) {
         svg.select('.y.axis')
             .call(yAxis);
 
-        marker.classed('marker', true)
+        marker.attr('class', function(d) { return d.className; })
+            .classed('winner', function(d) { return d.winner === 'TRUE' })
+            .classed('marker', true)
             .attr('x', function(d) { return x(d.year); })
             .attr('y', function(d) { return y(d.order); })
-            .attr('height', markerDimensions(height, 35))
-            .attr('width', markerDimensions(width, xExtent[1]-xExtent[0]))
+            .attr('height', markerDimensions(height, yExtent[1]))
+            .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
             .style('fill', function(d) { return color(d.gender); });
 
         svg.call(tip);
@@ -120,3 +124,27 @@ var Chart = (function(window, d3) {
 })(window, d3);
 
 window.addEventListener('resize', Chart.render);
+
+// Highlight selected category
+d3.select('select').on('change', function() {
+    var selectedCategory = this.value;
+    if (selectedCategory === 'all') {
+        d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
+
+    } else {
+        d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
+        d3.selectAll('.' + selectedCategory).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
+        //console.log(selectedCategory);
+    }
+
+})
+
+// Highlight winners
+d3.select('button.winner').on('click', function() {
+    var toggleWinner = d3.select(this);
+    toggleWinner.classed('selected', !toggleWinner.classed('selected'));
+    var buttonText = toggleWinner.classed('selected') ? 'Hide winners' : 'Show winners';
+    var strokeVal = toggleWinner.classed('selected') ? '#333333' : 'none';
+    d3.selectAll('rect.winner').style('stroke', strokeVal);
+    toggleWinner.html(buttonText);
+})
