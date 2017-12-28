@@ -18,8 +18,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1><span style="color: #FF0064">Women</span> are underrepresented at The Golden Globes</h1>
-                    <p>Of the 25 award categories at The Golden Globes, four of them are gender-neutral, including <span class="category-highlight">Best Director</span>, <span class="category-highlight">Best Screenplay</span>, <span class="category-highlight">Best Song</span> and <span class="category-highlight">Best Score</span>. Since 1995, less than 10 percent of nominees in those categories have been women. Only 11 percent of nominated women end up taking home the award. </p>
-                    <p>Highlight Category</p>
+                    <p>Of the 25 award categories at The Golden Globes, four of them are gender-neutral, including <span class="category-highlight">Best Director</span>, <span class="category-highlight">Best Screenplay</span>, <span class="category-highlight">Best Song</span> and <span class="category-highlight">Best Score</span>.</p>
+                    <ul>
+                      <li>Since 1995, less than 12 percent of nominees in those categories have been women. Only 14 percent of nominated women end up taking home the award.</li>
+                      <li>In the last 20 years, no woman has won for Best Director or Best Original Score</li>
+                      <li>The Best Original Song category has had the highest percentage of female nominees (19%) and winners (14%).</li>
+                      <li>While only 7% of nominees for The Best Original Screenplay category are women, 9% of the winners are.</li>
+                      <li>Both Best Orignal Song and Best Original Screenplay boast a larger percentage of female nominee and winners but unlike Best Director, nominees tend to be writing teams, rather than individuals.</li>
+                    </ul>
+
                     <!--DROPDOWN FOR MOBILE-->
                     <!--  <select name="category-selection">
             <option value="all" selected>All Gender-Neutral Categories</option>
@@ -28,10 +35,12 @@
             <option value="best-original-song">Best Original Song</option>
             <option value="best-original-score">Best Original Score</option>
         </select> -->
+        <hr />
                     <!--BUTTONS FOR DESKTOP-->
-                    <div class="btn-toolbar" role="toolbar">
-                        <div class="btn-group btn-group-sm category-selection" role="group" aria-label="Category options">
-                            <button type="button" class="btn btn-default" value="all">All</button>
+                    <div class="btn-toolbar category-selection" role="toolbar">
+                      <span>Highlight Category</span>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Category options">
+                            <button type="button" class="btn btn-default selected" value="all">All</button>
                             <button type="button" class="btn btn-default" value="best-director">Best Director</button>
                             <button type="button" class="btn btn-default" value="best-screenplay">Best Screenplay</button>
                             <button type="button" class="btn btn-default" value="best-original-song">Best Original Song</button>
@@ -42,6 +51,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- CHART GOES HERE -->
                 <div class="row">
                     <div class="col-md-12">

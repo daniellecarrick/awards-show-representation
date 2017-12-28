@@ -70,9 +70,20 @@ svg {
   background-color: #FF0064;
   color: white;
 }
+.category-selection.btn-toolbar {
+  padding: 10px;
+  background-color: #fcfcfc;
+}
+
+.category-selection span {
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
 
 span.category-highlight {
   color:#FF0064;
   border-bottom: 3px solid #FF0064;
   font-weight: bold;
 }
+
