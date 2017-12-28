@@ -1,559 +1,685 @@
-year,category,nominee,secondarynominee,winner,gender,order
-2018,Best Screenplay - Motion Picture,Greta Gerwig,Lady Bird,FALSE,F,1
-2018,Best Screenplay - Motion Picture,Aaron Sorkin,Molly's Game,FALSE,M,6
-2018,Best Screenplay - Motion Picture,Liz Hannah,The Post,FALSE,F,2
-2018,Best Screenplay - Motion Picture,Josh Singer,The Post,FALSE,M,7
-2018,Best Screenplay - Motion Picture,Guillermo del Toro,The Shape of Water,FALSE,M,8
-2018,Best Screenplay - Motion Picture,Martin McDonagh,"Three Billboards Outside Ebbing, Missouri",FALSE,M,9
-2018,Best Original Song - Motion Picture,Kristen Anderson-Lopez,Coco,FALSE,F,3
-2018,Best Original Song - Motion Picture,Robert Lopez,Coco,FALSE,M,10
-2018,Best Original Song - Motion Picture,Nick Jonas,Ferdinand,FALSE,M,11
-2018,Best Original Song - Motion Picture,Justin Tranter,Ferdinand,FALSE,M,12
-2018,Best Original Song - Motion Picture,Nick Monson,Ferdinand,FALSE,M,13
-2018,Best Original Song - Motion Picture,Raphael Saadiq,Mudbound,FALSE,M,14
-2018,Best Original Song - Motion Picture,Mary J. Blige,Mudbound,FALSE,F,4
-2018,Best Original Song - Motion Picture,Benj Pasek,The Greatest Showman,FALSE,M,15
-2018,Best Original Song - Motion Picture,Justin Paul,The Greatest Showman,FALSE,M,16
-2018,Best Original Song - Motion Picture,Mariah Carey,The Star,FALSE,F,5
-2018,Best Original Song - Motion Picture,Marc Shaiman,The Star,FALSE,M,17
-2018,Best Original Score - Motion Picture,Hans Zimmer,Dunkirk,FALSE,M,18
-2018,Best Original Score - Motion Picture,Jonny Greenwood,Phantom Thread,FALSE,M,19
-2018,Best Original Score - Motion Picture,John Williams,The Post,FALSE,M,20
-2018,Best Original Score - Motion Picture,Alexandre Desplat,The Shape of Water,FALSE,M,21
-2018,Best Original Score - Motion Picture,Carter Burwell,"Three Billboards Outside Ebbing, Missouri",FALSE,M,22
-2018,Best Director - Motion Picture,Christopher Nolan,Dunkirk,TRUE,M,23
-2018,Best Director - Motion Picture,Guillermo del Toro,The Shape of Water,FALSE,M,24
-2018,Best Director - Motion Picture,Martin McDonagh,"Three Billboards Outside Ebbing, Missouri",FALSE,M,25
-2018,Best Director - Motion Picture,Ridley Scott,All the Money in the World,FALSE,M,26
-2018,Best Director - Motion Picture,Steven Spielberg,The Post,FALSE,M,27
-2017,Best Director - Motion Picture,Damien Chazelle,La La Land,TRUE,M,2
-2017,Best Director - Motion Picture,Barry Jenkins,Moonlight,FALSE,M,3
-2017,Best Director - Motion Picture,Kenneth Lonergan,Manchester by the Sea,FALSE,M,4
-2017,Best Director - Motion Picture,Mel Gibson,Hacksaw Ridge,FALSE,M,5
-2017,Best Director - Motion Picture,Tom Ford,Nocturnal Animals,FALSE,M,6
-2017,Best Screenplay - Motion Picture,Damien Chazelle,La La Land,TRUE,M,7
-2017,Best Screenplay - Motion Picture,Taylor Sheridan,Hell or High Water,FALSE,M,8
-2017,Best Screenplay - Motion Picture,Kenneth Lonergan,Manchester by the Sea,FALSE,M,9
-2017,Best Screenplay - Motion Picture,Barry Jenkins,Moonlight,FALSE,M,10
-2017,Best Screenplay - Motion Picture,Tom Ford,Nocturnal Animals,FALSE,M,11
-2017,Best Original Song - Motion Picture,Justin Hurwitz,La La Land,TRUE,M,12
-2017,Best Original Song - Motion Picture,Benj Pasek,La La Land,TRUE,M,13
-2017,Best Original Song - Motion Picture,Justin Paul,La La Land,TRUE,M,14
-2017,Best Original Song - Motion Picture,Danger Mouse,Gold,FALSE,M,15
-2017,Best Original Song - Motion Picture,Stephen Gaghan,Gold,FALSE,M,16
-2017,Best Original Song - Motion Picture,Daniel Pemberton,Gold,FALSE,M,17
-2017,Best Original Song - Motion Picture,Iggy Pop,Gold,FALSE,F,1
-2017,Best Original Song - Motion Picture,Lin-Manuel Miranda,Moana,FALSE,M,18
-2017,Best Original Song - Motion Picture,Ryan Tedder,Sing,FALSE,M,19
-2017,Best Original Song - Motion Picture,Stevie Wonder,Sing,FALSE,M,20
-2017,Best Original Song - Motion Picture,Francis Farewell Starlite,Sing,FALSE,M,21
-2017,Best Original Song - Motion Picture,Justin Timberlake,Trolls,FALSE,M,22
-2017,Best Original Song - Motion Picture,Max Martin,Trolls,FALSE,M,23
-2017,Best Original Song - Motion Picture,Shellback,Trolls,FALSE,M,24
-2017,Best Original Score - Motion Picture,Justin Hurwitz,La La Land,TRUE,M,25
-2017,Best Original Score - Motion Picture,Jóhann Jóhannsson,Arrival,FALSE,M,26
-2017,Best Original Score - Motion Picture,Hans Zimmer,Hidden Figures,FALSE,M,27
-2017,Best Original Score - Motion Picture,Pharrell Williams,Hidden Figures,FALSE,M,28
-2017,Best Original Score - Motion Picture,Benjamin Wallfisch,Hidden Figures,FALSE,M,29
-2017,Best Original Score - Motion Picture,Dustin O'Halloran,Hidden Figures,FALSE,M,30
-2017,Best Original Score - Motion Picture,Volker Bertelmann,Hidden Figures,FALSE,M,31
-2017,Best Original Score - Motion Picture,Nicholas Britell,Moonlight,FALSE,M,32
-2016,Best Director - Motion Picture,Alejandro Inarritu,The Revenant,FALSE,M,2
-2016,Best Director - Motion Picture,Todd Haynes,Carol,FALSE,M,3
-2016,Best Director - Motion Picture,George Miller,Mad Max: Fury Road,FALSE,M,4
-2016,Best Director - Motion Picture,Tom McCarthy,Spotlight,FALSE,M,5
-2016,Best Director - Motion Picture,Ridley Scott,The Martian,FALSE,M,6
-2016,Best Screenplay - Motion Picture,Aaron Sorkin,Steve Jobs,TRUE,M,7
-2016,Best Screenplay - Motion Picture,Emma Donoghue,Room,FALSE,F,1
-2016,Best Screenplay - Motion Picture,Tom McCarthy,Spotlight,FALSE,M,8
-2016,Best Screenplay - Motion Picture,Josh Singer,Spotlight,FALSE,M,9
-2016,Best Screenplay - Motion Picture,Charles Randolph,The Big Short,FALSE,M,10
-2016,Best Screenplay - Motion Picture,Adam McKay,The Big Short,FALSE,M,11
-2016,Best Screenplay - Motion Picture,Quentin Tarantino,The Hateful Eight,FALSE,M,12
-2016,Best Original Score - Motion Picture,Ennio Morricone,The Hateful Eight,TRUE,M,13
-2016,Best Original Score - Motion Picture,Carter Burwell,Carol,FALSE,M,14
-2016,Best Original Score - Motion Picture,Daniel Pemberton,Steve Jobs,FALSE,M,15
-2016,Best Original Score - Motion Picture,Alexandre Desplat,The Danish Girl,FALSE,M,16
-2016,Best Original Score - Motion Picture,Ryuichi Sakamoto,The Revenant,FALSE,M,17
-2016,Best Original Score - Motion Picture,Alva Noto,The Revenant,FALSE,M,18
-2016,Best Original Song - Motion Picture,Sam Smith,Spectre,TRUE,M,19
-2016,Best Original Song - Motion Picture,James Napier,Spectre,TRUE,M,20
-2016,Best Original Song - Motion Picture,Max Martin,Fifty Shades of Grey,FALSE,M,21
-2016,Best Original Song - Motion Picture,Savan Kotecha,Fifty Shades of Grey,FALSE,M,22
-2016,Best Original Song - Motion Picture,Ali Payami,Fifty Shades of Grey,FALSE,M,23
-2016,Best Original Song - Motion Picture,Ilya Salmanzadeh,Fifty Shades of Grey,FALSE,M,24
-2016,Best Original Song - Motion Picture,Justin Franks,Furious 7,FALSE,M,25
-2016,Best Original Song - Motion Picture,Andrew Ceder,Furious 8,FALSE,M,26
-2016,Best Original Song - Motion Picture,Charlie Puth,Furious 9,FALSE,M,27
-2016,Best Original Song - Motion Picture,Wiz Khalifa,Furious 10,FALSE,M,28
-2016,Best Original Song - Motion Picture,Brian Wilson,Love & Mercy,FALSE,M,29
-2016,Best Original Song - Motion Picture,Scott Montgomery Bennett,Love & Mercy,FALSE,M,30
-2016,Best Original Song - Motion Picture,David Lang,Youth,FALSE,M,31
-2015,Best Director - Motion Picture,Richard Linklater,Boyhood,TRUE,M,7
-2015,Best Director - Motion Picture,Alejandro G. Inarritu,Birdman,FALSE,M,8
-2015,Best Director - Motion Picture,Ava DuVernay,Selma,FALSE,F,1
-2015,Best Director - Motion Picture,David Fincher,Gone Girl,FALSE,M,9
-2015,Best Director - Motion Picture,Wes Anderson,The Grand Budapest Hotel,FALSE,M,10
-2015,Best Screenplay - Motion Picture,Alejandro G. Inarritu,Birdman,TRUE,M,11
-2015,Best Screenplay - Motion Picture,Nicolas Glacobone,Birdman,TRUE,M,12
-2015,Best Screenplay - Motion Picture,Alexandre Dinelaris,Birdman,TRUE,M,13
-2015,Best Screenplay - Motion Picture,Armando Bo,Birdman,TRUE,M,14
-2015,Best Screenplay - Motion Picture,Richard Linklater,Boyhood,FALSE,M,15
-2015,Best Screenplay - Motion Picture,Gillian Flynn,Gone Girl,FALSE,F,2
-2015,Best Screenplay - Motion Picture,Wes Anderson,The Grand Budapest Hotel,FALSE,M,16
-2015,Best Screenplay - Motion Picture,Graham Moore,The Imitation Game,FALSE,M,17
-2015,Best Original Song - Motion Picture,John Legend,Selma,TRUE,M,18
-2015,Best Original Song - Motion Picture,Common,Selma,TRUE,M,19
-2015,Best Original Song - Motion Picture,Greg Kurstin,Annie,FALSE,M,20
-2015,Best Original Song - Motion Picture,Sia,Annie,FALSE,F,3
-2015,Best Original Song - Motion Picture,Will Gluck,Annie,FALSE,M,21
-2015,Best Original Song - Motion Picture,Lana Del Rey,Big Eyes,FALSE,F,4
-2015,Best Original Song - Motion Picture,Daniel Heath,Big Eyes,FALSE,M,22
-2015,Best Original Song - Motion Picture,Lenny Kaye,Noah,FALSE,M,23
-2015,Best Original Song - Motion Picture,Patti Smith,Noah,FALSE,F,5
-2015,Best Original Song - Motion Picture,Joel Little,The Hunger Games,FALSE,M,24
-2015,Best Original Song - Motion Picture,Lorde,The Hunger Games,FALSE,F,6
-2015,Best Original Score - Motion Picture,Johann Johannsson,Theory of Everything,TRUE,M,25
-2015,Best Original Score - Motion Picture,Alexandre Desplat,The Imitation Game,FALSE,M,26
-2015,Best Original Score - Motion Picture,Antonio Sanchez,Birdman,FALSE,M,27
-2015,Best Original Score - Motion Picture,Hans Zimmer,Interstellar,FALSE,M,28
-2015,Best Original Score - Motion Picture,Trent Reznor,Gone Girl,FALSE,M,29
-2015,Best Original Score - Motion Picture,Atticus Rose,Gone Girl,FALSE,M,30
-2014,Best Director - Motion Picture,Alfonso Cuarón,Gravity,TRUE,M,3
-2014,Best Director - Motion Picture,Alexander Payne,Nebraska,FALSE,M,4
-2014,Best Director - Motion Picture,David O. Russell,American Hustle,FALSE,M,5
-2014,Best Director - Motion Picture,Paul Greengrass,Captain Phillips,FALSE,M,6
-2014,Best Director - Motion Picture,Steve McQueen,12 Years a Slave,FALSE,M,7
-2014,Best Screenplay - Motion Picture,Spike Jonze,Her,TRUE,M,8
-2014,Best Screenplay - Motion Picture,John Ridley,12 Years a Slave,FALSE,M,9
-2014,Best Screenplay - Motion Picture,Eric Warren Singer,American Hustle,FALSE,M,10
-2014,Best Screenplay - Motion Picture,David O. Russell,,FALSE,M,11
-2014,Best Screenplay - Motion Picture,Bob Nelson,Nebraska,FALSE,M,12
-2014,Best Screenplay - Motion Picture,Steve Coogan,Philomena,FALSE,M,13
-2014,Best Screenplay - Motion Picture,Jeff Pope,,FALSE,M,14
-2014,Best Original Song - Motion Picture,Bono,Mandela: Long Walk to Freedom,TRUE,M,15
-2014,Best Original Song - Motion Picture,The Edge,Mandela: Long Walk to Freedom,TRUE,M,16
-2014,Best Original Song - Motion Picture,Adam Clayton,Mandela: Long Walk to Freedom,TRUE,M,17
-2014,Best Original Song - Motion Picture,Larry Mullen Jr.,Mandela: Long Walk to Freedom,TRUE,M,18
-2014,Best Original Song - Motion Picture,Danger Mouse,Mandela: Long Walk to Freedom,TRUE,M,19
-2014,Best Original Song - Motion Picture,Kristen Anderson-Lopez,Frozen,FALSE,F,1
-2014,Best Original Song - Motion Picture,Robert Lopez,Frozen,FALSE,M,20
-2014,Best Original Song - Motion Picture,Ed Rush,Inside Llewyn Davis,FALSE,M,21
-2014,Best Original Song - Motion Picture,George Cromarty,Inside Llewyn Davis,FALSE,M,22
-2014,Best Original Song - Motion Picture,T Bone Burnett,Inside Llewyn Davis,FALSE,M,23
-2014,Best Original Song - Motion Picture,Justin Timberlake,Inside Llewyn Davis,FALSE,M,24
-2014,Best Original Song - Motion Picture,Joel Coen,Inside Llewyn Davis,FALSE,M,25
-2014,Best Original Song - Motion Picture,Ethan Coen,Inside Llewyn Davis,FALSE,M,26
-2014,Best Original Song - Motion Picture,Jack Antonoff,One Chance,FALSE,M,27
-2014,Best Original Song - Motion Picture,Taylor Swift,One Chance,FALSE,F,2
-2014,Best Original Song - Motion Picture,Chris Martin,The Hunger Games: Catching Fire,FALSE,M,28
-2014,Best Original Song - Motion Picture,Guy Berryman,The Hunger Games: Catching Fire,FALSE,M,29
-2014,Best Original Song - Motion Picture,Jon Buckland,The Hunger Games: Catching Fire,FALSE,M,30
-2014,Best Original Song - Motion Picture,Will Champion,The Hunger Games: Catching Fire,FALSE,M,31
-2014,Best Original Score - Motion Picture,Alex Ebert,All Is Lost,TRUE,M,32
-2014,Best Original Score - Motion Picture,Hans Zimmer,12 Years a Slave,FALSE,M,33
-2014,Best Original Score - Motion Picture,Steven Price,Gravity,FALSE,M,34
-2014,Best Original Score - Motion Picture,Alex Heffes,Mandela: Long Walk to Freedom,FALSE,M,35
-2014,Best Original Score - Motion Picture,John Williams,The Book Thief,FALSE,M,36
-2013,Best Director - Motion Picture,Ben Affleck,Argo,TRUE,M,5
-2013,Best Director - Motion Picture,Ang Lee,Life of Pi,FALSE,M,6
-2013,Best Director - Motion Picture,Kathryn Bigelow,Zero Dark Thirty,FALSE,F,1
-2013,Best Director - Motion Picture,Quentin Tarantino,Django Unchained,FALSE,M,7
-2013,Best Director - Motion Picture,Steven Spielberg,Lincoln,FALSE,M,8
-2013,Best Screenplay - Motion Picture,Django Unchained,Quentin Tarantino,TRUE,M,9
-2013,Best Screenplay - Motion Picture,Argo,Chris Terrio,FALSE,M,10
-2013,Best Screenplay - Motion Picture,Lincoln,Tony Kushner,FALSE,M,11
-2013,Best Screenplay - Motion Picture,Silver Linings Playbook,David O. Russell,FALSE,M,12
-2013,Best Screenplay - Motion Picture,Zero Dark Thirty,Mark Boal,FALSE,M,13
-2013,Best Original Song - Motion Picture,Skyfall,Adele,TRUE,F,2
-2013,Best Original Song - Motion Picture,Skyfall,Paul Epworth,TRUE,M,14
-2013,Best Original Song - Motion Picture,Act of Valor,Monty Powell,FALSE,M,15
-2013,Best Original Song - Motion Picture,Act of Valor,Keith Urban,FALSE,M,16
-2013,Best Original Song - Motion Picture,Les Misérables,Claude-Michel Schönberg,FALSE,M,17
-2013,Best Original Song - Motion Picture,Les Misérables,Alain Boublil,FALSE,M,18
-2013,Best Original Song - Motion Picture,Les Misérables,Herbert Kretzmer,FALSE,M,19
-2013,Best Original Song - Motion Picture,Stand Up Guys,Jon Bon Jovi,FALSE,M,20
-2013,Best Original Song - Motion Picture,The Hunger Games,Taylor Swift,FALSE,F,3
-2013,Best Original Song - Motion Picture,The Hunger Games,John Paul White,FALSE,M,21
-2013,Best Original Song - Motion Picture,The Hunger Games,Joy Williams,FALSE,F,4
-2013,Best Original Song - Motion Picture,The Hunger Games,T Bone Burnett,FALSE,M,22
-2013,Best Original Score - Motion Picture,Life of Pi,Mychael Danna,TRUE,M,23
-2013,Best Original Score - Motion Picture,Anna Karenina,Dario Marianelli,FALSE,M,24
-2013,Best Original Score - Motion Picture,Argo,Alexandre Desplat,FALSE,M,25
-2013,Best Original Score - Motion Picture,Cloud Atlas,Reinhold Heil,FALSE,M,26
-2013,Best Original Score - Motion Picture,Cloud Atlas,Johnny Klimek,FALSE,M,27
-2013,Best Original Score - Motion Picture,Cloud Atlas,Tom Tykwer,FALSE,M,28
-2013,Best Original Score - Motion Picture,Lincoln,John Williams,FALSE,M,29
-2012,Best Director - Motion Picture,Martin Scorsese,Hugo,TRUE,M,5
-2012,Best Director - Motion Picture,Alexander Payne,The Descendants,FALSE,M,6
-2012,Best Director - Motion Picture,George Clooney,The Ides of March,FALSE,M,7
-2012,Best Director - Motion Picture,Michel Hazanavicius,The Artist,FALSE,M,8
-2012,Best Director - Motion Picture,Woody Allen,Midnight in Paris,FALSE,M,9
-2012,Best Screenplay - Motion Picture,Midnight in Paris,Woody Allen,TRUE,M,10
-2012,Best Screenplay - Motion Picture,Moneyball,Aaron Sorkin,FALSE,M,11
-2012,Best Screenplay - Motion Picture,Moneyball,Steven Zaillian,FALSE,M,12
-2012,Best Screenplay - Motion Picture,The Artist,Michel Hazanavicius,FALSE,M,13
-2012,Best Screenplay - Motion Picture,The Descendants,Nat Faxon,FALSE,M,14
-2012,Best Screenplay - Motion Picture,The Descendants,Alexander Payne,FALSE,M,15
-2012,Best Screenplay - Motion Picture,The Descendants,Jim Rash,FALSE,M,16
-2012,Best Screenplay - Motion Picture,The Ides of March,George Clooney,FALSE,M,17
-2012,Best Screenplay - Motion Picture,The Ides of March,Grant Heslov,FALSE,M,18
-2012,Best Screenplay - Motion Picture,The Ides of March,Beau Willimon,FALSE,M,19
-2012,Best Original Song - Motion Picture,W.E.,Madonna,TRUE,F,1
-2012,Best Original Song - Motion Picture,W.E.,James Harry,TRUE,M,20
-2012,Best Original Song - Motion Picture,W.E.,Julie Frost,TRUE,F,2
-2012,Best Original Song - Motion Picture,Albert Nobbs,Brian Byrne,FALSE,M,21
-2012,Best Original Song - Motion Picture,Albert Nobbs,Glenn Close,FALSE,F,3
-2012,Best Original Song - Motion Picture,Gnomeo & Juliet,Elton John,FALSE,M,22
-2012,Best Original Song - Motion Picture,Gnomeo & Juliet,Bernie Taupin,FALSE,M,23
-2012,Best Original Song - Motion Picture,Machine Gun Preacher,Chris Cornell,FALSE,M,24
-2012,Best Original Song - Motion Picture,The Help,Thomas Newman,FALSE,M,25
-2012,Best Original Song - Motion Picture,The Help,Mary J. Blige,FALSE,F,4
-2012,Best Original Song - Motion Picture,The Help,Harvey Mason Jr.,FALSE,M,26
-2012,Best Original Song - Motion Picture,The Help,Damon Thomas,FALSE,M,27
-2012,Best Original Score - Motion Picture,The Artist,Ludovic Bource,TRUE,M,28
-2012,Best Original Score - Motion Picture,Hugo,Howard Shore,FALSE,M,29
-2012,Best Original Score - Motion Picture,The Girl with the Dragon Tattoo,Trent Reznor,FALSE,M,30
-2012,Best Original Score - Motion Picture,The Girl with the Dragon Tattoo,Atticus Ross,FALSE,M,31
-2012,Best Original Score - Motion Picture,W.E.,Abel Korzeniowski,FALSE,M,32
-2012,Best Original Score - Motion Picture,War Horse,John Williams,FALSE,M,33
-2011,Best Director - Motion Picture,David Fincher,The Social Network,TRUE,M,2
-2011,Best Director - Motion Picture,Christopher Nolan,Inception,FALSE,M,3
-2011,Best Director - Motion Picture,Darren Aronofsky,Black Swan,FALSE,M,4
-2011,Best Director - Motion Picture,David O. Russell,The Fighter,FALSE,M,5
-2011,Best Director - Motion Picture,Tom Hooper,The King's Speech,FALSE,M,6
-2011,Best Original Score - Motion Picture,The Social Network,Trent Reznor,TRUE,M,7
-2011,Best Original Score - Motion Picture,127 Hours,A.R. Rahman,FALSE,M,8
-2011,Best Original Score - Motion Picture,Alice in Wonderland,Danny Elfman,FALSE,M,9
-2011,Best Original Score - Motion Picture,Inception,Hans Zimmer,FALSE,M,10
-2011,Best Original Score - Motion Picture,The King's Speech,Alexandre Desplat,FALSE,M,11
-2011,Best Original Song - Motion Picture,Burlesque,Diane Warren,TRUE,M,12
-2011,Best Original Song - Motion Picture,Burlesque,Christina Aguilera,FALSE,F,1
-2011,Best Original Song - Motion Picture,Country Strong,Bob DiPiero,FALSE,M,13
-2011,Best Original Song - Motion Picture,Tangled,Alan Menken,FALSE,M,14
-2011,Best Original Song - Motion Picture,The Chronicles of Narnia: The Voyage of the Dawn Treader,David Hodges,FALSE,M,15
-2011,Best Screenplay - Motion Picture,The Social Network,Aaron Sorkin,TRUE,M,16
-2011,Best Screenplay - Motion Picture,127 Hours,Danny Boyle,FALSE,M,17
-2011,Best Screenplay - Motion Picture,Inception,Christopher Nolan,FALSE,M,18
-2011,Best Screenplay - Motion Picture,The Kids Are All Right,Stuart Blumberg,FALSE,M,19
-2011,Best Screenplay - Motion Picture,The King's Speech,David Seidler,FALSE,M,20
-2010,Best Director - Motion Picture,James Cameron,Avatar,TRUE,M,3
-2010,Best Director - Motion Picture,Clint Eastwood,Invictus,FALSE,M,4
-2010,Best Director - Motion Picture,Jason Reitman,Up in the Air,FALSE,M,5
-2010,Best Director - Motion Picture,Kathryn Bigelow,The Hurt Locker,FALSE,F,1
-2010,Best Director - Motion Picture,Quentin Tarantino,Inglourious Basterds,FALSE,M,6
-2010,Best Original Score - Motion Picture,Up,Michael Giacchino,TRUE,M,7
-2010,Best Original Score - Motion Picture,A Single Man,Abel Korzeniowski,FALSE,M,8
-2010,Best Original Score - Motion Picture,Avatar,James Horner,FALSE,M,9
-2010,Best Original Score - Motion Picture,The Informant!,Marvin Hamlisch,FALSE,M,10
-2010,Best Original Score - Motion Picture,Where the Wild Things Are,Carter Burwell,FALSE,M,11
-2010,Best Original Song - Motion Picture,Crazy Heart,T Bone Burnett,TRUE,M,12
-2010,Best Original Song - Motion Picture,Avatar,James Horner,FALSE,M,13
-2010,Best Original Song - Motion Picture,Brothers,U2,FALSE,M,14
-2010,Best Original Song - Motion Picture,Everybody's Fine,Paul McCartney,FALSE,M,15
-2010,Best Original Song - Motion Picture,Nine,Maury Yeston,FALSE,M,16
-2010,Best Screenplay - Motion Picture,Up in the Air,Jason Reitman,TRUE,M,17
-2010,Best Screenplay - Motion Picture,District 9,Neill Blomkamp,FALSE,M,18
-2010,Best Screenplay - Motion Picture,Inglourious Basterds,Quentin Tarantino,FALSE,M,19
-2010,Best Screenplay - Motion Picture,It's Complicated,Nancy Meyers,FALSE,F,2
-2010,Best Screenplay - Motion Picture,The Hurt Locker,Mark Boal,FALSE,M,20
-2009,Best Director - Motion Picture,Danny Boyle,Slumdog Millionaire,TRUE,M,2
-2009,Best Director - Motion Picture,David Fincher,The Curious Case of Benjamin Button,FALSE,M,3
-2009,Best Director - Motion Picture,Ron Howard,Frost/Nixon,FALSE,M,4
-2009,Best Director - Motion Picture,Sam Mendes,Revolutionary Road,FALSE,M,5
-2009,Best Director - Motion Picture,Stephen Daldry,The Reader,FALSE,M,6
-2009,Best Original Score - Motion Picture,Slumdog Millionaire,A.R. Rahman,TRUE,M,7
-2009,Best Original Score - Motion Picture,Changeling,Clint Eastwood,FALSE,M,8
-2009,Best Original Score - Motion Picture,Defiance,James Newton Howard,FALSE,M,9
-2009,Best Original Score - Motion Picture,Frost/Nixon,Hans Zimmer,FALSE,M,10
-2009,Best Original Score - Motion Picture,The Curious Case of Benjamin Button,Alexandre Desplat,FALSE,M,11
-2009,Best Original Song - Motion Picture,The Wrestler,Bruce Springsteen,TRUE,M,12
-2009,Best Original Song - Motion Picture,Bolt,Miley Cyrus,FALSE,F,1
-2009,Best Original Song - Motion Picture,Cadillac Records,Beyonce,FALSE,M,13
-2009,Best Original Song - Motion Picture,Gran Torino,Clint Eastwood,FALSE,M,14
-2009,Best Original Song - Motion Picture,WALLÂ·E,Peter Gabriel,FALSE,M,15
-2009,Best Screenplay - Motion Picture,Slumdog Millionaire,Simon Beaufoy,TRUE,M,16
-2009,Best Screenplay - Motion Picture,Doubt,John Patrick Shanley,FALSE,M,17
-2009,Best Screenplay - Motion Picture,Frost/Nixon,Peter Morgan,FALSE,M,18
-2009,Best Screenplay - Motion Picture,The Curious Case of Benjamin Button,Eric Roth,FALSE,M,19
-2009,Best Screenplay - Motion Picture,The Reader,David Hare,FALSE,M,20
-2008,Best Director - Motion Picture,Julian Schnabel,The Diving Bell and the Butterfly,TRUE,M,1
-2008,Best Director - Motion Picture,Ethan Coen,No Country for Old Men,FALSE,M,2
-2008,Best Director - Motion Picture,Joe Wright,Atonement,FALSE,M,3
-2008,Best Director - Motion Picture,Ridley Scott,American Gangster,FALSE,M,4
-2008,Best Director - Motion Picture,Tim Burton,Sweeney Todd: The Demon Barber of Fleet Street,FALSE,M,5
-2008,Best Original Score - Motion Picture,Atonement,Dario Marianelli,TRUE,M,6
-2008,Best Original Score - Motion Picture,Eastern Promises,Howard Shore,FALSE,M,7
-2008,Best Original Score - Motion Picture,Grace Is Gone,Clint Eastwood,FALSE,M,8
-2008,Best Original Score - Motion Picture,Into the Wild,Michael Brook,FALSE,M,9
-2008,Best Original Score - Motion Picture,The Kite Runner,Alberto Iglesias,FALSE,M,10
-2008,Best Original Song - Motion Picture,Into the Wild,Eddie Vedder,TRUE,M,11
-2008,Best Original Song - Motion Picture,Enchanted,Alan Menken,FALSE,M,12
-2008,Best Original Song - Motion Picture,Grace Is Gone,Clint Eastwood,FALSE,M,13
-2008,Best Original Song - Motion Picture,Love in the Time of Cholera,Antonio Pinto,FALSE,M,14
-2008,Best Original Song - Motion Picture,Walk Hard: The Dewey Cox Story,Marshall Crenshaw,FALSE,M,15
-2008,Best Screenplay - Motion Picture,No Country for Old Men,Joel Coen,TRUE,M,16
-2008,Best Screenplay - Motion Picture,Atonement,Christopher Hampton,FALSE,M,17
-2008,Best Screenplay - Motion Picture,Charlie Wilson's War,Aaron Sorkin,FALSE,M,18
-2008,Best Screenplay - Motion Picture,Juno,Diablo Cody,FALSE,M,19
-2008,Best Screenplay - Motion Picture,The Diving Bell and the Butterfly,Ronald Harwood,FALSE,M,20
-2007,Best Director - Motion Picture,Martin Scorsese,The Departed,TRUE,M,2
-2007,Best Director - Motion Picture,Alejandro G. Iñárritu,Babel,FALSE,M,3
-2007,Best Director - Motion Picture,Clint Eastwood,Letters from Iwo Jima,FALSE,M,4
-2007,Best Director - Motion Picture,Clint Eastwood,Flags of Our Fathers,FALSE,M,5
-2007,Best Director - Motion Picture,Stephen Frears,The Queen,FALSE,M,6
-2007,Best Original Score - Motion Picture,The Painted Veil,Alexandre Desplat,TRUE,M,7
-2007,Best Original Score - Motion Picture,Babel,Gustavo Santaolalla,FALSE,M,8
-2007,Best Original Score - Motion Picture,Nomad: The Warrior,Carlo Siliotto,FALSE,M,9
-2007,Best Original Score - Motion Picture,The Da Vinci Code,Hans Zimmer,FALSE,M,10
-2007,Best Original Score - Motion Picture,The Fountain,Clint Mansell,FALSE,M,11
-2007,Best Original Song - Motion Picture,Happy Feet,Prince,TRUE,M,12
-2007,Best Original Song - Motion Picture,Bobby,Bryan Adams,FALSE,M,13
-2007,Best Original Song - Motion Picture,Dreamgirls,Beyonce,FALSE,F,1
-2007,Best Original Song - Motion Picture,Home of the Brave,Sheryl Crow,FALSE,M,14
-2007,Best Original Song - Motion Picture,The Pursuit of Happyness,Seal,FALSE,M,15
-2007,Best Screenplay - Motion Picture,The Queen,Peter Morgan,TRUE,M,16
-2007,Best Screenplay - Motion Picture,Babel,Guillermo Arriaga,FALSE,M,17
-2007,Best Screenplay - Motion Picture,Little Children,Todd Field,FALSE,M,18
-2007,Best Screenplay - Motion Picture,Notes on a Scandal,Patrick Marber,FALSE,M,19
-2007,Best Screenplay - Motion Picture,The Departed,William Monahan,FALSE,M,20
-2006,Best Director - Motion Picture,Ang Lee,Brokeback Mountain,TRUE,M,3
-2006,Best Director - Motion Picture,Fernando Meirelles,The Constant Gardener,FALSE,M,4
-2006,Best Director - Motion Picture,George Clooney,"Good Night, and Good Luck.",FALSE,M,5
-2006,Best Director - Motion Picture,Peter Jackson,King Kong,FALSE,M,6
-2006,Best Director - Motion Picture,Steven Spielberg,Munich,FALSE,M,7
-2006,Best Original Score - Motion Picture,Memoirs of a Geisha,John Williams,TRUE,M,8
-2006,Best Original Score - Motion Picture,Brokeback Mountain,Gustavo Santaolalla,FALSE,M,9
-2006,Best Original Score - Motion Picture,King Kong,James Newton Howard,FALSE,M,10
-2006,Best Original Score - Motion Picture,Syriana,Alexandre Desplat,FALSE,M,11
-2006,Best Original Score - Motion Picture,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",Harry Gregson-Williams,FALSE,M,12
-2006,Best Original Song - Motion Picture,Brokeback Mountain,Gustavo Santaolalla,TRUE,M,13
-2006,Best Original Song - Motion Picture,Christmas in Love,Tony Renis,FALSE,M,14
-2006,Best Original Song - Motion Picture,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",Alanis Morissette,FALSE,F,1
-2006,Best Original Song - Motion Picture,The Producers,Mel Brooks,FALSE,M,15
-2006,Best Original Song - Motion Picture,Transamerica,Dolly Parton,FALSE,F,2
-2006,Best Screenplay - Motion Picture,Brokeback Mountain,Larry McMurtry,TRUE,M,16
-2006,Best Screenplay - Motion Picture,Crash,Paul Haggis,FALSE,M,17
-2006,Best Screenplay - Motion Picture,"Good Night, and Good Luck.",George Clooney,FALSE,M,18
-2006,Best Screenplay - Motion Picture,Match Point,Woody Allen,FALSE,M,19
-2006,Best Screenplay - Motion Picture,Munich,Tony Kushner,FALSE,M,20
-2005,Best Director - Motion Picture,Clint Eastwood,Million Dollar Baby,TRUE,M,1
-2005,Best Director - Motion Picture,Alexander Payne,Sideways,FALSE,M,2
-2005,Best Director - Motion Picture,Marc Forster,Finding Neverland,FALSE,M,3
-2005,Best Director - Motion Picture,Martin Scorsese,The Aviator,FALSE,M,4
-2005,Best Director - Motion Picture,Mike Nichols,Closer,FALSE,M,5
-2005,Best Original Score - Motion Picture,The Aviator,Howard Shore,TRUE,M,6
-2005,Best Original Score - Motion Picture,Finding Neverland,Jan A.P. Kaczmarek,FALSE,M,7
-2005,Best Original Score - Motion Picture,Million Dollar Baby,Clint Eastwood,FALSE,M,8
-2005,Best Original Score - Motion Picture,Sideways,Rolfe Kent,FALSE,M,9
-2005,Best Original Score - Motion Picture,Spanglish,Hans Zimmer,FALSE,M,10
-2005,Best Original Song - Motion Picture,Alfie,Mick Jagger,TRUE,M,11
-2005,Best Original Song - Motion Picture,Hotel Rwanda,Wyclef Jean,FALSE,M,12
-2005,Best Original Song - Motion Picture,Shrek 2,Adam Duritz,FALSE,M,13
-2005,Best Original Song - Motion Picture,The Phantom of the Opera,Andrew Lloyd Webber,FALSE,M,14
-2005,Best Original Song - Motion Picture,The Polar Express,Glen Ballard,FALSE,M,15
-2005,Best Screenplay - Motion Picture,Sideways,Alexander Payne,TRUE,M,16
-2005,Best Screenplay - Motion Picture,Closer,Patrick Marber,FALSE,M,17
-2005,Best Screenplay - Motion Picture,Eternal Sunshine of the Spotless Mind,Charlie Kaufman,FALSE,M,18
-2005,Best Screenplay - Motion Picture,Finding Neverland,David Magee,FALSE,M,19
-2005,Best Screenplay - Motion Picture,The Aviator,John Logan,FALSE,M,20
-2004,Best Director - Motion Picture,Peter Jackson,The Lord of the Rings: The Return of the King,TRUE,M,3
-2004,Best Director - Motion Picture,Anthony Minghella,Cold Mountain,FALSE,M,4
-2004,Best Director - Motion Picture,Clint Eastwood,Mystic River,FALSE,M,5
-2004,Best Director - Motion Picture,Peter Weir,Master and Commander: The Far Side of the World,FALSE,M,6
-2004,Best Director - Motion Picture,Sofia Coppola,Lost in Translation,FALSE,F,1
-2004,Best Original Score - Motion Picture,The Lord of the Rings: The Return of the King,Howard Shore,TRUE,M,7
-2004,Best Original Score - Motion Picture,Big Fish,Danny Elfman,FALSE,M,8
-2004,Best Original Score - Motion Picture,Cold Mountain,Gabriel Yared,FALSE,M,9
-2004,Best Original Score - Motion Picture,Girl with a Pearl Earring,Alexandre Desplat,FALSE,M,10
-2004,Best Original Score - Motion Picture,The Last Samurai,Hans Zimmer,FALSE,M,11
-2004,Best Original Song - Motion Picture,The Lord of the Rings: The Return of the King,Howard Shore,TRUE,M,12
-2004,Best Original Song - Motion Picture,Big Fish,Eddie Vedder,FALSE,M,13
-2004,Best Original Song - Motion Picture,Cold Mountain,Sting,FALSE,M,14
-2004,Best Original Song - Motion Picture,In America,Bono,FALSE,M,15
-2004,Best Original Song - Motion Picture,Mona Lisa Smile,Elton John,FALSE,M,16
-2004,Best Screenplay - Motion Picture,Lost in Translation,Sofia Coppola,TRUE,F,2
-2004,Best Screenplay - Motion Picture,Cold Mountain,Anthony Minghella,FALSE,M,17
-2004,Best Screenplay - Motion Picture,In America,Jim Sheridan,FALSE,M,18
-2004,Best Screenplay - Motion Picture,Love Actually,Richard Curtis,FALSE,M,19
-2004,Best Screenplay - Motion Picture,Mystic River,Brian Helgeland,FALSE,M,20
-2003,Best Director - Motion Picture,Martin Scorsese,Gangs of New York,TRUE,M,2
-2003,Best Director - Motion Picture,Alexander Payne,About Schmidt,FALSE,M,3
-2003,Best Director - Motion Picture,Peter Jackson,The Lord of the Rings: The Two Towers,FALSE,M,4
-2003,Best Director - Motion Picture,Rob Marshall,Chicago,FALSE,M,5
-2003,Best Director - Motion Picture,Spike Jonze,Adaptation.,FALSE,M,6
-2003,Best Original Score - Motion Picture,Frida,Elliot Goldenthal,TRUE,M,7
-2003,Best Original Score - Motion Picture,25th Hour,Terence Blanchard,FALSE,M,8
-2003,Best Original Score - Motion Picture,Far from Heaven,Elmer Bernstein,FALSE,M,9
-2003,Best Original Score - Motion Picture,Rabbit-Proof Fence,Peter Gabriel,FALSE,M,10
-2003,Best Original Score - Motion Picture,The Hours,Philip Glass,FALSE,M,11
-2003,Best Original Song - Motion Picture,Gangs of New York,Bono,TRUE,M,12
-2003,Best Original Song - Motion Picture,8 Mile,Eminem,FALSE,M,13
-2003,Best Original Song - Motion Picture,Die Another Day,Madonna,FALSE,F,1
-2003,Best Original Song - Motion Picture,Spirit: Stallion of the Cimarron,Hans Zimmer,FALSE,M,14
-2003,Best Original Song - Motion Picture,The Wild Thornberrys Movie,Paul Simon,FALSE,M,15
-2003,Best Screenplay - Motion Picture,About Schmidt,Alexander Payne,TRUE,M,16
-2003,Best Screenplay - Motion Picture,Adaptation.,Charlie Kaufman,FALSE,M,17
-2003,Best Screenplay - Motion Picture,Chicago,Bill Condon,FALSE,M,18
-2003,Best Screenplay - Motion Picture,Far from Heaven,Todd Haynes,FALSE,M,19
-2003,Best Screenplay - Motion Picture,The Hours,David Hare,FALSE,M,20
-2002,Best Director - Motion Picture,Robert Altman,Gosford Park,TRUE,M,3
-2002,Best Director - Motion Picture,Baz Luhrmann,Moulin Rouge!,FALSE,M,4
-2002,Best Director - Motion Picture,David Lynch,Mulholland Drive,FALSE,M,5
-2002,Best Director - Motion Picture,Peter Jackson,The Lord of the Rings: The Fellowship of the Ring,FALSE,M,6
-2002,Best Director - Motion Picture,Ron Howard,A Beautiful Mind,FALSE,M,7
-2002,Best Original Score - Motion Picture,Moulin Rouge!,Craig Armstrong,TRUE,M,8
-2002,Best Original Score - Motion Picture,A Beautiful Mind,James Horner,FALSE,M,9
-2002,Best Original Score - Motion Picture,A.I. Artificial Intelligence,John Williams,FALSE,M,10
-2002,Best Original Score - Motion Picture,Ali,Lisa Gerrard,FALSE,F,1
-2002,Best Original Score - Motion Picture,Mulholland Drive,Angelo Badalamenti,FALSE,M,11
-2002,Best Original Song - Motion Picture,Kate & Leopold,Sting,TRUE,M,12
-2002,Best Original Song - Motion Picture,Moulin Rouge!,David Baerwald,FALSE,M,13
-2002,Best Original Song - Motion Picture,Pearl Harbor,Diane Warren,FALSE,M,14
-2002,Best Original Song - Motion Picture,The Lord of the Rings: The Fellowship of the Ring,Enya,FALSE,F,2
-2002,Best Original Song - Motion Picture,Vanilla Sky,Paul McCartney,FALSE,M,15
-2002,Best Screenplay - Motion Picture,A Beautiful Mind,Akiva Goldsman,TRUE,M,16
-2002,Best Screenplay - Motion Picture,Gosford Park,Julian Fellowes,FALSE,M,17
-2002,Best Screenplay - Motion Picture,Memento,Christopher Nolan,FALSE,M,18
-2002,Best Screenplay - Motion Picture,Mulholland Drive,David Lynch,FALSE,M,19
-2002,Best Screenplay - Motion Picture,The Man Who Wasn't There,Joel Coen,FALSE,M,20
-2001,Best Director - Motion Picture,Ang Lee,"Crouching Tiger, Hidden Dragon",TRUE,M,2
-2001,Best Director - Motion Picture,István Szabó,Sunshine,FALSE,M,3
-2001,Best Director - Motion Picture,Ridley Scott,Gladiator,FALSE,M,4
-2001,Best Director - Motion Picture,Steven Soderbergh,Traffic,FALSE,M,5
-2001,Best Director - Motion Picture,Steven Soderbergh,Erin Brockovich,FALSE,M,6
-2001,Best Original Score - Motion Picture,Gladiator,Hans Zimmer,TRUE,M,7
-2001,Best Original Score - Motion Picture,All the Pretty Horses,Marty Stuart,FALSE,M,8
-2001,Best Original Score - Motion Picture,Chocolat,Rachel Portman,FALSE,F,1
-2001,Best Original Score - Motion Picture,"Crouching Tiger, Hidden Dragon",Dun Tan,FALSE,M,9
-2001,Best Original Score - Motion Picture,Malèna,Ennio Morricone,FALSE,M,10
-2001,Best Original Song - Motion Picture,Wonder Boys,Bob Dylan,TRUE,M,11
-2001,Best Original Song - Motion Picture,Dancer in the Dark,Bjork,FALSE,M,12
-2001,Best Original Song - Motion Picture,Frequency,Garth Brooks,FALSE,M,13
-2001,Best Original Song - Motion Picture,Miss Congeniality,Bosson,FALSE,M,14
-2001,Best Original Song - Motion Picture,The Emperor's New Groove,Sting,FALSE,M,15
-2001,Best Screenplay - Motion Picture,Traffic,Stephen Gaghan,TRUE,M,16
-2001,Best Screenplay - Motion Picture,Almost Famous,Cameron Crowe,FALSE,M,17
-2001,Best Screenplay - Motion Picture,Quills,Doug Wright,FALSE,M,18
-2001,Best Screenplay - Motion Picture,Wonder Boys,Steve Kloves,FALSE,M,19
-2001,Best Screenplay - Motion Picture,You Can Count on Me,Kenneth Lonergan,FALSE,M,20
-2000,Best Director - Motion Picture,Sam Mendes,American Beauty,TRUE,M,4
-2000,Best Director - Motion Picture,Anthony Minghella,The Talented Mr. Ripley,FALSE,M,5
-2000,Best Director - Motion Picture,Michael Mann,The Insider,FALSE,M,6
-2000,Best Director - Motion Picture,Neil Jordan,The End of the Affair,FALSE,M,7
-2000,Best Director - Motion Picture,Norman Jewison,The Hurricane,FALSE,M,8
-2000,Best Original Score - Motion Picture,The Legend of 1900,Ennio Morricone,TRUE,M,9
-2000,Best Original Score - Motion Picture,American Beauty,Thomas Newman,FALSE,M,10
-2000,Best Original Score - Motion Picture,Angela's Ashes,John Williams,FALSE,M,11
-2000,Best Original Score - Motion Picture,Anna and the King,George Fenton,FALSE,M,12
-2000,Best Original Score - Motion Picture,Eyes Wide Shut,Jocelyn Pook,FALSE,F,1
-2000,Best Original Song - Motion Picture,Tarzan,Phil Collins,TRUE,M,13
-2000,Best Original Song - Motion Picture,Anna and the King,Kenneth 'Babyface' Edmonds,FALSE,M,14
-2000,Best Original Song - Motion Picture,Austin Powers: The Spy Who Shagged Me,Madonna,FALSE,F,2
-2000,Best Original Song - Motion Picture,Magnolia,Aimee Mann,FALSE,F,3
-2000,Best Original Song - Motion Picture,Toy Story 2,Randy Newman,FALSE,M,15
-2000,Best Screenplay - Motion Picture,American Beauty,Alan Ball,TRUE,M,16
-2000,Best Screenplay - Motion Picture,Being John Malkovich,Charlie Kaufman,FALSE,M,17
-2000,Best Screenplay - Motion Picture,The Cider House Rules,John Irving,FALSE,M,18
-2000,Best Screenplay - Motion Picture,The Insider,Eric Roth,FALSE,M,19
-2000,Best Screenplay - Motion Picture,The Sixth Sense,M. Night Shyamalan,FALSE,M,20
-1999,Best Director - Motion Picture,Steven Spielberg,Saving Private Ryan,TRUE,M,2
-1999,Best Director - Motion Picture,John Madden,Shakespeare in Love,FALSE,M,3
-1999,Best Director - Motion Picture,Peter Weir,The Truman Show,FALSE,M,4
-1999,Best Director - Motion Picture,Robert Redford,The Horse Whisperer,FALSE,M,5
-1999,Best Director - Motion Picture,Shekhar Kapur,Elizabeth,FALSE,M,6
-1999,Best Original Score - Motion Picture,The Truman Show,Burkhard von Dallwitz,TRUE,M,7
-1999,Best Original Score - Motion Picture,A Bug's Life,Randy Newman,FALSE,M,8
-1999,Best Original Score - Motion Picture,Mulan,Jerry Goldsmith,FALSE,M,9
-1999,Best Original Score - Motion Picture,Saving Private Ryan,John Williams,FALSE,M,10
-1999,Best Original Score - Motion Picture,The Prince of Egypt,Stephen Schwartz,FALSE,M,11
-1999,Best Original Song - Motion Picture,The Magic Sword: Quest for Camelot,David Foster,TRUE,M,12
-1999,Best Original Song - Motion Picture,City of Angels,Alanis Morissette,FALSE,F,1
-1999,Best Original Song - Motion Picture,Mulan,Matthew Wilder,FALSE,M,13
-1999,Best Original Song - Motion Picture,Still Crazy,Mick Jones,FALSE,M,14
-1999,Best Original Song - Motion Picture,The Mighty,Sting,FALSE,M,15
-1999,Best Screenplay - Motion Picture,Shakespeare in Love,Marc Norman,TRUE,M,16
-1999,Best Screenplay - Motion Picture,Bulworth,Warren Beatty,FALSE,M,17
-1999,Best Screenplay - Motion Picture,Happiness,Todd Solondz,FALSE,M,18
-1999,Best Screenplay - Motion Picture,Saving Private Ryan,Robert Rodat,FALSE,M,19
-1999,Best Screenplay - Motion Picture,The Truman Show,Andrew Niccol,FALSE,M,20
-1998,Best Director - Motion Picture,James Cameron,Titanic,TRUE,M,3
-1998,Best Director - Motion Picture,Curtis Hanson,L.A. Confidential,FALSE,M,4
-1998,Best Director - Motion Picture,James L. Brooks,As Good as It Gets,FALSE,M,5
-1998,Best Director - Motion Picture,Jim Sheridan,The Boxer,FALSE,M,6
-1998,Best Director - Motion Picture,Steven Spielberg,Amistad,FALSE,M,7
-1998,Best Original Score - Motion Picture,Titanic,James Horner,TRUE,M,8
-1998,Best Original Score - Motion Picture,Gattaca,Michael Nyman,FALSE,M,9
-1998,Best Original Score - Motion Picture,Kundun,Philip Glass,FALSE,M,10
-1998,Best Original Score - Motion Picture,L.A. Confidential,Jerry Goldsmith,FALSE,M,11
-1998,Best Original Score - Motion Picture,Seven Years in Tibet,John Williams,FALSE,M,12
-1998,Best Original Song - Motion Picture,Titanic,James Horner,TRUE,M,13
-1998,Best Original Song - Motion Picture,Anastasia,Stephen Flaherty,FALSE,M,14
-1998,Best Original Song - Motion Picture,Anastasia,Stephen Flaherty,FALSE,M,15
-1998,Best Original Song - Motion Picture,Hercules,Alan Menken,FALSE,M,16
-1998,Best Original Song - Motion Picture,Tomorrow Never Dies,Sheryl Crow,FALSE,F,1
-1998,Best Screenplay - Motion Picture,Good Will Hunting,Matt Damon,TRUE,M,17
-1998,Best Screenplay - Motion Picture,As Good as It Gets,Mark Andrus,FALSE,M,18
-1998,Best Screenplay - Motion Picture,L.A. Confidential,Brian Helgeland,FALSE,M,19
-1998,Best Screenplay - Motion Picture,Titanic,James Cameron,FALSE,M,20
-1998,Best Screenplay - Motion Picture,Wag the Dog,Hilary Henkin,FALSE,F,2
-1997,Best Director - Motion Picture,Milos Forman,The People vs. Larry Flynt,TRUE,M,3
-1997,Best Director - Motion Picture,Alan Parker,Evita,FALSE,M,4
-1997,Best Director - Motion Picture,Anthony Minghella,The English Patient,FALSE,M,5
-1997,Best Director - Motion Picture,Joel Coen,Fargo,FALSE,M,6
-1997,Best Director - Motion Picture,Scott Hicks,Shine,FALSE,M,7
-1997,Best Original Score - Motion Picture,The English Patient,Gabriel Yared,TRUE,M,8
-1997,Best Original Score - Motion Picture,Michael Collins,Elliot Goldenthal,FALSE,M,9
-1997,Best Original Score - Motion Picture,Shine,David Hirschfelder,FALSE,M,10
-1997,Best Original Score - Motion Picture,The Hunchback of Notre Dame,Alan Menken,FALSE,M,11
-1997,Best Original Score - Motion Picture,The Mirror Has Two Faces,Marvin Hamlisch,FALSE,M,12
-1997,Best Original Song - Motion Picture,Evita,Andrew Lloyd Webber,TRUE,M,13
-1997,Best Original Song - Motion Picture,One Fine Day,James Newton Howard,FALSE,M,14
-1997,Best Original Song - Motion Picture,That Thing You Do!,Adam Schlesinger,FALSE,M,15
-1997,Best Original Song - Motion Picture,The Mirror Has Two Faces,Barbra Streisand,FALSE,F,1
-1997,Best Original Song - Motion Picture,Up Close & Personal,Diane Warren,FALSE,F,2
-1997,Best Screenplay - Motion Picture,The People vs. Larry Flynt,Scott Alexander,TRUE,M,16
-1997,Best Screenplay - Motion Picture,Fargo,Ethan Coen,FALSE,M,17
-1997,Best Screenplay - Motion Picture,Lone Star,John Sayles,FALSE,M,18
-1997,Best Screenplay - Motion Picture,Shine,Jan Sardi,FALSE,M,19
-1997,Best Screenplay - Motion Picture,The English Patient,Anthony Minghella,FALSE,M,20
-1996,Best Director - Motion Picture,Mel Gibson,Braveheart,TRUE,M,2
-1996,Best Director - Motion Picture,Ang Lee,Sense and Sensibility,FALSE,M,3
-1996,Best Director - Motion Picture,Martin Scorsese,Casino,FALSE,M,4
-1996,Best Director - Motion Picture,Mike Figgis,Leaving Las Vegas,FALSE,M,5
-1996,Best Director - Motion Picture,Rob Reiner,The American President,FALSE,M,6
-1996,Best Original Score - Motion Picture,A Walk in the Clouds,Maurice Jarre,TRUE,M,7
-1996,Best Original Score - Motion Picture,Braveheart,James Horner,FALSE,M,8
-1996,Best Original Score - Motion Picture,Don Juan DeMarco,Michael Kamen,FALSE,M,9
-1996,Best Original Score - Motion Picture,Pocahontas,Alan Menken,FALSE,M,10
-1996,Best Original Score - Motion Picture,Sense and Sensibility,Patrick Doyle,FALSE,M,11
-1996,Best Original Song - Motion Picture,Pocahontas,Alan Menken,TRUE,M,12
-1996,Best Original Song - Motion Picture,Batman Forever,Adam Clayton,FALSE,M,13
-1996,Best Original Song - Motion Picture,Don Juan DeMarco,Michael Kamen,FALSE,M,14
-1996,Best Original Song - Motion Picture,Sabrina,John Williams,FALSE,M,15
-1996,Best Original Song - Motion Picture,Toy Story,Randy Newman,FALSE,M,16
-1996,Best Screenplay - Motion Picture,Sense and Sensibility,Emma Thompson,TRUE,F,1
-1996,Best Screenplay - Motion Picture,Braveheart,Randall Wallace,FALSE,M,17
-1996,Best Screenplay - Motion Picture,Dead Man Walking,Tim Robbins,FALSE,M,18
-1996,Best Screenplay - Motion Picture,Get Shorty,Scott Frank,FALSE,M,19
-1996,Best Screenplay - Motion Picture,Mr. Holland's Opus,Patrick Sheane Duncan,FALSE,M,20
-1995,Best Director - Motion Picture,Robert Zemeckis,Forrest Gump,TRUE,M,2
-1995,Best Director - Motion Picture,Edward Zwick,Legends of the Fall,FALSE,M,3
-1995,Best Director - Motion Picture,Oliver Stone,Natural Born Killers,FALSE,M,4
-1995,Best Director - Motion Picture,Quentin Tarantino,Pulp Fiction,FALSE,M,5
-1995,Best Director - Motion Picture,Robert Redford,Quiz Show,FALSE,M,6
-1995,Best Original Score - Motion Picture,The Lion King,Hans Zimmer,TRUE,M,7
-1995,Best Original Score - Motion Picture,Forrest Gump,Alan Silvestri,FALSE,M,8
-1995,Best Original Score - Motion Picture,Interview with the Vampire: The Vampire Chronicles,Elliot Goldenthal,FALSE,M,9
-1995,Best Original Score - Motion Picture,Legends of the Fall,James Horner,FALSE,M,10
-1995,Best Original Score - Motion Picture,Nell,Mark Isham,FALSE,M,11
-1995,Best Original Song - Motion Picture,The Lion King,Elton John,TRUE,M,12
-1995,Best Original Song - Motion Picture,Color of Night,Jud Friedman,FALSE,M,13
-1995,Best Original Song - Motion Picture,Junior,Carole Bayer Sager,FALSE,F,1
-1995,Best Original Song - Motion Picture,The Lion King,Elton John,FALSE,M,14
-1995,Best Original Song - Motion Picture,The Swan Princess,Lex de Azevedo,FALSE,M,15
-1995,Best Screenplay - Motion Picture,Pulp Fiction,Quentin Tarantino,TRUE,M,16
-1995,Best Screenplay - Motion Picture,Forrest Gump,Eric Roth,FALSE,M,17
-1995,Best Screenplay - Motion Picture,Four Weddings and a Funeral,Richard Curtis,FALSE,M,18
-1995,Best Screenplay - Motion Picture,Quiz Show,Paul Attanasio,FALSE,M,19
-1995,Best Screenplay - Motion Picture,The Shawshank Redemption,Frank Darabont,FALSE,M,20
+year,category,nominee,winner,secondarynominee,gender,order
+1995,Best Original Song - Motion Picture,Junior,FALSE,Carole Bayer Sager,F,1
+1995,Best Original Song - Motion Picture,Color of Night,FALSE,Lauren Christy,F,2
+1995,Best Original Song - Motion Picture,Junior,FALSE,Patty Smyth,F,3
+1995,Best Director - Motion Picture,Robert Zemeckis,TRUE,Forrest Gump,M,4
+1995,Best Director - Motion Picture,Edward Zwick,FALSE,Legends of the Fall,M,5
+1995,Best Director - Motion Picture,Oliver Stone,FALSE,Natural Born Killers,M,6
+1995,Best Director - Motion Picture,Quentin Tarantino,FALSE,Pulp Fiction,M,7
+1995,Best Director - Motion Picture,Robert Redford,FALSE,Quiz Show,M,8
+1995,Best Original Score - Motion Picture,The Lion King,TRUE,Hans Zimmer,M,9
+1995,Best Original Score - Motion Picture,Forrest Gump,FALSE,Alan Silvestri,M,10
+1995,Best Original Score - Motion Picture,Interview with the Vampire: The Vampire Chronicles,FALSE,Elliot Goldenthal,M,11
+1995,Best Original Score - Motion Picture,Legends of the Fall,FALSE,James Horner,M,12
+1995,Best Original Score - Motion Picture,Nell,FALSE,Mark Isham,M,13
+1995,Best Original Song - Motion Picture,The Lion King,TRUE,Elton John,M,14
+1995,Best Original Song - Motion Picture,Color of Night,FALSE,Jud Friedman,M,15
+1995,Best Original Song - Motion Picture,The Lion King,FALSE,Elton John,M,16
+1995,Best Original Song - Motion Picture,The Swan Princess,FALSE,Lex de Azevedo,M,17
+1995,Best Screenplay - Motion Picture,Pulp Fiction,TRUE,Quentin Tarantino,M,18
+1995,Best Screenplay - Motion Picture,Forrest Gump,FALSE,Eric Roth,M,19
+1995,Best Screenplay - Motion Picture,Four Weddings and a Funeral,FALSE,Richard Curtis,M,20
+1995,Best Screenplay - Motion Picture,Quiz Show,FALSE,Paul Attanasio,M,21
+1995,Best Screenplay - Motion Picture,The Shawshank Redemption,FALSE,Frank Darabont,M,22
+1995,Best Original Song - Motion Picture,The Lion King,TRUE,Tim Rice,M,23
+1995,Best Original Song - Motion Picture,Color of Night,FALSE,Dominic Frontiere,M,24
+1995,Best Original Song - Motion Picture,Junior,FALSE,James Ingram,M,25
+1995,Best Original Song - Motion Picture,Junior,FALSE,James Newton Howard,M,26
+1995,Best Original Song - Motion Picture,The Lion King,FALSE,Tim Rice,M,27
+1995,Best Original Song - Motion Picture,The Swan Princess,FALSE,David Zippel,M,28
+1996,Best Screenplay - Motion Picture,Sense and Sensibility,TRUE,Emma Thompson,F,1
+1996,Best Original Song - Motion Picture,Sabrina,FALSE,Marilyn Bergman,F,2
+1996,Best Director - Motion Picture,Mel Gibson,TRUE,Braveheart,M,3
+1996,Best Director - Motion Picture,Ang Lee,FALSE,Sense and Sensibility,M,4
+1996,Best Director - Motion Picture,Martin Scorsese,FALSE,Casino,M,5
+1996,Best Director - Motion Picture,Mike Figgis,FALSE,Leaving Las Vegas,M,6
+1996,Best Director - Motion Picture,Rob Reiner,FALSE,The American President,M,7
+1996,Best Original Score - Motion Picture,A Walk in the Clouds,TRUE,Maurice Jarre,M,8
+1996,Best Original Score - Motion Picture,Braveheart,FALSE,James Horner,M,9
+1996,Best Original Score - Motion Picture,Don Juan DeMarco,FALSE,Michael Kamen,M,10
+1996,Best Original Score - Motion Picture,Pocahontas,FALSE,Alan Menken,M,11
+1996,Best Original Score - Motion Picture,Sense and Sensibility,FALSE,Patrick Doyle,M,12
+1996,Best Original Song - Motion Picture,Pocahontas,TRUE,Alan Menken,M,13
+1996,Best Original Song - Motion Picture,Batman Forever,FALSE,Adam Clayton,M,14
+1996,Best Original Song - Motion Picture,Don Juan DeMarco,FALSE,Michael Kamen,M,15
+1996,Best Original Song - Motion Picture,Sabrina,FALSE,John Williams,M,16
+1996,Best Original Song - Motion Picture,Toy Story,FALSE,Randy Newman,M,17
+1996,Best Screenplay - Motion Picture,Braveheart,FALSE,Randall Wallace,M,18
+1996,Best Screenplay - Motion Picture,Dead Man Walking,FALSE,Tim Robbins,M,19
+1996,Best Screenplay - Motion Picture,Get Shorty,FALSE,Scott Frank,M,20
+1996,Best Screenplay - Motion Picture,Mr. Holland's Opus,FALSE,Patrick Sheane Duncan,M,21
+1996,Best Original Song - Motion Picture,Pocahontas,TRUE,Stephen Schwartz,M,22
+1996,Best Original Song - Motion Picture,Batman Forever,FALSE,The Edge,M,23
+1996,Best Original Song - Motion Picture,Batman Forever,FALSE,Larry Mullen Jr.,M,24
+1996,Best Original Song - Motion Picture,Batman Forever,FALSE,Bono,M,25
+1996,Best Original Song - Motion Picture,Don Juan DeMarco,FALSE,Bryan Adams,M,26
+1996,Best Original Song - Motion Picture,Don Juan DeMarco,FALSE,Robert John Lange,M,27
+1996,Best Original Song - Motion Picture,Sabrina,FALSE,Alan Bergman,M,28
+1997,Best Original Song - Motion Picture,The Mirror Has Two Faces,FALSE,Barbra Streisand,F,1
+1997,Best Original Song - Motion Picture,Up Close & Personal,FALSE,Diane Warren,F,2
+1997,Best Director - Motion Picture,Milos Forman,TRUE,The People vs. Larry Flynt,M,3
+1997,Best Director - Motion Picture,Alan Parker,FALSE,Evita,M,4
+1997,Best Director - Motion Picture,Anthony Minghella,FALSE,The English Patient,M,5
+1997,Best Director - Motion Picture,Joel Coen,FALSE,Fargo,M,6
+1997,Best Director - Motion Picture,Scott Hicks,FALSE,Shine,M,7
+1997,Best Original Score - Motion Picture,The English Patient,TRUE,Gabriel Yared,M,8
+1997,Best Original Score - Motion Picture,Michael Collins,FALSE,Elliot Goldenthal,M,9
+1997,Best Original Score - Motion Picture,Shine,FALSE,David Hirschfelder,M,10
+1997,Best Original Score - Motion Picture,The Hunchback of Notre Dame,FALSE,Alan Menken,M,11
+1997,Best Original Score - Motion Picture,The Mirror Has Two Faces,FALSE,Marvin Hamlisch,M,12
+1997,Best Original Song - Motion Picture,Evita,TRUE,Andrew Lloyd Webber,M,13
+1997,Best Original Song - Motion Picture,One Fine Day,FALSE,James Newton Howard,M,14
+1997,Best Original Song - Motion Picture,That Thing You Do!,FALSE,Adam Schlesinger,M,15
+1997,Best Screenplay - Motion Picture,The People vs. Larry Flynt,TRUE,Scott Alexander,M,16
+1997,Best Screenplay - Motion Picture,Fargo,FALSE,Ethan Coen,M,17
+1997,Best Screenplay - Motion Picture,Lone Star,FALSE,John Sayles,M,18
+1997,Best Screenplay - Motion Picture,Shine,FALSE,Jan Sardi,M,19
+1997,Best Screenplay - Motion Picture,The English Patient,FALSE,Anthony Minghella,M,20
+1997,Best Original Song - Motion Picture,Evita,TRUE,Tim Rice,M,21
+1997,Best Original Song - Motion Picture,One Fine Day,FALSE,Jud Friedman,M,22
+1997,Best Original Song - Motion Picture,One Fine Day,FALSE,Allan Rich,M,23
+1997,Best Original Song - Motion Picture,The Mirror Has Two Faces,FALSE,Marvin Hamlisch,M,24
+1997,Best Original Song - Motion Picture,The Mirror Has Two Faces,FALSE,Robert John Lange,M,25
+1997,Best Screenplay - Motion Picture,The People vs. Larry Flynt,TRUE,Larry Karaszewski,M,26
+1997,Best Screenplay - Motion Picture,Fargo,FALSE,Joel Coen,M,27
+1998,Best Original Song - Motion Picture,Tomorrow Never Dies,FALSE,Sheryl Crow,F,1
+1998,Best Screenplay - Motion Picture,Wag the Dog,FALSE,Hilary Henkin,F,2
+1998,Best Original Song - Motion Picture,Anastasia,FALSE,Lynn Ahrens,F,3
+1998,Best Director - Motion Picture,James Cameron,TRUE,Titanic,M,4
+1998,Best Director - Motion Picture,Curtis Hanson,FALSE,L.A. Confidential,M,5
+1998,Best Director - Motion Picture,James L. Brooks,FALSE,As Good as It Gets,M,6
+1998,Best Director - Motion Picture,Jim Sheridan,FALSE,The Boxer,M,7
+1998,Best Director - Motion Picture,Steven Spielberg,FALSE,Amistad,M,8
+1998,Best Original Score - Motion Picture,Titanic,TRUE,James Horner,M,9
+1998,Best Original Score - Motion Picture,Gattaca,FALSE,Michael Nyman,M,10
+1998,Best Original Score - Motion Picture,Kundun,FALSE,Philip Glass,M,11
+1998,Best Original Score - Motion Picture,L.A. Confidential,FALSE,Jerry Goldsmith,M,12
+1998,Best Original Score - Motion Picture,Seven Years in Tibet,FALSE,John Williams,M,13
+1998,Best Original Song - Motion Picture,Titanic,TRUE,James Horner,M,14
+1998,Best Original Song - Motion Picture,Anastasia,FALSE,Stephen Flaherty,M,15
+1998,Best Original Song - Motion Picture,Anastasia,FALSE,Stephen Flaherty,M,16
+1998,Best Original Song - Motion Picture,Hercules,FALSE,Alan Menken,M,17
+1998,Best Screenplay - Motion Picture,Good Will Hunting,TRUE,Matt Damon,M,18
+1998,Best Screenplay - Motion Picture,As Good as It Gets,FALSE,Mark Andrus,M,19
+1998,Best Screenplay - Motion Picture,L.A. Confidential,FALSE,Brian Helgeland,M,20
+1998,Best Screenplay - Motion Picture,Titanic,FALSE,James Cameron,M,21
+1998,Best Original Song - Motion Picture,Titanic,TRUE,Will Jennings,M,22
+1998,Best Original Song - Motion Picture,Hercules,FALSE,David Zippel,M,23
+1998,Best Original Song - Motion Picture,Tomorrow Never Dies,FALSE,Mitchell Froom,M,24
+1998,Best Screenplay - Motion Picture,Good Will Hunting,TRUE,Ben Affleck,M,25
+1998,Best Screenplay - Motion Picture,As Good as It Gets,FALSE,James L. Brooks,M,26
+1998,Best Screenplay - Motion Picture,L.A. Confidential,FALSE,Curtis Hanson,M,27
+1998,Best Screenplay - Motion Picture,Wag the Dog,FALSE,David Mamet,M,28
+1999,Best Original Song - Motion Picture,City of Angels,FALSE,Alanis Morissette,F,1
+1999,Best Original Song - Motion Picture,The Magic Sword: Quest for Camelot,TRUE,Carole Bayer Sager,F,2
+1999,Best Director - Motion Picture,Steven Spielberg,TRUE,Saving Private Ryan,M,3
+1999,Best Director - Motion Picture,John Madden,FALSE,Shakespeare in Love,M,4
+1999,Best Director - Motion Picture,Peter Weir,FALSE,The Truman Show,M,5
+1999,Best Director - Motion Picture,Robert Redford,FALSE,The Horse Whisperer,M,6
+1999,Best Director - Motion Picture,Shekhar Kapur,FALSE,Elizabeth,M,7
+1999,Best Original Score - Motion Picture,The Truman Show,TRUE,Burkhard von Dallwitz,M,8
+1999,Best Original Score - Motion Picture,A Bug's Life,FALSE,Randy Newman,M,9
+1999,Best Original Score - Motion Picture,Mulan,FALSE,Jerry Goldsmith,M,10
+1999,Best Original Score - Motion Picture,Saving Private Ryan,FALSE,John Williams,M,11
+1999,Best Original Score - Motion Picture,The Prince of Egypt,FALSE,Stephen Schwartz,M,12
+1999,Best Original Song - Motion Picture,The Magic Sword: Quest for Camelot,TRUE,David Foster,M,13
+1999,Best Original Song - Motion Picture,Mulan,FALSE,Matthew Wilder,M,14
+1999,Best Original Song - Motion Picture,Still Crazy,FALSE,Mick Jones,M,15
+1999,Best Original Song - Motion Picture,The Mighty,FALSE,Sting,M,16
+1999,Best Screenplay - Motion Picture,Shakespeare in Love,TRUE,Marc Norman,M,17
+1999,Best Screenplay - Motion Picture,Bulworth,FALSE,Warren Beatty,M,18
+1999,Best Screenplay - Motion Picture,Happiness,FALSE,Todd Solondz,M,19
+1999,Best Screenplay - Motion Picture,Saving Private Ryan,FALSE,Robert Rodat,M,20
+1999,Best Screenplay - Motion Picture,The Truman Show,FALSE,Andrew Niccol,M,21
+1999,Best Original Score - Motion Picture,The Truman Show,TRUE,Philip Glass,M,22
+1999,Best Original Score - Motion Picture,The Prince of Egypt,FALSE,Hans Zimmer,M,23
+1999,Best Original Song - Motion Picture,The Magic Sword: Quest for Camelot,TRUE,Alberto Testa,M,24
+1999,Best Original Song - Motion Picture,The Magic Sword: Quest for Camelot,TRUE,Tony Renis,M,25
+1999,Best Original Song - Motion Picture,Mulan,FALSE,David Zippel,M,26
+1999,Best Original Song - Motion Picture,Still Crazy,FALSE,Marti Frederiksen,M,27
+1999,Best Original Song - Motion Picture,Still Crazy,FALSE,Chris Difford,M,28
+1999,Best Original Song - Motion Picture,The Mighty,FALSE,Trevor Jones,M,29
+1999,Best Screenplay - Motion Picture,Shakespeare in Love,TRUE,Tom Stoppard,M,30
+2000,Best Original Score - Motion Picture,Eyes Wide Shut,FALSE,Jocelyn Pook,F,1
+2000,Best Original Song - Motion Picture,Austin Powers: The Spy Who Shagged Me,FALSE,Madonna,F,2
+2000,Best Original Song - Motion Picture,Magnolia,FALSE,Aimee Mann,F,3
+2000,Best Director - Motion Picture,Sam Mendes,TRUE,American Beauty,M,4
+2000,Best Director - Motion Picture,Anthony Minghella,FALSE,The Talented Mr. Ripley,M,5
+2000,Best Director - Motion Picture,Michael Mann,FALSE,The Insider,M,6
+2000,Best Director - Motion Picture,Neil Jordan,FALSE,The End of the Affair,M,7
+2000,Best Director - Motion Picture,Norman Jewison,FALSE,The Hurricane,M,8
+2000,Best Original Score - Motion Picture,The Legend of 1900,TRUE,Ennio Morricone,M,9
+2000,Best Original Score - Motion Picture,American Beauty,FALSE,Thomas Newman,M,10
+2000,Best Original Score - Motion Picture,Angela's Ashes,FALSE,John Williams,M,11
+2000,Best Original Score - Motion Picture,Anna and the King,FALSE,George Fenton,M,12
+2000,Best Original Song - Motion Picture,Tarzan,TRUE,Phil Collins,M,13
+2000,Best Original Song - Motion Picture,Anna and the King,FALSE,Kenneth 'Babyface' Edmonds,M,14
+2000,Best Original Song - Motion Picture,Toy Story 2,FALSE,Randy Newman,M,15
+2000,Best Screenplay - Motion Picture,American Beauty,TRUE,Alan Ball,M,16
+2000,Best Screenplay - Motion Picture,Being John Malkovich,FALSE,Charlie Kaufman,M,17
+2000,Best Screenplay - Motion Picture,The Cider House Rules,FALSE,John Irving,M,18
+2000,Best Screenplay - Motion Picture,The Insider,FALSE,Eric Roth,M,19
+2000,Best Screenplay - Motion Picture,The Sixth Sense,FALSE,M. Night Shyamalan,M,20
+2000,Best Original Score - Motion Picture,The Insider,FALSE,Pieter Bourke,M,21
+2000,Best Screenplay - Motion Picture,The Insider,FALSE,Michael Mann,M,22
+2001,Best Original Score - Motion Picture,Chocolat,FALSE,Rachel Portman,F,1
+2001,Best Original Song - Motion Picture,Dancer in the Dark,FALSE,Bjork,F,2
+2001,Best Director - Motion Picture,Ang Lee,TRUE,"Crouching Tiger, Hidden Dragon",M,3
+2001,Best Director - Motion Picture,István Szabó,FALSE,Sunshine,M,4
+2001,Best Director - Motion Picture,Ridley Scott,FALSE,Gladiator,M,5
+2001,Best Director - Motion Picture,Steven Soderbergh,FALSE,Traffic,M,6
+2001,Best Director - Motion Picture,Steven Soderbergh,FALSE,Erin Brockovich,M,7
+2001,Best Original Score - Motion Picture,Gladiator,TRUE,Hans Zimmer,M,8
+2001,Best Original Score - Motion Picture,All the Pretty Horses,FALSE,Marty Stuart,M,9
+2001,Best Original Score - Motion Picture,"Crouching Tiger, Hidden Dragon",FALSE,Dun Tan,M,10
+2001,Best Original Score - Motion Picture,Malèna,FALSE,Ennio Morricone,M,11
+2001,Best Original Song - Motion Picture,Wonder Boys,TRUE,Bob Dylan,M,12
+2001,Best Original Song - Motion Picture,Dancer in the Dark,FALSE,Bjork,M,13
+2001,Best Original Song - Motion Picture,Frequency,FALSE,Garth Brooks,M,14
+2001,Best Original Song - Motion Picture,Miss Congeniality,FALSE,Bosson,M,15
+2001,Best Original Song - Motion Picture,The Emperor's New Groove,FALSE,Sting,M,16
+2001,Best Screenplay - Motion Picture,Traffic,TRUE,Stephen Gaghan,M,17
+2001,Best Screenplay - Motion Picture,Almost Famous,FALSE,Cameron Crowe,M,18
+2001,Best Screenplay - Motion Picture,Quills,FALSE,Doug Wright,M,19
+2001,Best Screenplay - Motion Picture,Wonder Boys,FALSE,Steve Kloves,M,20
+2001,Best Screenplay - Motion Picture,You Can Count on Me,FALSE,Kenneth Lonergan,M,21
+2001,Best Original Song - Motion Picture,Dancer in the Dark,FALSE,Lars von Trier,M,22
+2001,Best Original Song - Motion Picture,Dancer in the Dark,FALSE,Sjón Sigurdsson,M,23
+2001,Best Original Song - Motion Picture,The Emperor's New Groove,FALSE,Sting,M,24
+2001,Best Original Song - Motion Picture,The Emperor's New Groove,FALSE,Dave Hartley,M,25
+2002,Best Original Score - Motion Picture,Ali,FALSE,Lisa Gerrard,F,1
+2002,Best Original Song - Motion Picture,The Lord of the Rings: The Fellowship of the Ring,FALSE,Enya,F,2
+2002,Best Director - Motion Picture,Robert Altman,TRUE,Gosford Park,M,3
+2002,Best Director - Motion Picture,Baz Luhrmann,FALSE,Moulin Rouge!,M,4
+2002,Best Director - Motion Picture,David Lynch,FALSE,Mulholland Drive,M,5
+2002,Best Director - Motion Picture,Peter Jackson,FALSE,The Lord of the Rings: The Fellowship of the Ring,M,6
+2002,Best Director - Motion Picture,Ron Howard,FALSE,A Beautiful Mind,M,7
+2002,Best Original Score - Motion Picture,Moulin Rouge!,TRUE,Craig Armstrong,M,8
+2002,Best Original Score - Motion Picture,A Beautiful Mind,FALSE,James Horner,M,9
+2002,Best Original Score - Motion Picture,A.I. Artificial Intelligence,FALSE,John Williams,M,10
+2002,Best Original Score - Motion Picture,Mulholland Drive,FALSE,Angelo Badalamenti,M,11
+2002,Best Original Song - Motion Picture,Kate & Leopold,TRUE,Sting,M,12
+2002,Best Original Song - Motion Picture,Moulin Rouge!,FALSE,David Baerwald,M,13
+2002,Best Original Song - Motion Picture,Pearl Harbor,FALSE,Diane Warren,M,14
+2002,Best Original Song - Motion Picture,Vanilla Sky,FALSE,Paul McCartney,M,15
+2002,Best Screenplay - Motion Picture,A Beautiful Mind,TRUE,Akiva Goldsman,M,16
+2002,Best Screenplay - Motion Picture,Gosford Park,FALSE,Julian Fellowes,M,17
+2002,Best Screenplay - Motion Picture,Memento,FALSE,Christopher Nolan,M,18
+2002,Best Screenplay - Motion Picture,Mulholland Drive,FALSE,David Lynch,M,19
+2002,Best Screenplay - Motion Picture,The Man Who Wasn't There,FALSE,Joel Coen,M,20
+2002,Best Screenplay - Motion Picture,The Man Who Wasn't There,FALSE,Ethan Coen,M,21
+2003,Best Original Song - Motion Picture,Die Another Day,FALSE,Madonna,F,1
+2003,Best Original Song - Motion Picture,Spirit: Stallion of the Cimarron,FALSE,Gretchen Peters,F,2
+2003,Best Director - Motion Picture,Martin Scorsese,TRUE,Gangs of New York,M,3
+2003,Best Director - Motion Picture,Alexander Payne,FALSE,About Schmidt,M,4
+2003,Best Director - Motion Picture,Peter Jackson,FALSE,The Lord of the Rings: The Two Towers,M,5
+2003,Best Director - Motion Picture,Rob Marshall,FALSE,Chicago,M,6
+2003,Best Director - Motion Picture,Spike Jonze,FALSE,Adaptation.,M,7
+2003,Best Original Score - Motion Picture,Frida,TRUE,Elliot Goldenthal,M,8
+2003,Best Original Score - Motion Picture,25th Hour,FALSE,Terence Blanchard,M,9
+2003,Best Original Score - Motion Picture,Far from Heaven,FALSE,Elmer Bernstein,M,10
+2003,Best Original Score - Motion Picture,Rabbit-Proof Fence,FALSE,Peter Gabriel,M,11
+2003,Best Original Score - Motion Picture,The Hours,FALSE,Philip Glass,M,12
+2003,Best Original Song - Motion Picture,Gangs of New York,TRUE,Bono,M,13
+2003,Best Original Song - Motion Picture,8 Mile,FALSE,Eminem,M,14
+2003,Best Original Song - Motion Picture,Spirit: Stallion of the Cimarron,FALSE,Hans Zimmer,M,15
+2003,Best Original Song - Motion Picture,The Wild Thornberrys Movie,FALSE,Paul Simon,M,16
+2003,Best Screenplay - Motion Picture,About Schmidt,TRUE,Alexander Payne,M,17
+2003,Best Screenplay - Motion Picture,Adaptation.,FALSE,Charlie Kaufman,M,18
+2003,Best Screenplay - Motion Picture,Chicago,FALSE,Bill Condon,M,19
+2003,Best Screenplay - Motion Picture,Far from Heaven,FALSE,Todd Haynes,M,20
+2003,Best Screenplay - Motion Picture,The Hours,FALSE,David Hare,M,21
+2003,Best Original Song - Motion Picture,Gangs of New York,TRUE,The Edge,M,22
+2003,Best Original Song - Motion Picture,Gangs of New York,TRUE,Adam Clayton,M,23
+2003,Best Original Song - Motion Picture,Gangs of New York,TRUE,Larry Mullen Jr.,M,24
+2003,Best Original Song - Motion Picture,8 Mile,FALSE,Jeff Bass,M,25
+2003,Best Original Song - Motion Picture,9 Mile,FALSE,Luis Resto,M,26
+2003,Best Original Song - Motion Picture,Die Another Day,FALSE,Mirwais Ahmadzaï,M,27
+2003,Best Original Song - Motion Picture,Spirit: Stallion of the Cimarron,FALSE,Bryan Adams,M,28
+2003,Best Screenplay - Motion Picture,About Schmidt,TRUE,Alexander Payne,M,29
+2003,Best Screenplay - Motion Picture,About Schmidt,TRUE,Jim Taylor,M,30
+2004,Best Director - Motion Picture,Sofia Coppola,FALSE,Lost in Translation,F,1
+2004,Best Screenplay - Motion Picture,Lost in Translation,TRUE,Sofia Coppola,F,2
+2004,Best Original Song - Motion Picture,The Lord of the Rings: The Return of the King,TRUE,Fran Walsh,F,3
+2004,Best Original Song - Motion Picture,The Lord of the Rings: The Return of the King,TRUE,Annie Lennox,F,4
+2004,Best Director - Motion Picture,Peter Jackson,TRUE,The Lord of the Rings: The Return of the King,M,5
+2004,Best Director - Motion Picture,Anthony Minghella,FALSE,Cold Mountain,M,6
+2004,Best Director - Motion Picture,Clint Eastwood,FALSE,Mystic River,M,7
+2004,Best Director - Motion Picture,Peter Weir,FALSE,Master and Commander: The Far Side of the World,M,8
+2004,Best Original Score - Motion Picture,The Lord of the Rings: The Return of the King,TRUE,Howard Shore,M,9
+2004,Best Original Score - Motion Picture,Big Fish,FALSE,Danny Elfman,M,10
+2004,Best Original Score - Motion Picture,Cold Mountain,FALSE,Gabriel Yared,M,11
+2004,Best Original Score - Motion Picture,Girl with a Pearl Earring,FALSE,Alexandre Desplat,M,12
+2004,Best Original Score - Motion Picture,The Last Samurai,FALSE,Hans Zimmer,M,13
+2004,Best Original Song - Motion Picture,The Lord of the Rings: The Return of the King,TRUE,Howard Shore,M,14
+2004,Best Original Song - Motion Picture,Big Fish,FALSE,Eddie Vedder,M,15
+2004,Best Original Song - Motion Picture,Cold Mountain,FALSE,Sting,M,16
+2004,Best Original Song - Motion Picture,In America,FALSE,Bono,M,17
+2004,Best Original Song - Motion Picture,Mona Lisa Smile,FALSE,Elton John,M,18
+2004,Best Screenplay - Motion Picture,Cold Mountain,FALSE,Anthony Minghella,M,19
+2004,Best Screenplay - Motion Picture,In America,FALSE,Jim Sheridan,M,20
+2004,Best Screenplay - Motion Picture,Love Actually,FALSE,Richard Curtis,M,21
+2004,Best Screenplay - Motion Picture,Mystic River,FALSE,Brian Helgeland,M,22
+2004,Best Original Song - Motion Picture,Big Fish,FALSE,Gavin Friday,M,23
+2004,Best Original Song - Motion Picture,Big Fish,FALSE,Maurice Seezer,M,24
+2004,Best Original Song - Motion Picture,In America,FALSE,Gavin Friday,M,25
+2004,Best Original Song - Motion Picture,In America,FALSE,Maurice Seezer,M,26
+2004,Best Original Song - Motion Picture,Mona Lisa Smile,FALSE,Elton John,M,27
+2004,Best Original Song - Motion Picture,Mona Lisa Smile,FALSE,Bernie Taupin (lyrics),M,28
+2005,Best Original Song - Motion Picture,Hotel Rwanda,FALSE,Andrea Guerra,F,1
+2005,Best Director - Motion Picture,Clint Eastwood,TRUE,Million Dollar Baby,M,2
+2005,Best Director - Motion Picture,Alexander Payne,FALSE,Sideways,M,3
+2005,Best Director - Motion Picture,Marc Forster,FALSE,Finding Neverland,M,4
+2005,Best Director - Motion Picture,Martin Scorsese,FALSE,The Aviator,M,5
+2005,Best Director - Motion Picture,Mike Nichols,FALSE,Closer,M,6
+2005,Best Original Score - Motion Picture,The Aviator,TRUE,Howard Shore,M,7
+2005,Best Original Score - Motion Picture,Finding Neverland,FALSE,Jan A.P. Kaczmarek,M,8
+2005,Best Original Score - Motion Picture,Million Dollar Baby,FALSE,Clint Eastwood,M,9
+2005,Best Original Score - Motion Picture,Sideways,FALSE,Rolfe Kent,M,10
+2005,Best Original Score - Motion Picture,Spanglish,FALSE,Hans Zimmer,M,11
+2005,Best Original Song - Motion Picture,Alfie,TRUE,Mick Jagger,M,12
+2005,Best Original Song - Motion Picture,Hotel Rwanda,FALSE,Wyclef Jean,M,13
+2005,Best Original Song - Motion Picture,Shrek 2,FALSE,Adam Duritz,M,14
+2005,Best Original Song - Motion Picture,The Phantom of the Opera,FALSE,Andrew Lloyd Webber,M,15
+2005,Best Original Song - Motion Picture,The Polar Express,FALSE,Glen Ballard,M,16
+2005,Best Screenplay - Motion Picture,Sideways,TRUE,Alexander Payne,M,17
+2005,Best Screenplay - Motion Picture,Closer,FALSE,Patrick Marber,M,18
+2005,Best Screenplay - Motion Picture,Eternal Sunshine of the Spotless Mind,FALSE,Charlie Kaufman,M,19
+2005,Best Screenplay - Motion Picture,Finding Neverland,FALSE,David Magee,M,20
+2005,Best Screenplay - Motion Picture,The Aviator,FALSE,John Logan,M,21
+2005,Best Original Song - Motion Picture,Alfie,TRUE,David A. Stewart,M,22
+2005,Best Original Song - Motion Picture,Hotel Rwanda,FALSE,Jerry 'Wonder' Duplessis,M,23
+2005,Best Original Song - Motion Picture,Shrek 2,FALSE,Dan Vickrey,M,24
+2005,Best Original Song - Motion Picture,Shrek 2,FALSE,David Immerglück,M,25
+2005,Best Original Song - Motion Picture,Shrek 2,FALSE,Matthew Malley,M,26
+2005,Best Original Song - Motion Picture,Shrek 2,FALSE,David Bryson,M,27
+2005,Best Original Song - Motion Picture,The Phantom of the Opera,FALSE,Charles Hart,M,28
+2005,Best Original Song - Motion Picture,The Polar Express,FALSE,Alan Silvestri,M,29
+2005,Best Screenplay - Motion Picture,Sideways,TRUE,Bernie Taupin,M,30
+2006,Best Original Song - Motion Picture,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",FALSE,Alanis Morissette,F,1
+2006,Best Original Song - Motion Picture,Transamerica,FALSE,Dolly Parton,F,2
+2006,Best Screenplay - Motion Picture,Brokeback Mountain,TRUE,Diana Ossana,F,3
+2006,Best Director - Motion Picture,Ang Lee,TRUE,Brokeback Mountain,M,4
+2006,Best Director - Motion Picture,Fernando Meirelles,FALSE,The Constant Gardener,M,5
+2006,Best Director - Motion Picture,George Clooney,FALSE,"Good Night, and Good Luck.",M,6
+2006,Best Director - Motion Picture,Peter Jackson,FALSE,King Kong,M,7
+2006,Best Director - Motion Picture,Steven Spielberg,FALSE,Munich,M,8
+2006,Best Original Score - Motion Picture,Memoirs of a Geisha,TRUE,John Williams,M,9
+2006,Best Original Score - Motion Picture,Brokeback Mountain,FALSE,Gustavo Santaolalla,M,10
+2006,Best Original Score - Motion Picture,King Kong,FALSE,James Newton Howard,M,11
+2006,Best Original Score - Motion Picture,Syriana,FALSE,Alexandre Desplat,M,12
+2006,Best Original Score - Motion Picture,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",FALSE,Harry Gregson-Williams,M,13
+2006,Best Original Song - Motion Picture,Brokeback Mountain,TRUE,Gustavo Santaolalla,M,14
+2006,Best Original Song - Motion Picture,Christmas in Love,FALSE,Tony Renis,M,15
+2006,Best Original Song - Motion Picture,The Producers,FALSE,Mel Brooks,M,16
+2006,Best Screenplay - Motion Picture,Brokeback Mountain,TRUE,Larry McMurtry,M,17
+2006,Best Screenplay - Motion Picture,Crash,FALSE,Paul Haggis,M,18
+2006,Best Screenplay - Motion Picture,"Good Night, and Good Luck.",FALSE,George Clooney,M,19
+2006,Best Screenplay - Motion Picture,Match Point,FALSE,Woody Allen,M,20
+2006,Best Screenplay - Motion Picture,Munich,FALSE,Tony Kushner,M,21
+2006,Best Screenplay - Motion Picture,Munich,FALSE,Eric Roth,M,22
+2006,Best Screenplay - Motion Picture,Crash,FALSE,Bobby Moresco,M,23
+2006,Best Screenplay - Motion Picture,"Good Night, and Good Luck.",FALSE,Grant Heslov,M,24
+2006,Best Original Song - Motion Picture,Brokeback Mountain,TRUE,Bernie Taupin,M,25
+2007,Best Original Song - Motion Picture,Dreamgirls,FALSE,Beyonce,F,1
+2007,Best Original Song - Motion Picture,Bobby,FALSE,Andrea Remanda,F,2
+2007,Best Original Song - Motion Picture,Dreamgirls,FALSE,Anne Preven,F,3
+2007,Best Director - Motion Picture,Martin Scorsese,TRUE,The Departed,M,4
+2007,Best Director - Motion Picture,Alejandro G. Iñárritu,FALSE,Babel,M,5
+2007,Best Director - Motion Picture,Clint Eastwood,FALSE,Letters from Iwo Jima,M,6
+2007,Best Director - Motion Picture,Clint Eastwood,FALSE,Flags of Our Fathers,M,7
+2007,Best Director - Motion Picture,Stephen Frears,FALSE,The Queen,M,8
+2007,Best Original Score - Motion Picture,The Painted Veil,TRUE,Alexandre Desplat,M,9
+2007,Best Original Score - Motion Picture,Babel,FALSE,Gustavo Santaolalla,M,10
+2007,Best Original Score - Motion Picture,Nomad: The Warrior,FALSE,Carlo Siliotto,M,11
+2007,Best Original Score - Motion Picture,The Da Vinci Code,FALSE,Hans Zimmer,M,12
+2007,Best Original Score - Motion Picture,The Fountain,FALSE,Clint Mansell,M,13
+2007,Best Original Song - Motion Picture,Happy Feet,TRUE,Prince,M,14
+2007,Best Original Song - Motion Picture,Bobby,FALSE,Bryan Adams,M,15
+2007,Best Original Song - Motion Picture,Home of the Brave,FALSE,Sheryl Crow,M,16
+2007,Best Original Song - Motion Picture,The Pursuit of Happyness,FALSE,Seal,M,17
+2007,Best Screenplay - Motion Picture,The Queen,TRUE,Peter Morgan,M,18
+2007,Best Screenplay - Motion Picture,Babel,FALSE,Guillermo Arriaga,M,19
+2007,Best Screenplay - Motion Picture,Little Children,FALSE,Todd Field,M,20
+2007,Best Screenplay - Motion Picture,Notes on a Scandal,FALSE,Patrick Marber,M,21
+2007,Best Screenplay - Motion Picture,The Departed,FALSE,William Monahan,M,22
+2007,Best Original Song - Motion Picture,Bobby,FALSE,Eliot Kennedy,M,23
+2007,Best Original Song - Motion Picture,Dreamgirls,FALSE,Henry Krieger,M,24
+2007,Best Original Song - Motion Picture,Dreamgirls,FALSE,Scott Cutler,M,25
+2007,Best Original Song - Motion Picture,The Pursuit of Happyness,FALSE,Christopher Bruce,M,26
+2007,Best Screenplay - Motion Picture,Little Children,FALSE,Tom Perrotta,M,27
+2008,Best Original Score - Motion Picture,Into the Wild,FALSE,Kaki King,F,1
+2008,Best Original Song - Motion Picture,Grace Is Gone,FALSE,Carole Bayer Sager,F,2
+2008,Best Original Song - Motion Picture,Love in the Time of Cholera,FALSE,Shakira,F,3
+2008,Best Director - Motion Picture,Julian Schnabel,TRUE,The Diving Bell and the Butterfly,M,4
+2008,Best Director - Motion Picture,Ethan Coen,FALSE,No Country for Old Men,M,5
+2008,Best Director - Motion Picture,Joe Wright,FALSE,Atonement,M,6
+2008,Best Director - Motion Picture,Ridley Scott,FALSE,American Gangster,M,7
+2008,Best Director - Motion Picture,Tim Burton,FALSE,Sweeney Todd: The Demon Barber of Fleet Street,M,8
+2008,Best Original Score - Motion Picture,Atonement,TRUE,Dario Marianelli,M,9
+2008,Best Original Score - Motion Picture,Eastern Promises,FALSE,Howard Shore,M,10
+2008,Best Original Score - Motion Picture,Grace Is Gone,FALSE,Clint Eastwood,M,11
+2008,Best Original Score - Motion Picture,Into the Wild,FALSE,Michael Brook,M,12
+2008,Best Original Score - Motion Picture,The Kite Runner,FALSE,Alberto Iglesias,M,13
+2008,Best Original Song - Motion Picture,Into the Wild,TRUE,Eddie Vedder,M,14
+2008,Best Original Song - Motion Picture,Enchanted,FALSE,Alan Menken,M,15
+2008,Best Original Song - Motion Picture,Grace Is Gone,FALSE,Clint Eastwood,M,16
+2008,Best Original Song - Motion Picture,Love in the Time of Cholera,FALSE,Antonio Pinto,M,17
+2008,Best Original Song - Motion Picture,Walk Hard: The Dewey Cox Story,FALSE,Marshall Crenshaw,M,18
+2008,Best Screenplay - Motion Picture,No Country for Old Men,TRUE,Joel Coen,M,19
+2008,Best Screenplay - Motion Picture,Atonement,FALSE,Christopher Hampton,M,20
+2008,Best Screenplay - Motion Picture,Charlie Wilson's War,FALSE,Aaron Sorkin,M,21
+2008,Best Screenplay - Motion Picture,Juno,FALSE,Diablo Cody,M,22
+2008,Best Screenplay - Motion Picture,The Diving Bell and the Butterfly,FALSE,Ronald Harwood,M,23
+2008,Best Original Score - Motion Picture,Into the Wild,FALSE,Michael Brook,M,24
+2008,Best Original Score - Motion Picture,Into the Wild,FALSE,Eddie Vedder,M,25
+2008,Best Original Song - Motion Picture,Enchanted,FALSE,Stephen Schwartz,M,26
+2008,Best Original Song - Motion Picture,Walk Hard: The Dewey Cox Story,FALSE,John C. Reilly,M,27
+2008,Best Original Song - Motion Picture,Walk Hard: The Dewey Cox Story,FALSE,Judd Apatow,M,28
+2008,Best Original Song - Motion Picture,Walk Hard: The Dewey Cox Story,FALSE,Jake Kasdan,M,29
+2008,Best Screenplay - Motion Picture,No Country for Old Men,TRUE,Ethan Coen,M,30
+2009,Best Original Song - Motion Picture,Bolt,FALSE,Miley Cyrus,F,1
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,Amanda Ghost,F,2
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,Jody Street,F,3
+2009,Best Director - Motion Picture,Danny Boyle,TRUE,Slumdog Millionaire,M,5
+2009,Best Original Song - Motion Picture,Bolt,FALSE,Jeffrey Steele,M,4
+2009,Best Director - Motion Picture,David Fincher,FALSE,The Curious Case of Benjamin Button,M,6
+2009,Best Director - Motion Picture,Ron Howard,FALSE,Frost/Nixon,M,7
+2009,Best Director - Motion Picture,Sam Mendes,FALSE,Revolutionary Road,M,8
+2009,Best Director - Motion Picture,Stephen Daldry,FALSE,The Reader,M,9
+2009,Best Original Score - Motion Picture,Slumdog Millionaire,TRUE,A.R. Rahman,M,10
+2009,Best Original Score - Motion Picture,Changeling,FALSE,Clint Eastwood,M,11
+2009,Best Original Score - Motion Picture,Defiance,FALSE,James Newton Howard,M,12
+2009,Best Original Score - Motion Picture,Frost/Nixon,FALSE,Hans Zimmer,M,13
+2009,Best Original Score - Motion Picture,The Curious Case of Benjamin Button,FALSE,Alexandre Desplat,M,14
+2009,Best Original Song - Motion Picture,The Wrestler,TRUE,Bruce Springsteen,M,15
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,Beyonce,M,16
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,ScottMcFarnon,M,17
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,Ian Dench,M,18
+2009,Best Original Song - Motion Picture,Cadillac Records,FALSE,James Dring,M,19
+2009,Best Original Song - Motion Picture,Gran Torino,FALSE,Clint Eastwood,M,20
+2009,Best Original Song - Motion Picture,Gran Torino,FALSE,Jamie Cullum,M,21
+2009,Best Original Song - Motion Picture,Gran Torino,FALSE,Kyle Eastwood,M,22
+2009,Best Original Song - Motion Picture,Gran Torino,FALSE,Michael Stevens,M,23
+2009,Best Original Song - Motion Picture,WALL·E,FALSE,Peter Gabriel,M,24
+2009,Best Original Song - Motion Picture,WALL·E,FALSE,Thomas Newman,M,25
+2009,Best Screenplay - Motion Picture,Slumdog Millionaire,TRUE,Simon Beaufoy,M,26
+2009,Best Screenplay - Motion Picture,Doubt,FALSE,John Patrick Shanley,M,27
+2009,Best Screenplay - Motion Picture,Frost/Nixon,FALSE,Peter Morgan,M,28
+2009,Best Screenplay - Motion Picture,The Curious Case of Benjamin Button,FALSE,Eric Roth,M,29
+2009,Best Screenplay - Motion Picture,The Reader,FALSE,David Hare,M,30
+2010,Best Director - Motion Picture,Kathryn Bigelow,FALSE,The Hurt Locker,F,1
+2010,Best Original Score - Motion Picture,Where the Wild Things Are,FALSE,Karen O,F,2
+2010,Best Screenplay - Motion Picture,District 9,FALSE,Terri Tatchell,F,3
+2010,Best Screenplay - Motion Picture,It's Complicated,FALSE,Nancy Meyers,F,4
+2010,Best Director - Motion Picture,James Cameron,TRUE,Avatar,M,5
+2010,Best Director - Motion Picture,Clint Eastwood,FALSE,Invictus,M,6
+2010,Best Director - Motion Picture,Jason Reitman,FALSE,Up in the Air,M,7
+2010,Best Director - Motion Picture,Quentin Tarantino,FALSE,Inglourious Basterds,M,8
+2010,Best Original Score - Motion Picture,Up,TRUE,Michael Giacchino,M,9
+2010,Best Original Score - Motion Picture,A Single Man,FALSE,Abel Korzeniowski,M,10
+2010,Best Original Score - Motion Picture,Avatar,FALSE,James Horner,M,11
+2010,Best Original Score - Motion Picture,The Informant!,FALSE,Marvin Hamlisch,M,12
+2010,Best Original Score - Motion Picture,Where the Wild Things Are,FALSE,Carter Burwell,M,13
+2010,Best Original Song - Motion Picture,Crazy Heart,TRUE,T Bone Burnett,M,14
+2010,Best Original Song - Motion Picture,Avatar,FALSE,James Horner,M,15
+2010,Best Original Song - Motion Picture,Crazy Heart,TRUE,Ryan Bingham,M,16
+2010,Best Original Song - Motion Picture,Brothers,FALSE,U2,M,17
+2010,Best Original Song - Motion Picture,Avatar,FALSE,Simon Franglen,M,18
+2010,Best Original Song - Motion Picture,Avatar,FALSE,Kuk Harrell,M,19
+2010,Best Original Song - Motion Picture,Everybody's Fine,FALSE,Paul McCartney,M,20
+2010,Best Original Song - Motion Picture,Nine,FALSE,Maury Yeston,M,21
+2010,Best Screenplay - Motion Picture,Up in the Air,TRUE,Jason Reitman,M,22
+2010,Best Screenplay - Motion Picture,District 9,FALSE,Neill Blomkamp,M,23
+2010,Best Screenplay - Motion Picture,Up in the Air,TRUE,Sheldon Turner,M,24
+2010,Best Screenplay - Motion Picture,Inglourious Basterds,FALSE,Quentin Tarantino,M,25
+2010,Best Screenplay - Motion Picture,The Hurt Locker,FALSE,Mark Boal,M,26
+2011,Best Original Song - Motion Picture,Burlesque,TRUE,Diane Warren,F,1
+2011,Best Original Song - Motion Picture,Burlesque,FALSE,Christina Aguilera,F,2
+2011,Best Original Song - Motion Picture,Burlesque,FALSE,Christina Aguilera,F,3
+2011,Best Original Song - Motion Picture,Burlesque,FALSE,Sia,F,4
+2011,Best Original Song - Motion Picture,Country Strong,FALSE,Hillary Lindsey,F,5
+2011,Best Original Song - Motion Picture,The Chronicles of Narnia: The Voyage of the Dawn Treader,FALSE,Carrie Underwood,F,6
+2011,Best Screenplay - Motion Picture,The Kids Are All Right,FALSE,Lisa Cholodenko,F,7
+2011,Best Director - Motion Picture,David Fincher,TRUE,The Social Network,M,8
+2011,Best Director - Motion Picture,Christopher Nolan,FALSE,Inception,M,9
+2011,Best Director - Motion Picture,Darren Aronofsky,FALSE,Black Swan,M,10
+2011,Best Director - Motion Picture,David O. Russell,FALSE,The Fighter,M,11
+2011,Best Director - Motion Picture,Tom Hooper,FALSE,The King's Speech,M,12
+2011,Best Original Score - Motion Picture,The Social Network,TRUE,Trent Reznor,M,13
+2011,Best Original Score - Motion Picture,127 Hours,FALSE,A.R. Rahman,M,14
+2011,Best Original Score - Motion Picture,Alice in Wonderland,FALSE,Danny Elfman,M,15
+2011,Best Original Score - Motion Picture,Inception,FALSE,Hans Zimmer,M,16
+2011,Best Original Score - Motion Picture,The King's Speech,FALSE,Alexandre Desplat,M,17
+2011,Best Original Song - Motion Picture,Burlesque,FALSE,Samuel Dixon,M,18
+2011,Best Original Song - Motion Picture,Country Strong,FALSE,Bob DiPiero,M,19
+2011,Best Original Song - Motion Picture,Country Strong,FALSE,Tom Douglas,M,20
+2011,Best Original Song - Motion Picture,Country Strong,FALSE,Troy Verges,M,21
+2011,Best Original Song - Motion Picture,Tangled,FALSE,Alan Menken,M,22
+2011,Best Original Song - Motion Picture,Tangled,FALSE,Glenn Slater,M,23
+2011,Best Original Song - Motion Picture,The Chronicles of Narnia: The Voyage of the Dawn Treader,FALSE,David Hodges,M,24
+2011,Best Screenplay - Motion Picture,The Social Network,TRUE,Aaron Sorkin,M,25
+2011,Best Screenplay - Motion Picture,127 Hours,FALSE,Danny Boyle,M,26
+2011,Best Screenplay - Motion Picture,127 Hours,FALSE,Simon Beaufoy,M,27
+2011,Best Screenplay - Motion Picture,Inception,FALSE,Christopher Nolan,M,28
+2011,Best Screenplay - Motion Picture,The Kids Are All Right,FALSE,Stuart Blumberg,M,29
+2011,Best Screenplay - Motion Picture,The King's Speech,FALSE,David Seidler,M,30
+2012,Best Original Song - Motion Picture,W.E.,TRUE,Madonna,F,1
+2012,Best Original Song - Motion Picture,W.E.,TRUE,Julie Frost,F,2
+2012,Best Original Song - Motion Picture,Albert Nobbs,FALSE,Glenn Close,F,3
+2012,Best Original Song - Motion Picture,The Help,FALSE,Mary J. Blige,F,4
+2012,Best Director - Motion Picture,Martin Scorsese,TRUE,Hugo,M,5
+2012,Best Director - Motion Picture,Alexander Payne,FALSE,The Descendants,M,6
+2012,Best Director - Motion Picture,George Clooney,FALSE,The Ides of March,M,7
+2012,Best Director - Motion Picture,Michel Hazanavicius,FALSE,The Artist,M,8
+2012,Best Director - Motion Picture,Woody Allen,FALSE,Midnight in Paris,M,9
+2012,Best Screenplay - Motion Picture,Midnight in Paris,TRUE,Woody Allen,M,10
+2012,Best Screenplay - Motion Picture,Moneyball,FALSE,Aaron Sorkin,M,11
+2012,Best Screenplay - Motion Picture,Moneyball,FALSE,Steven Zaillian,M,12
+2012,Best Screenplay - Motion Picture,The Artist,FALSE,Michel Hazanavicius,M,13
+2012,Best Screenplay - Motion Picture,The Descendants,FALSE,Nat Faxon,M,14
+2012,Best Screenplay - Motion Picture,The Descendants,FALSE,Alexander Payne,M,15
+2012,Best Screenplay - Motion Picture,The Descendants,FALSE,Jim Rash,M,16
+2012,Best Screenplay - Motion Picture,The Ides of March,FALSE,George Clooney,M,17
+2012,Best Screenplay - Motion Picture,The Ides of March,FALSE,Grant Heslov,M,18
+2012,Best Screenplay - Motion Picture,The Ides of March,FALSE,Beau Willimon,M,19
+2012,Best Original Song - Motion Picture,W.E.,TRUE,James Harry,M,20
+2012,Best Original Song - Motion Picture,Albert Nobbs,FALSE,Brian Byrne,M,21
+2012,Best Original Song - Motion Picture,Gnomeo & Juliet,FALSE,Elton John,M,22
+2012,Best Original Song - Motion Picture,Gnomeo & Juliet,FALSE,Bernie Taupin,M,23
+2012,Best Original Song - Motion Picture,Machine Gun Preacher,FALSE,Chris Cornell,M,24
+2012,Best Original Song - Motion Picture,The Help,FALSE,Thomas Newman,M,25
+2012,Best Original Song - Motion Picture,The Help,FALSE,Harvey Mason Jr.,M,26
+2012,Best Original Song - Motion Picture,The Help,FALSE,Damon Thomas,M,27
+2012,Best Original Score - Motion Picture,The Artist,TRUE,Ludovic Bource,M,28
+2012,Best Original Score - Motion Picture,Hugo,FALSE,Howard Shore,M,29
+2012,Best Original Score - Motion Picture,The Girl with the Dragon Tattoo,FALSE,Trent Reznor,M,30
+2012,Best Original Score - Motion Picture,The Girl with the Dragon Tattoo,FALSE,Atticus Ross,M,31
+2012,Best Original Score - Motion Picture,W.E.,FALSE,Abel Korzeniowski,M,32
+2012,Best Original Score - Motion Picture,War Horse,FALSE,John Williams,M,33
+2012,Best Original Score - Motion Picture,The Social Network,TRUE,Atticus Ross,M,
+2013,Best Director - Motion Picture,Kathryn Bigelow,FALSE,Zero Dark Thirty,F,1
+2013,Best Original Song - Motion Picture,Skyfall,TRUE,Adele,F,2
+2013,Best Original Song - Motion Picture,The Hunger Games,FALSE,Taylor Swift,F,3
+2013,Best Original Song - Motion Picture,The Hunger Games,FALSE,Joy Williams,F,4
+2013,Best Director - Motion Picture,Ben Affleck,TRUE,Argo,M,5
+2013,Best Director - Motion Picture,Ang Lee,FALSE,Life of Pi,M,6
+2013,Best Director - Motion Picture,Quentin Tarantino,FALSE,Django Unchained,M,7
+2013,Best Director - Motion Picture,Steven Spielberg,FALSE,Lincoln,M,8
+2013,Best Screenplay - Motion Picture,Django Unchained,TRUE,Quentin Tarantino,M,9
+2013,Best Screenplay - Motion Picture,Argo,FALSE,Chris Terrio,M,10
+2013,Best Screenplay - Motion Picture,Lincoln,FALSE,Tony Kushner,M,11
+2013,Best Screenplay - Motion Picture,Silver Linings Playbook,FALSE,David O. Russell,M,12
+2013,Best Screenplay - Motion Picture,Zero Dark Thirty,FALSE,Mark Boal,M,13
+2013,Best Original Song - Motion Picture,Skyfall,TRUE,Paul Epworth,M,14
+2013,Best Original Song - Motion Picture,Act of Valor,FALSE,Monty Powell,M,15
+2013,Best Original Song - Motion Picture,Act of Valor,FALSE,Keith Urban,M,16
+2013,Best Original Song - Motion Picture,Les Misérables,FALSE,Claude-Michel Schönberg,M,17
+2013,Best Original Song - Motion Picture,Les Misérables,FALSE,Alain Boublil,M,18
+2013,Best Original Song - Motion Picture,Les Misérables,FALSE,Herbert Kretzmer,M,19
+2013,Best Original Song - Motion Picture,Stand Up Guys,FALSE,Jon Bon Jovi,M,20
+2013,Best Original Song - Motion Picture,The Hunger Games,FALSE,John Paul White,M,21
+2013,Best Original Song - Motion Picture,The Hunger Games,FALSE,T Bone Burnett,M,22
+2013,Best Original Score - Motion Picture,Life of Pi,TRUE,Mychael Danna,M,23
+2013,Best Original Score - Motion Picture,Anna Karenina,FALSE,Dario Marianelli,M,24
+2013,Best Original Score - Motion Picture,Argo,FALSE,Alexandre Desplat,M,25
+2013,Best Original Score - Motion Picture,Cloud Atlas,FALSE,Reinhold Heil,M,26
+2013,Best Original Score - Motion Picture,Cloud Atlas,FALSE,Johnny Klimek,M,27
+2013,Best Original Score - Motion Picture,Cloud Atlas,FALSE,Tom Tykwer,M,28
+2013,Best Original Score - Motion Picture,Lincoln,FALSE,John Williams,M,29
+2014,Best Original Song - Motion Picture,Kristen Anderson-Lopez,FALSE,Frozen,F,1
+2014,Best Original Song - Motion Picture,Taylor Swift,FALSE,One Chance,F,2
+2014,Best Director - Motion Picture,Alfonso Cuarón,TRUE,Gravity,M,3
+2014,Best Director - Motion Picture,Alexander Payne,FALSE,Nebraska,M,4
+2014,Best Director - Motion Picture,David O. Russell,FALSE,American Hustle,M,5
+2014,Best Director - Motion Picture,Paul Greengrass,FALSE,Captain Phillips,M,6
+2014,Best Director - Motion Picture,Steve McQueen,FALSE,12 Years a Slave,M,7
+2014,Best Screenplay - Motion Picture,Spike Jonze,TRUE,Her,M,8
+2014,Best Screenplay - Motion Picture,John Ridley,FALSE,12 Years a Slave,M,9
+2014,Best Screenplay - Motion Picture,Eric Warren Singer,FALSE,American Hustle,M,10
+2014,Best Screenplay - Motion Picture,David O. Russell,FALSE,,M,11
+2014,Best Screenplay - Motion Picture,Bob Nelson,FALSE,Nebraska,M,12
+2014,Best Screenplay - Motion Picture,Steve Coogan,FALSE,Philomena,M,13
+2014,Best Screenplay - Motion Picture,Jeff Pope,FALSE,,M,14
+2014,Best Original Song - Motion Picture,Bono,TRUE,Mandela: Long Walk to Freedom,M,15
+2014,Best Original Song - Motion Picture,The Edge,TRUE,Mandela: Long Walk to Freedom,M,16
+2014,Best Original Song - Motion Picture,Adam Clayton,TRUE,Mandela: Long Walk to Freedom,M,17
+2014,Best Original Song - Motion Picture,Larry Mullen Jr.,TRUE,Mandela: Long Walk to Freedom,M,18
+2014,Best Original Song - Motion Picture,Danger Mouse,TRUE,Mandela: Long Walk to Freedom,M,19
+2014,Best Original Song - Motion Picture,Robert Lopez,FALSE,Frozen,M,20
+2014,Best Original Song - Motion Picture,Ed Rush,FALSE,Inside Llewyn Davis,M,21
+2014,Best Original Song - Motion Picture,George Cromarty,FALSE,Inside Llewyn Davis,M,22
+2014,Best Original Song - Motion Picture,T Bone Burnett,FALSE,Inside Llewyn Davis,M,23
+2014,Best Original Song - Motion Picture,Justin Timberlake,FALSE,Inside Llewyn Davis,M,24
+2014,Best Original Song - Motion Picture,Joel Coen,FALSE,Inside Llewyn Davis,M,25
+2014,Best Original Song - Motion Picture,Ethan Coen,FALSE,Inside Llewyn Davis,M,26
+2014,Best Original Song - Motion Picture,Jack Antonoff,FALSE,One Chance,M,27
+2014,Best Original Song - Motion Picture,Chris Martin,FALSE,The Hunger Games: Catching Fire,M,28
+2014,Best Original Song - Motion Picture,Guy Berryman,FALSE,The Hunger Games: Catching Fire,M,29
+2014,Best Original Song - Motion Picture,Jon Buckland,FALSE,The Hunger Games: Catching Fire,M,30
+2014,Best Original Song - Motion Picture,Will Champion,FALSE,The Hunger Games: Catching Fire,M,31
+2014,Best Original Score - Motion Picture,Alex Ebert,TRUE,All Is Lost,M,32
+2014,Best Original Score - Motion Picture,Hans Zimmer,FALSE,12 Years a Slave,M,33
+2014,Best Original Score - Motion Picture,Steven Price,FALSE,Gravity,M,34
+2014,Best Original Score - Motion Picture,Alex Heffes,FALSE,Mandela: Long Walk to Freedom,M,35
+2014,Best Original Score - Motion Picture,John Williams,FALSE,The Book Thief,M,36
+2015,Best Director - Motion Picture,Ava DuVernay,FALSE,Selma,F,1
+2015,Best Screenplay - Motion Picture,Gillian Flynn,FALSE,Gone Girl,F,2
+2015,Best Original Song - Motion Picture,Sia,FALSE,Annie,F,3
+2015,Best Original Song - Motion Picture,Lana Del Rey,FALSE,Big Eyes,F,4
+2015,Best Original Song - Motion Picture,Patti Smith,FALSE,Noah,F,5
+2015,Best Original Song - Motion Picture,Lorde,FALSE,The Hunger Games,F,6
+2015,Best Director - Motion Picture,Richard Linklater,TRUE,Boyhood,M,7
+2015,Best Director - Motion Picture,Alejandro G. Inarritu,FALSE,Birdman,M,8
+2015,Best Director - Motion Picture,David Fincher,FALSE,Gone Girl,M,9
+2015,Best Director - Motion Picture,Wes Anderson,FALSE,The Grand Budapest Hotel,M,10
+2015,Best Screenplay - Motion Picture,Alejandro G. Inarritu,TRUE,Birdman,M,11
+2015,Best Screenplay - Motion Picture,Nicolas Glacobone,TRUE,Birdman,M,12
+2015,Best Screenplay - Motion Picture,Alexandre Dinelaris,TRUE,Birdman,M,13
+2015,Best Screenplay - Motion Picture,Armando Bo,TRUE,Birdman,M,14
+2015,Best Screenplay - Motion Picture,Richard Linklater,FALSE,Boyhood,M,15
+2015,Best Screenplay - Motion Picture,Wes Anderson,FALSE,The Grand Budapest Hotel,M,16
+2015,Best Screenplay - Motion Picture,Graham Moore,FALSE,The Imitation Game,M,17
+2015,Best Original Song - Motion Picture,John Legend,TRUE,Selma,M,18
+2015,Best Original Song - Motion Picture,Common,TRUE,Selma,M,19
+2015,Best Original Song - Motion Picture,Greg Kurstin,FALSE,Annie,M,20
+2015,Best Original Song - Motion Picture,Will Gluck,FALSE,Annie,M,21
+2015,Best Original Song - Motion Picture,Daniel Heath,FALSE,Big Eyes,M,22
+2015,Best Original Song - Motion Picture,Lenny Kaye,FALSE,Noah,M,23
+2015,Best Original Song - Motion Picture,Joel Little,FALSE,The Hunger Games,M,24
+2015,Best Original Score - Motion Picture,Johann Johannsson,TRUE,Theory of Everything,M,25
+2015,Best Original Score - Motion Picture,Alexandre Desplat,FALSE,The Imitation Game,M,26
+2015,Best Original Score - Motion Picture,Antonio Sanchez,FALSE,Birdman,M,27
+2015,Best Original Score - Motion Picture,Hans Zimmer,FALSE,Interstellar,M,28
+2015,Best Original Score - Motion Picture,Trent Reznor,FALSE,Gone Girl,M,29
+2015,Best Original Score - Motion Picture,Atticus Rose,FALSE,Gone Girl,M,30
+2016,Best Screenplay - Motion Picture,Emma Donoghue,FALSE,Room,F,1
+2016,Best Director - Motion Picture,Alejandro Inarritu,FALSE,The Revenant,M,2
+2016,Best Director - Motion Picture,Todd Haynes,FALSE,Carol,M,3
+2016,Best Director - Motion Picture,George Miller,FALSE,Mad Max: Fury Road,M,4
+2016,Best Director - Motion Picture,Tom McCarthy,FALSE,Spotlight,M,5
+2016,Best Director - Motion Picture,Ridley Scott,FALSE,The Martian,M,6
+2016,Best Screenplay - Motion Picture,Aaron Sorkin,TRUE,Steve Jobs,M,7
+2016,Best Screenplay - Motion Picture,Tom McCarthy,FALSE,Spotlight,M,8
+2016,Best Screenplay - Motion Picture,Josh Singer,FALSE,Spotlight,M,9
+2016,Best Screenplay - Motion Picture,Charles Randolph,FALSE,The Big Short,M,10
+2016,Best Screenplay - Motion Picture,Adam McKay,FALSE,The Big Short,M,11
+2016,Best Screenplay - Motion Picture,Quentin Tarantino,FALSE,The Hateful Eight,M,12
+2016,Best Original Score - Motion Picture,Ennio Morricone,TRUE,The Hateful Eight,M,13
+2016,Best Original Score - Motion Picture,Carter Burwell,FALSE,Carol,M,14
+2016,Best Original Score - Motion Picture,Daniel Pemberton,FALSE,Steve Jobs,M,15
+2016,Best Original Score - Motion Picture,Alexandre Desplat,FALSE,The Danish Girl,M,16
+2016,Best Original Score - Motion Picture,Ryuichi Sakamoto,FALSE,The Revenant,M,17
+2016,Best Original Score - Motion Picture,Alva Noto,FALSE,The Revenant,M,18
+2016,Best Original Song - Motion Picture,Sam Smith,TRUE,Spectre,M,19
+2016,Best Original Song - Motion Picture,James Napier,TRUE,Spectre,M,20
+2016,Best Original Song - Motion Picture,Max Martin,FALSE,Fifty Shades of Grey,M,21
+2016,Best Original Song - Motion Picture,Savan Kotecha,FALSE,Fifty Shades of Grey,M,22
+2016,Best Original Song - Motion Picture,Ali Payami,FALSE,Fifty Shades of Grey,M,23
+2016,Best Original Song - Motion Picture,Ilya Salmanzadeh,FALSE,Fifty Shades of Grey,M,24
+2016,Best Original Song - Motion Picture,Justin Franks,FALSE,Furious 7,M,25
+2016,Best Original Song - Motion Picture,Andrew Ceder,FALSE,Furious 8,M,26
+2016,Best Original Song - Motion Picture,Charlie Puth,FALSE,Furious 9,M,27
+2016,Best Original Song - Motion Picture,Wiz Khalifa,FALSE,Furious 10,M,28
+2016,Best Original Song - Motion Picture,Brian Wilson,FALSE,Love & Mercy,M,29
+2016,Best Original Song - Motion Picture,Scott Montgomery Bennett,FALSE,Love & Mercy,M,30
+2016,Best Original Song - Motion Picture,David Lang,FALSE,Youth,M,31
+2017,Best Original Song - Motion Picture,Iggy Pop,FALSE,Gold,F,1
+2017,Best Director - Motion Picture,Damien Chazelle,TRUE,La La Land,M,2
+2017,Best Director - Motion Picture,Barry Jenkins,FALSE,Moonlight,M,3
+2017,Best Director - Motion Picture,Kenneth Lonergan,FALSE,Manchester by the Sea,M,4
+2017,Best Director - Motion Picture,Mel Gibson,FALSE,Hacksaw Ridge,M,5
+2017,Best Director - Motion Picture,Tom Ford,FALSE,Nocturnal Animals,M,6
+2017,Best Screenplay - Motion Picture,Damien Chazelle,TRUE,La La Land,M,7
+2017,Best Screenplay - Motion Picture,Taylor Sheridan,FALSE,Hell or High Water,M,8
+2017,Best Screenplay - Motion Picture,Kenneth Lonergan,FALSE,Manchester by the Sea,M,9
+2017,Best Screenplay - Motion Picture,Barry Jenkins,FALSE,Moonlight,M,10
+2017,Best Screenplay - Motion Picture,Tom Ford,FALSE,Nocturnal Animals,M,11
+2017,Best Original Song - Motion Picture,Justin Hurwitz,TRUE,La La Land,M,12
+2017,Best Original Song - Motion Picture,Benj Pasek,TRUE,La La Land,M,13
+2017,Best Original Song - Motion Picture,Justin Paul,TRUE,La La Land,M,14
+2017,Best Original Song - Motion Picture,Danger Mouse,FALSE,Gold,M,15
+2017,Best Original Song - Motion Picture,Stephen Gaghan,FALSE,Gold,M,16
+2017,Best Original Song - Motion Picture,Daniel Pemberton,FALSE,Gold,M,17
+2017,Best Original Song - Motion Picture,Lin-Manuel Miranda,FALSE,Moana,M,18
+2017,Best Original Song - Motion Picture,Ryan Tedder,FALSE,Sing,M,19
+2017,Best Original Song - Motion Picture,Stevie Wonder,FALSE,Sing,M,20
+2017,Best Original Song - Motion Picture,Francis Farewell Starlite,FALSE,Sing,M,21
+2017,Best Original Song - Motion Picture,Justin Timberlake,FALSE,Trolls,M,22
+2017,Best Original Song - Motion Picture,Max Martin,FALSE,Trolls,M,23
+2017,Best Original Song - Motion Picture,Shellback,FALSE,Trolls,M,24
+2017,Best Original Score - Motion Picture,Justin Hurwitz,TRUE,La La Land,M,25
+2017,Best Original Score - Motion Picture,Jóhann Jóhannsson,FALSE,Arrival,M,26
+2017,Best Original Score - Motion Picture,Hans Zimmer,FALSE,Hidden Figures,M,27
+2017,Best Original Score - Motion Picture,Pharrell Williams,FALSE,Hidden Figures,M,28
+2017,Best Original Score - Motion Picture,Benjamin Wallfisch,FALSE,Hidden Figures,M,29
+2017,Best Original Score - Motion Picture,Dustin O'Halloran,FALSE,Hidden Figures,M,30
+2017,Best Original Score - Motion Picture,Volker Bertelmann,FALSE,Hidden Figures,M,31
+2017,Best Original Score - Motion Picture,Nicholas Britell,FALSE,Moonlight,M,32
+2018,Best Screenplay - Motion Picture,Greta Gerwig,FALSE,Lady Bird,F,1
+2018,Best Screenplay - Motion Picture,Liz Hannah,FALSE,The Post,F,2
+2018,Best Original Song - Motion Picture,Kristen Anderson-Lopez,FALSE,Coco,F,3
+2018,Best Original Song - Motion Picture,Mary J. Blige,FALSE,Mudbound,F,4
+2018,Best Original Song - Motion Picture,Mariah Carey,FALSE,The Star,F,5
+2018,Best Screenplay - Motion Picture,Aaron Sorkin,FALSE,Molly's Game,M,6
+2018,Best Screenplay - Motion Picture,Josh Singer,FALSE,The Post,M,7
+2018,Best Screenplay - Motion Picture,Guillermo del Toro,FALSE,The Shape of Water,M,8
+2018,Best Screenplay - Motion Picture,Martin McDonagh,FALSE,"Three Billboards Outside Ebbing, Missouri",M,9
+2018,Best Original Song - Motion Picture,Robert Lopez,FALSE,Coco,M,10
+2018,Best Original Song - Motion Picture,Nick Jonas,FALSE,Ferdinand,M,11
+2018,Best Original Song - Motion Picture,Justin Tranter,FALSE,Ferdinand,M,12
+2018,Best Original Song - Motion Picture,Nick Monson,FALSE,Ferdinand,M,13
+2018,Best Original Song - Motion Picture,Raphael Saadiq,FALSE,Mudbound,M,14
+2018,Best Original Song - Motion Picture,Benj Pasek,FALSE,The Greatest Showman,M,15
+2018,Best Original Song - Motion Picture,Justin Paul,FALSE,The Greatest Showman,M,16
+2018,Best Original Song - Motion Picture,Marc Shaiman,FALSE,The Star,M,17
+2018,Best Original Score - Motion Picture,Hans Zimmer,FALSE,Dunkirk,M,18
+2018,Best Original Score - Motion Picture,Jonny Greenwood,FALSE,Phantom Thread,M,19
+2018,Best Original Score - Motion Picture,John Williams,FALSE,The Post,M,20
+2018,Best Original Score - Motion Picture,Alexandre Desplat,FALSE,The Shape of Water,M,21
+2018,Best Original Score - Motion Picture,Carter Burwell,FALSE,"Three Billboards Outside Ebbing, Missouri",M,22
+2018,Best Director - Motion Picture,Christopher Nolan,TRUE,Dunkirk,M,23
+2018,Best Director - Motion Picture,Guillermo del Toro,FALSE,The Shape of Water,M,24
+2018,Best Director - Motion Picture,Martin McDonagh,FALSE,"Three Billboards Outside Ebbing, Missouri",M,25
+2018,Best Director - Motion Picture,Ridley Scott,FALSE,All the Money in the World,M,26
+2018,Best Director - Motion Picture,Steven Spielberg,FALSE,The Post,M,27
