@@ -3,7 +3,7 @@ function draw() {
     d3.select('#chart').remove();
     d3.select('#chart-container').append('div').attr('id', 'chart');
 
-    var windowWidth = document.getElementById('chart-container').clientWidth;
+    var windowWidth = document.getElementById('wrapper').clientWidth;
     var windowHeight = 500;
 
     var margin = { top: 20, right: 50, bottom: 30, left: 50 },
@@ -11,9 +11,9 @@ function draw() {
         height = windowHeight - margin.top - margin.bottom;
 
     var breakPoint = {
-      desktop: 900,
-      mobile: 200,
-      ipad: 500
+        desktop: 900,
+        mobile: 200,
+        ipad: 500
     }
 
     var x = d3.scale.linear()
@@ -22,8 +22,8 @@ function draw() {
     var y = d3.scale.linear()
         .range([height, 0]);
 
-    // grey for males, yellow #ffcc00 for females
-    var colors = ['#FF0064', '#ddd'];
+    // grey for males, pink for females
+    var colors = ['#eca0a6', '#cdcdcd'];
 
     // Do not include a domain
     var color = d3.scale.ordinal()
@@ -38,7 +38,7 @@ function draw() {
     if (window.innerWidth < breakPoint.desktop) {
         xAxis.ticks(11)
     } else {
-        xAxis.ticks(221)
+        xAxis.ticks(22)
     }
 
     var markerDimensions = function(widthOrHeight, maxmarkers) {
@@ -83,6 +83,7 @@ function draw() {
                 return d.category;
             }
             createLabel(d);
+
             // format category for classnames
             function classLabel(d) {
                 d.className = d.category.split(' ').join('-');
@@ -91,7 +92,12 @@ function draw() {
             }
             classLabel(d);
             d.year = +d.year;
+
+
         });
+
+        console.log(data);
+
 
         var xExtent = d3.extent(data, function(d) { return d.year; });
         var yExtent = d3.extent(data, function(d) { return d.order; });
@@ -103,7 +109,7 @@ function draw() {
             .attr('transform', 'translate(10,' + height + ')')
             .call(xAxis);
 
-        svg.append('g')
+        /*svg.append('g')
             .attr('class', 'y axis')
             .call(yAxis)
             .append('text')
@@ -114,16 +120,18 @@ function draw() {
             .attr('dy', '.71em')
             .style('text-anchor', 'middle')
             .text('Number of nominees')
-
+*/
         // Add the rectangles
         svg.selectAll('rect')
+            // .data(data.filter(function(d) { return d.className === "best-screenplay"}))
             .data(data)
             .enter().append('rect')
             .attr('class', function(d) { return d.className; })
             .classed('winner', function(d) { return d.winner === 'TRUE' })
             .classed('marker', true)
-            .attr('height', markerDimensions(height, yExtent[1]))
-            .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
+            .attr('height', markerDimensions(height, xExtent[1] - xExtent[0]))
+           // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
+            .attr('width', markerDimensions(width, 20))
             .attr('x', function(d) { return x(d.year); })
             .attr('y', function(d) { return y(d.order); })
             .style('fill', function(d) { return color(d.gender); })
@@ -146,13 +154,44 @@ function draw() {
 
 })*/
 
+var annotations = [{
+    "category": "best-director",
+    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
+    "nominees": "3%",
+    "winners": "0%"
+}, {
+    "category": "best-song",
+    "text": "Best Orginal Song has the highest percentage of female winners and nominees, but unlike Best Director, there can be multiple nominees per song.",
+    "nominees": "19%",
+    "winners": "14%"
+}, {
+    "category": "best-score",
+    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
+    "nominees": "4%",
+    "winners": "0%"
+}, {
+    "category": "best-screenplay",
+    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
+    "nominees": "7%",
+    "winners": "9%"
+}, {
+    "category": "all",
+    "text": "Since 1995, less than 12 percent of nominees in those categories have been women. Only 14 percent of nominated women end up taking home the award.",
+    "nominees": "11%",
+    "winners": "8%"
+}];
+
+console.log(annotations);
+
 // BUTTONS
 d3.selectAll('.category-selection button').on('click', function() {
     var selectedCategory = this;
     d3.selectAll('.category-selection button').classed('selected', false);
     d3.select(this).classed('selected', !d3.select(this).classed('selected'));
+
     if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
+        d3.select('.annotation').html(annotations[4].text);
     } else {
         d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
         d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
