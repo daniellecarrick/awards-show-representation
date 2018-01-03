@@ -190,7 +190,7 @@ d3.selectAll('.category-selection button').on('click', function() {
     if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1);
     } else {
-        d3.selectAll('rect').attr('fill-opacity', 0.3);
+        d3.selectAll('.marker').attr('fill-opacity', 0.3);
         d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1);
     }
 })
