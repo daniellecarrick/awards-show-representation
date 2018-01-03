@@ -129,12 +129,19 @@ function draw() {
             .attr('class', function(d) { return d.className; })
             .classed('winner', function(d) { return d.winner === 'TRUE' })
             .classed('marker', true)
+            .classed('woman', function(d) { return d.gender === 'F' })
             .attr('height', markerDimensions(height, xExtent[1] - xExtent[0]))
-           // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
+            // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
             .attr('width', markerDimensions(width, 20))
             .attr('x', function(d) { return x(d.year); })
             .attr('y', function(d) { return y(d.order); })
-            .style('fill', function(d) { return color(d.gender); })
+            .style('fill', function(d) {
+                if (d.gender === 'F' && d.winner === 'TRUE') {
+                    return 'url(#lightstripe)';
+                } else {
+                    return color(d.gender);
+                }
+            })
             .on('mouseover', tip.show)
             .on('mouseout', tip.hide);
     });

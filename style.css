@@ -31,8 +31,8 @@ p {
   font-size: 14px;
   font-weight: bold;
   color:#eca0a6;
+  margin: 10px;
 }
-
 
 .d3-tip {
   line-height: 1.5;
@@ -41,7 +41,6 @@ p {
   color: #fff;
   border-radius: 2px;
 }
-
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
   box-sizing: border-box;
@@ -113,9 +112,4 @@ svg {
   margin-right: 10px;
 }
 
-span.category-highlight {
-  color: #eca0a6;
-  border-bottom: 3px solid #eca0a6;
-  font-weight: bold;
-}
 
