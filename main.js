@@ -6,7 +6,7 @@ function draw() {
     var windowWidth = document.getElementById('wrapper').clientWidth;
     var windowHeight = 500;
 
-    var margin = { top: 20, right: 50, bottom: 30, left: 50 },
+    var margin = { top: 20, right: 30, bottom: 30, left: 10 },
         width = windowWidth - margin.left - margin.right,
         height = windowHeight - margin.top - margin.bottom;
 
@@ -63,7 +63,11 @@ function draw() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+            if (d.winner === 'TRUE') {
+                return '<span class="winner">WINNER</span><br/><span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+            } else {
+                return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+            }
         });
 
     svg.call(tip);
@@ -102,11 +106,11 @@ function draw() {
         var xExtent = d3.extent(data, function(d) { return d.year; });
         var yExtent = d3.extent(data, function(d) { return d.order; });
         x.domain(xExtent);
-        y.domain(yExtent).nice();
+        y.domain(yExtent);
 
         svg.append('g')
             .attr('class', 'x axis')
-            .attr('transform', 'translate(10,' + height + ')')
+            .attr('transform', 'translate(10,' + (height + 10) + ')')
             .call(xAxis);
 
         /*svg.append('g')
@@ -126,10 +130,10 @@ function draw() {
             // .data(data.filter(function(d) { return d.className === "best-screenplay"}))
             .data(data)
             .enter().append('rect')
-            .attr('class', function(d) { return d.className; })
-            .classed('winner', function(d) { return d.winner === 'TRUE' })
+            .attr('class', function(d) { if (d.gender === 'F') { return d.className; }})
+            //.classed('winner', function(d) { return d.winner === 'TRUE' })
             .classed('marker', true)
-            .classed('woman', function(d) { return d.gender === 'F' })
+           // .classed('woman', function(d) { return d.gender === 'F' })
             .attr('height', markerDimensions(height, xExtent[1] - xExtent[0]))
             // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
             .attr('width', markerDimensions(width, 20))
@@ -147,19 +151,7 @@ function draw() {
     });
 }
 
-// DROPDOWNS Highlight selected category
-/*d3.select('select').on('change', function() {
-    var selectedCategory = this.value;
-    if (selectedCategory === 'all') {
-        d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
 
-    } else {
-        d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
-        d3.selectAll('.' + selectedCategory).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
-        //console.log(selectedCategory);
-    }
-
-})*/
 
 var annotations = [{
     "category": "best-director",
@@ -188,7 +180,6 @@ var annotations = [{
     "winners": "8%"
 }];
 
-console.log(annotations);
 
 // BUTTONS
 d3.selectAll('.category-selection button').on('click', function() {
@@ -197,23 +188,13 @@ d3.selectAll('.category-selection button').on('click', function() {
     d3.select(this).classed('selected', !d3.select(this).classed('selected'));
 
     if (selectedCategory.value === 'all') {
-        d3.selectAll('rect').attr('fill-opacity', 1).attr('stroke-opacity', 1);
-        d3.select('.annotation').html(annotations[4].text);
+        d3.selectAll('rect').attr('fill-opacity', 1);
     } else {
-        d3.selectAll('rect').attr('fill-opacity', 0.3).attr('stroke-opacity', 0.3);
-        d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1).attr('stroke-opacity', 1);;
+        d3.selectAll('rect').attr('fill-opacity', 0.3);
+        d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1);
     }
 })
 
-// Highlight winners
-d3.select('button.winner').on('click', function() {
-    var toggleWinner = d3.select(this);
-    toggleWinner.classed('selected', !toggleWinner.classed('selected'));
-    var buttonText = toggleWinner.classed('selected') ? 'Hide winners' : 'Show winners';
-    var strokeVal = toggleWinner.classed('selected') ? '#333333' : 'none';
-    d3.selectAll('rect.winner').style('stroke', strokeVal);
-    toggleWinner.html(buttonText);
-})
 
 draw();
 window.addEventListener("resize", draw);

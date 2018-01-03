@@ -1,81 +1,95 @@
 body {
-  background-color: rgba(236,160,166,0.08);
-  text-align: center;
-  font-family: Helvetica, sans-serif;
+    background-color: rgba(236, 160, 166, 0.08);
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 p {
-  font-size: 14px;
+    font-size: 12px;
 }
 
 .annotation {
-  margin: 20px 0px;
+    margin: 20px 0px;
+}
+
+.winner {
+    font-size: 10px;
 }
 
 #wrapper {
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 644px;
+    margin: 0 auto;
 }
 
 .label {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 .stats {
-  display: inline-block;
-  padding: 10px;
-  background-color: white;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
 }
 
 .stat-highlight {
-  font-size: 14px;
-  font-weight: bold;
-  color:#eca0a6;
-  margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #eca0a6;
+    margin: 10px;
 }
 
 .d3-tip {
-  line-height: 1.5;
-  padding: 12px;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  border-radius: 2px;
-}
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: rgba(0, 0, 0, 0.8);
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
 }
 
+
+
+/* Creates a small triangle extender for the tooltip */
+
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+
+
 /* Style northward tooltips differently */
+
 .d3-tip.n:after {
-  margin: -1px 0 0 0;
-  top: 100%;
-  left: 0;
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
 }
 
 
 svg {
-  font-size: 10px;
-  font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
 }
 
 .btn {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 .axis path {
-  fill: none;
-  stroke: none;
-  shape-rendering: crispEdges;
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
 }
+
+
 
 /*.axis line {
   fill: none;
@@ -83,33 +97,95 @@ svg {
   stroke-dasharray: 2, 2;
 }
 */
+
 .y.axis {
-  stroke: none;
+    stroke: none;
 }
 
 .marker {
-  /*stroke: #000;*/
+    /*stroke: #000;*/
+}
+
+.category-selection {
+    margin-bottom: 20px;
 }
 
 .category-selection button {
-  border-radius: 0px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 19%;
+    border: none;
+    background-color: white;
+}
+
+.legend li {
+    float: left;
+}
+
+.legend ul {
+    clear: both;
+    font-size: 10px;
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    width: 330px;
+    margin: 20px auto 0px auto;
+    display: block;
+    height: 30px;
+}
+
+.legend-key {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: red;
+    margin: 0px 3px 0px 7px;
+}
+
+.female-nom {
+    background-color: #eca0a6;
+}
+
+.female-win {
+   background-color: #eca0a6;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f8f7fb' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.male {
+    background-color: #dcdcdc;
 }
 
 .category-selection button.selected,
 .category-selection button:hover,
 .category-selection button:active,
 .category-selection button:focus {
-  background-color: #eca0a6;
-  color: white;
-}
-.category-selection.btn-toolbar {
-  padding: 10px;
+    background-color: #eca0a6;
+    color: white;
 }
 
 .category-selection span {
-  float: left;
-  margin-top: 5px;
-  margin-right: 10px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 
+@media (max-width: 400px) {
+    .annotation,
+    .stats {
+        font-size: 12px;
+    }
+
+    .category-selection button {
+        border-radius: 0px;
+        padding: 10px;
+        margin: 0px;
+        width: 17%;
+        border: none;
+    }
+
+    .category-selection button[value="best-screenplay"] {
+        width: 21%;
+    }
+}

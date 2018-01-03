@@ -11,7 +11,7 @@
 <body>
     <!DOCTYPE html>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <body>
@@ -27,7 +27,7 @@
         <svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
                 <pattern id="lightstripe" patternUnits="userSpaceOnUse" width="5" height="5">
-                    <rect width='5' height='5' fill='#eca0a6'/>
+                    <rect width='5' height='5' fill='#eca0a6' />
                     <line x1="0" y1="5" x2="5" y2="0" stroke-width="1" stroke="white" />
                 </pattern>
             </defs>
@@ -36,7 +36,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3><span style="color: #eca0a6">Women</span> are underrepresented at The Golden Globes</h3>
+                        <h3><span style="color: #eca0a6">Women</span> who have been nominated for a Golden Globe <span style="font-weight: normal;">(1995-2018)</span></h3>
+                        
+                        <!--  <p class="annotation">Since 1995, 11% percent of nominees in The Golden Globes four gender-neutral categories have been women. Only 8 percent of women end up taking home the award.</p> -->
                         <!--DROPDOWN FOR MOBILE-->
                         <!--                 <select name="category-selection">
             <option value="all" selected>All Gender-Neutral Categories</option>
@@ -46,17 +48,28 @@
             <option value="best-original-score">Best Original Score</option>
         </select>  -->
                         <!--BUTTONS FOR DESKTOP-->
-                        <div class="btn-toolbar category-selection" role="toolbar">Test
+                        <p style="color: #0a0a0a; clear: both">Highlight women within category</p>
+                        <div class="btn-toolbar category-selection" role="toolbar">
                             <div class="btn-group btn-group-sm" role="group" aria-label="Category options">
                                 <button type="button" class="btn btn-default selected" value="all">All</button>
-                                <button type="button" class="btn btn-default" value="best-director">Best Director</button>
-                                <button type="button" class="btn btn-default" value="best-screenplay">Best Screenplay</button>
-                                <button type="button" class="btn btn-default" value="best-original-song">Best Original Song</button>
-                                <button type="button" class="btn btn-default" value="best-original-score">Best Original Score</button>
+                                <button type="button" class="btn btn-default" value="best-director">Director</button>
+                                <button type="button" class="btn btn-default" value="best-screenplay">Screenplay</button>
+                                <button type="button" class="btn btn-default" value="best-original-song">Song</button>
+                                <button type="button" class="btn btn-default" value="best-original-score">Score</button>
                             </div>
                         </div>
-                        <div class="annotation">Since 1995, less than 12 percent of nominees in those categories have been women. Only 14 percent of nominated women end up taking home the award.</div>
-                        <div class='stats'>Female nominees: <span class="stat-highlight nominees">11%</span>  Female winners: <span class="stat-highlight winners">8%</span></div>
+                        <div class='stats'>
+                            <span class="nominees">Nominees <span class="stat-highlight">11%</span></span>
+                            <span class="winners">Winners <span class="stat-highlight">8%</span></span>
+                        </div>
+
+                        <div class="legend">
+                            <ul>
+                                <li><span class="legend-key female-nom"></span>female nominees</li>
+                                <li><span class="legend-key female-win"></span>female winners</li>
+                                <li><span class="legend-key male"></span>male nominees/winners</li>
+                            </ul>
+                        </div>
                     </div>
                     <!-- CHART GOES HERE -->
                     <div class="row">
