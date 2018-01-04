@@ -64,9 +64,9 @@ function draw() {
         .offset([-10, 0])
         .html(function(d) {
             if (d.winner === 'TRUE') {
-                return '<span class="winner">WINNER</span><br/><span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+                return '<span class="winner">WINNER</span><br/><span class="tip-nominee"><strong>' + d.nominee + '</strong></span><br /> <span class="tip-name">' + d.secondarynominee + '</span><br /><span class="tip-category">' + d.category + '</span>';
             } else {
-                return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+                return '<span class="tip-nominee"><strong>' + d.nominee + '</strong></span><br /> <span class="tip-name">' + d.secondarynominee + '</span><br /><span class="tip-category">' + d.category + '</span>';
             }
         });
 
