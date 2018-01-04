@@ -64,9 +64,9 @@ function draw() {
         .offset([-10, 0])
         .html(function(d) {
             if (d.winner === 'TRUE') {
-                return '<span class="winner">WINNER</span><br/><span class="tip-nominee"><strong>' + d.nominee + '</strong></span><br /> <span class="tip-name">' + d.secondarynominee + '</span><br /><span class="tip-category">' + d.category + '</span>';
+                return '<span class="winner">WINNER</span><br/><span class="tip-name"><strong>' + d.name + '</strong></span><br /> <span class="tip-movie">' + d.movie + '</span><br /><span class="tip-category">' + d.category + '</span>';
             } else {
-                return '<span class="tip-nominee"><strong>' + d.nominee + '</strong></span><br /> <span class="tip-name">' + d.secondarynominee + '</span><br /><span class="tip-category">' + d.category + '</span>';
+                return '<span class="tip-name"><strong>' + d.name + '</strong></span><br /> <span class="tip-movie">' + d.movie + '</span><br /><span class="tip-category">' + d.category + '</span>';
             }
         });
 
@@ -100,9 +100,6 @@ function draw() {
 
         });
 
-        console.log(data);
-
-
         var xExtent = d3.extent(data, function(d) { return d.year; });
         var yExtent = d3.extent(data, function(d) { return d.order; });
         x.domain(xExtent);
@@ -123,7 +120,7 @@ function draw() {
             .attr('y', -40)
             .attr('dy', '.71em')
             .style('text-anchor', 'middle')
-            .text('Number of nominees')
+            .text('Number of movies')
 */
         // Add the rectangles
         svg.selectAll('rect')
@@ -153,33 +150,14 @@ function draw() {
 
 
 
-var annotations = [{
-    "category": "best-director",
-    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
-    "nominees": "3%",
-    "winners": "0%"
-}, {
-    "category": "best-song",
-    "text": "Best Orginal Song has the highest percentage of female winners and nominees, but unlike Best Director, there can be multiple nominees per song.",
-    "nominees": "19%",
-    "winners": "14%"
-}, {
-    "category": "best-score",
-    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
-    "nominees": "4%",
-    "winners": "0%"
-}, {
-    "category": "best-screenplay",
-    "text": "In the last 20 years, no woman has won for Best Director or Best Original Score",
-    "nominees": "7%",
-    "winners": "9%"
-}, {
-    "category": "all",
-    "text": "Since 1995, less than 12 percent of nominees in those categories have been women. Only 14 percent of nominated women end up taking home the award.",
-    "nominees": "11%",
-    "winners": "8%"
-}];
-
+var annotations = {
+    "best-director": ["3%", "0%"],
+    "best-original-song" :["19%", "14%"],
+    "best-original-score":["4%", "0%"],
+    "best-screenplay": [ "7%", "9%"],
+    "all": ["11%", "8%"]
+};
+console.log(annotations["best-screenplay"][0]);
 
 // BUTTONS
 d3.selectAll('.category-selection button').on('click', function() {
@@ -187,6 +165,15 @@ d3.selectAll('.category-selection button').on('click', function() {
     d3.selectAll('.category-selection button').classed('selected', false);
     d3.select(this).classed('selected', !d3.select(this).classed('selected'));
 
+    //grab the current value
+    var nomineeNumber = annotations[selectedCategory.value][0];
+    var winnerNumber = annotations[selectedCategory.value][1];
+
+    // drop that value into viz
+    d3.select('.winners .stat-highlight').html(winnerNumber);
+    d3.select('.nominees .stat-highlight').html(nomineeNumber);
+
+    console.log(nomineeNumber, winnerNumber);
     if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1);
     } else {

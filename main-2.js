@@ -33,7 +33,7 @@ var Chart = (function(window, d3) {
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-                return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.secondarynominee + '</span><br /><span>' + d.category + '</span>';
+                return '<span><strong>' + d.nominee + '</strong></span><br /> <span>' + d.name + '</span><br /><span>' + d.category + '</span>';
             });
 
         colors = ['#FF0064', '#ddd'];
