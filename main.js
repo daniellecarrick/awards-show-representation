@@ -65,6 +65,15 @@ function draw() {
     var tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
+        .direction(function(d) {
+            if (d.year < 854773200000) { // equivalent to 1997
+                return 'e';
+            } else if (d.year > 1422766800000) { //equivalent to 2015
+                return 'w';
+            } else {
+                return 'n';
+            }
+        })
         .html(function(d) {
             if (d.winner === 'TRUE') {
                 return '<span class="winner">WINNER</span><br/><span class="tip-name"><strong>' + d.name + '</strong></span><br /> <span class="tip-movie">' + d.movie + '</span><br /><span class="tip-category">' + d.category + '</span>';
