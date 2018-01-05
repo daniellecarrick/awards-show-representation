@@ -135,7 +135,13 @@ function draw() {
         //X axis
         svg.append('g')
             .attr('class', 'x axis')
-            .attr('transform', 'translate(7,' + (height + 10) + ')')
+            .attr('transform', function() { 
+                if (window.innerWidth < breakPoint.ipad) {
+                return 'translate(3,' + (height + 10) + ')';
+            } else {
+                return 'translate(7,' + (height + 10) + ')';
+            }
+        })
             .call(xAxis);
 
         // Add the rectangles
