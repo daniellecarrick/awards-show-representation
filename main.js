@@ -87,6 +87,7 @@ function draw() {
 
     var format = d3.time.format('%Y');
     var shortYear = d3.time.format('%y');
+    var formatYear = function(d) { return "'" + shortYear(d)};
 
 
     d3.csv('data/data.csv', function(error, data) {
@@ -128,7 +129,7 @@ function draw() {
         x.domain(xExtent);
         y.domain(yExtent);
 
-        xAxis.tickFormat(shortYear);
+        xAxis.tickFormat(formatYear);
 
         //X axis
         svg.append('g')
