@@ -29,7 +29,7 @@ p {
 
 h1{
     font-family: "Big Miller Bold";
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .tick {
@@ -45,8 +45,9 @@ h1{
 }
 
 #wrapper {
-    max-width: 644px;
+    max-width: 620px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .label {
