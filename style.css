@@ -257,6 +257,11 @@ svg {
         font-size: 10px;
     }
 
+    .legend li {
+    float: left;
+    margin-right: 4px;
+}
+
     .category-selection button {
         border-radius: 0px;
         padding: 10px;
