@@ -32,6 +32,8 @@ h1{
     font-size: 24px;
 }
 
+button:focus {outline:0;}
+
 .tick {
     font-size: 12px;
 }
@@ -42,6 +44,10 @@ h1{
 
 .winner {
     font-size: 10px;
+}
+
+.winners .stat-highlight {
+  color:#e81760;
 }
 
 #wrapper {
@@ -202,6 +208,7 @@ svg {
     border: none;
     background-color: white;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .category-selection button.selected,

@@ -145,12 +145,12 @@ function draw() {
 
         // Add the rectangles
         svg.selectAll('rect')
-            // .data(data.filter(function(d) { return d.className === "best-screenplay"}))
             .data(data)
             .enter().append('rect')
             .attr('class', function(d) { if (d.gender === 'F') { return d.className; } })
             .classed('male', function(d) { return d.gender === 'M' })
             .classed('marker', true)
+            .classed('winner', function(d) { return d.winner === 'TRUE' })
             // .classed('woman', function(d) { return d.gender === 'F' })
             .attr('height', markerDimensions(height, 20))
             // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
@@ -194,12 +194,12 @@ d3.selectAll('.category-selection button').on('click', function() {
     d3.select('.winners .stat-highlight').html(winnerNumber);
     d3.select('.nominees .stat-highlight').html(nomineeNumber);
 
-    console.log(nomineeNumber, winnerNumber);
     if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1);
     } else {
         d3.selectAll('.marker').attr('fill-opacity', 0.1);
         //d3.selectAll('.male').attr('fill-opacity', 1);
+        d3.selectAll('.winner').attr('fill-opacity', 0.07);
         d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1);
     }
 })
