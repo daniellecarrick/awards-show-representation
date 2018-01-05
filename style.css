@@ -161,6 +161,7 @@ svg {
 
 .legend li {
     float: left;
+    margin-right: 15px;
 }
 
 .legend ul {

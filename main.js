@@ -4,7 +4,7 @@ function draw() {
     d3.select('#chart-container').append('div').attr('id', 'chart');
 
     var windowWidth = document.getElementById('wrapper').clientWidth;
-    var windowHeight = 500;
+    var windowHeight = 450;
 
     var margin = { top: 20, right: 20, bottom: 30, left: 10 },
         width = windowWidth - margin.left - margin.right,
