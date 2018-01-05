@@ -17,21 +17,19 @@
     <body>
         <script src="//d3js.org/d3.v3.min.js"></script>
         <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-
         <svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
                 <pattern id="lightstripe" patternUnits="userSpaceOnUse" width="5" height="5">
-                    <rect width='5' height='5' fill='#eca0a6' />
-                    <line x1="0" y1="5" x2="5" y2="0" stroke-width="1" stroke="#a53a4f" />
-                </pattern>
+                    <rect width='5' height='5' fill='#ea626d' />
+                    <line x1="0" y1="5" x2="5" y2="0" stroke-width="1" stroke="#eca0a6" />
+   </pattern>
             </defs>
         </svg>
         <div id="wrapper">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Women Who Have Been Nominated for a Golden Globe <span class="headline-date">(1995-2018)</span></h2>
-
+                        <h2>Women Who Have Been Nominated for a Golden Globe <span class="headline-date">(1994-2018)</span></h2>
                         <!--  <p class="annotation">Since 1995, 11% percent of movies in The Golden Globes four gender-neutral categories have been women. Only 8 percent of women end up taking home the award.</p> -->
                         <!--DROPDOWN FOR MOBILE-->
                         <!--                 <select name="category-selection">
@@ -53,19 +51,15 @@
                             </div>
                         </div>
                         <div class='stats'>
-                            <span class="nominees">Female nominees <span class="stat-highlight">11%</span></span>
+                            <span class="nominees">Female nominees <span class="stat-highlight">12%</span></span>
                             <span class="winners">Female winners <span class="stat-highlight">8%</span></span>
                         </div>
                     </div>
                     <!-- CHART GOES HERE -->
                     <div class="row">
-                        <div class="col-md-12">
-                        </div>
                         <div id="chart-container">
                             <div id="chart"></div>
                         </div>
-                    </div>
-
                         <div class="legend">
                             <ul>
                                 <li><span class="legend-key female-nom"></span>female nominees</li>
@@ -73,6 +67,7 @@
                                 <li><span class="legend-key male"></span>male nominees/winners</li>
                             </ul>
                         </div>
+                    </div>
                 </div>
             </div>
             <script src="main.js"></script>

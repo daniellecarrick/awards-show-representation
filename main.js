@@ -6,7 +6,7 @@ function draw() {
     var windowWidth = document.getElementById('wrapper').clientWidth;
     var windowHeight = 500;
 
-    var margin = { top: 20, right: 30, bottom: 30, left: 10 },
+    var margin = { top: 20, right: 20, bottom: 30, left: 10 },
         width = windowWidth - margin.left - margin.right,
         height = windowHeight - margin.top - margin.bottom;
 
@@ -16,8 +16,11 @@ function draw() {
         ipad: 500
     }
 
-    var x = d3.scale.linear()
+    var x = d3.time.scale()
         .range([0, width]);
+    /*
+            var x = d3.scale.linear()
+            .range([0, width]);*/
 
     var y = d3.scale.linear()
         .range([height, 0]);
@@ -33,9 +36,9 @@ function draw() {
         .scale(x)
         .orient('bottom')
         .ticks(22)
-        .tickFormat(d3.format('d'));
+    // .tickFormat(d3.format('d'));
 
-    if (window.innerWidth < breakPoint.desktop) {
+    if (window.innerWidth < breakPoint.ipad) {
         xAxis.ticks(11)
     } else {
         xAxis.ticks(22)
@@ -72,10 +75,16 @@ function draw() {
 
     svg.call(tip);
 
+
+    var format = d3.time.format('%Y');
+    var shortYear = d3.time.format('%y');
+
+
     d3.csv('data/data.csv', function(error, data) {
         if (error) throw error;
 
         // for sorting in the future --> seperate into array, sort, and merge. Or append M and prepend females by year.
+
 
         data.forEach(function(d) {
             d.order = +d.order;
@@ -95,43 +104,41 @@ function draw() {
                 return d.className;
             }
             classLabel(d);
-            d.year = +d.year;
 
+//console.log(format.parse(d.year));
+//console.log(shortYear(format.parse(d.year)));
+             d.year = format.parse(d.year);
+            // var yo = shortYear(format.parse(d.year))
+            //console.log(yo);
+            //d.year = +d.year;
 
         });
+
+        console.log(data);
 
         var xExtent = d3.extent(data, function(d) { return d.year; });
         var yExtent = d3.extent(data, function(d) { return d.order; });
         x.domain(xExtent);
         y.domain(yExtent);
 
+        xAxis.tickFormat(shortYear);
+
+        //X axis
         svg.append('g')
             .attr('class', 'x axis')
-            .attr('transform', 'translate(10,' + (height + 10) + ')')
+            .attr('transform', 'translate(7,' + (height + 10) + ')')
             .call(xAxis);
 
-        /*svg.append('g')
-            .attr('class', 'y axis')
-            .call(yAxis)
-            .append('text')
-            .attr('class', 'label')
-            .attr('transform', 'rotate(-90)')
-            .attr('x', -height / 2)
-            .attr('y', -40)
-            .attr('dy', '.71em')
-            .style('text-anchor', 'middle')
-            .text('Number of movies')
-*/
         // Add the rectangles
         svg.selectAll('rect')
             // .data(data.filter(function(d) { return d.className === "best-screenplay"}))
             .data(data)
             .enter().append('rect')
-            .attr('class', function(d) { if (d.gender === 'F') { return d.className; }})
+            .attr('class', function(d) { if (d.gender === 'F') { return d.className; } })
             //.classed('winner', function(d) { return d.winner === 'TRUE' })
             .classed('marker', true)
-           // .classed('woman', function(d) { return d.gender === 'F' })
-            .attr('height', markerDimensions(height, xExtent[1] - xExtent[0]))
+            // .classed('woman', function(d) { return d.gender === 'F' })
+            .attr('height', markerDimensions(height, 20))
             // .attr('width', markerDimensions(width, xExtent[1] - xExtent[0]))
             .attr('width', markerDimensions(width, 20))
             .attr('x', function(d) { return x(d.year); })
@@ -139,6 +146,7 @@ function draw() {
             .style('fill', function(d) {
                 if (d.gender === 'F' && d.winner === 'TRUE') {
                     return 'url(#lightstripe)';
+                    //return '#e26c76';
                 } else {
                     return color(d.gender);
                 }
@@ -151,13 +159,12 @@ function draw() {
 
 
 var annotations = {
-    "best-director": ["3%", "0%"],
-    "best-original-song" :["19%", "14%"],
-    "best-original-score":["4%", "0%"],
-    "best-screenplay": [ "7%", "9%"],
-    "all": ["11%", "8%"]
+    "best-director": ["4%", "0%"],
+    "best-original-song": ["20%", "14%"],
+    "best-original-score": ["5%", "4%"],
+    "best-screenplay": ["9%", "9%"],
+    "all": ["12%", "8%"]
 };
-console.log(annotations["best-screenplay"][0]);
 
 // BUTTONS
 d3.selectAll('.category-selection button').on('click', function() {
