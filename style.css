@@ -18,7 +18,7 @@ body {
     background-color: rgba(236, 160, 166, 0.08);
     text-align: center;
     font-family: Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
@@ -27,8 +27,13 @@ p {
     font-size: 12px;
 }
 
+h1,
 h2 {
     font-family: "Big Miller Bold";
+}
+
+.tick {
+    font-size: 12px;
 }
 
 .annotation {
@@ -69,6 +74,7 @@ h2 {
     border-radius: 2px;
     line-height: 1.1;
 }
+
 
 
 
@@ -130,6 +136,7 @@ svg {
 
 
 
+
 /*.axis line {
   fill: none;
   stroke: black;
@@ -151,11 +158,11 @@ svg {
 
 .legend ul {
     clear: both;
-    font-size: 10px;
+    /*font-size: 12px;*/
     list-style: none;
     padding-left: 0px;
     text-align: center;
-    width: 330px;
+    width: 450px;
     margin: 20px auto 0px auto;
     display: block;
     height: 30px;
@@ -214,13 +221,30 @@ svg {
 .headline-date {
     font-family: Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
 @media (max-width: 400px) {
     .annotation,
     .stats {
+        font-size: 11px;
+    }
+
+    .legend ul {
+        font-size: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .headline-date {
+      font-size: 12px;
+    }
+
+
+    .tick {
         font-size: 10px;
     }
 

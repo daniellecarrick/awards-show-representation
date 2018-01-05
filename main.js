@@ -123,8 +123,6 @@ function draw() {
 
         });
 
-        console.log(data);
-
         var xExtent = d3.extent(data, function(d) { return d.year; });
         var yExtent = d3.extent(data, function(d) { return d.order; });
         x.domain(xExtent);
@@ -150,7 +148,7 @@ function draw() {
             .data(data)
             .enter().append('rect')
             .attr('class', function(d) { if (d.gender === 'F') { return d.className; } })
-            //.classed('winner', function(d) { return d.winner === 'TRUE' })
+            .classed('male', function(d) { return d.gender === 'M' })
             .classed('marker', true)
             // .classed('woman', function(d) { return d.gender === 'F' })
             .attr('height', markerDimensions(height, 20))
@@ -199,7 +197,8 @@ d3.selectAll('.category-selection button').on('click', function() {
     if (selectedCategory.value === 'all') {
         d3.selectAll('rect').attr('fill-opacity', 1);
     } else {
-        d3.selectAll('.marker').attr('fill-opacity', 0.3);
+        d3.selectAll('.marker').attr('fill-opacity', 0.1);
+        //d3.selectAll('.male').attr('fill-opacity', 1);
         d3.selectAll('.' + selectedCategory.value).attr('fill-opacity', 1);
     }
 })
