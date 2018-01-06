@@ -14,6 +14,11 @@
     src: url("fonts/BigMiller-Italic.otf");
 }
 
+html {
+        background-color: rgba(236, 160, 166, 0.08);
+
+}
+
 body {
     background-color: rgba(236, 160, 166, 0.08);
     text-align: center;
