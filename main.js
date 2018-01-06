@@ -134,7 +134,7 @@ function draw() {
         //X axis
         svg.append('g')
             .attr('class', 'x axis')
-            .attr('transform', function() { 
+            .attr('transform', function() {
                 if (window.innerWidth < breakPoint.ipad) {
                 return 'translate(3,' + (height + 10) + ')';
             } else {
