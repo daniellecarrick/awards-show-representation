@@ -264,11 +264,11 @@ svg {
 
     .category-selection button {
         border-radius: 0px;
-        padding: 10px;
+        padding: 10px 5px;
         margin: 0px;
         width: 15%;
         border: none;
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .category-selection button[value="best-screenplay"] {
