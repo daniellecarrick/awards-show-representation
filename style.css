@@ -242,7 +242,7 @@ svg {
 @media (max-width: 400px) {
     .annotation,
     .stats {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .legend ul {
@@ -264,8 +264,12 @@ svg {
 
     .legend li {
     float: left;
-    margin-right: 4px;
-}
+    margin-right: 2px;
+    }
+
+    .stat-highlight {
+        font-size: 12px;
+    }
 
     .category-selection button {
         border-radius: 0px;
@@ -274,6 +278,7 @@ svg {
         width: 15%;
         border: none;
         font-size: 8px;
+        overflow: hidden;
     }
 
     .category-selection button[value="best-screenplay"] {
